@@ -2,7 +2,9 @@
 
 This package is ready for execution, but no model weights are loaded and no
 external request is sent by default. Its three audits depend on the committed
-CPU results and on the frozen P0 release manifest.
+CPU results and on the frozen P0 release manifest. The exact commands,
+environment setup, pilot gates, aggregation steps, and privacy controls are in
+gpu_api/RUNBOOK.md.
 
 | Audit | Direct question | Fixed population | Required resource | Primary output |
 |---|---|---:|---|---|
@@ -66,7 +68,9 @@ before submission.
 
 For each pair-principle, reverse the response order. A substantive direction
 that reverses is position-unstable and leaves the primary three-state
-classification while remaining in the sensitivity output. Aggregate
+classification while remaining in the sensitivity output. One substantive
+direction paired with an abstention is orientation-inconclusive and also
+remains outside the primary table. Aggregate
 estimators use the stored stratum weights. Buyl et al.'s published proportions
 are contextual references only: their evaluation population, release mixture,
 and oracle run differ from this fixed dual-training-split sample. The plan
@@ -86,8 +90,8 @@ the first BF16 run; lower-memory or quantised execution is permissible only if
 the resulting precision, batch size, and equivalence check are frozen in the
 run manifest. Score both responses in all 73,907 rows after the pilot.
 
-The aggregate report contains E7a's is_safe distributions, AUROC, and
-threshold diagnostics; E7b's category- and length-adjusted severity trace and
+The aggregate report contains E7a's is_safe distributions, AUROC, and a
+scale-specific zero-threshold diagnostic; E7b's category- and length-adjusted severity trace and
 both-unsafe ordering rate; and E7c's signed and absolute score gaps by L1--L4,
 including the equal-category unequal-severity both-unsafe subset. This is an
 audit of the released artefact on release-matched data rather than a

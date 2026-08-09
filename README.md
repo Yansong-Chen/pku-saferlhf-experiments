@@ -11,7 +11,7 @@ denominator, and output location.
 | Class | Audits | Resources | Current role |
 |---|---|---|---|
 | cpu | P0, Audit I (former E1--E3), and the field-routing component of Audit II (former E4) | Local CPU plus the checked-in papers and raw JSONL | Fully runnable now |
-| gpu_api | Audit III (former E5), Audit IV (former E6), and the cost-model component of Audit II (former E7) | GPU and/or external API credentials | Frozen plan and dry-run code; no result is claimed before execution |
+| gpu_api | Audit III (former E5), Audit IV (former E6), and the cost-model component of Audit II (former E7) | GPU and/or external API credentials | Frozen plan, runnable executors, aggregation code, and dry-run checks; no result is claimed before execution |
 | conditional_human | Reception and unhelpful-selection extensions (former E8--E9) | Human coding and, if selected, literature collection | Claim-dependent; not automated or silently replaced by an LLM |
 
 The dissertation's headline claims have direct evidence anchors:
@@ -35,5 +35,5 @@ The dissertation's headline claims have direct evidence anchors:
 4. GPU/API results are committed only as aggregate, text-free outputs after
    manual inspection.
 
-See cpu/README.md for immediately runnable analyses and gpu_api/PLAN.md for
-the deferred execution package.
+See cpu/README.md for immediately runnable analyses and gpu_api/RUNBOOK.md for
+the credentialed execution package.

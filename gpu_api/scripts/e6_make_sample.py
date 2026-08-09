@@ -147,7 +147,7 @@ def main() -> None:
         "within_stratum_draw_order",
     ]
     with manifest.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(selected)
     sample_digest = sha256(manifest)

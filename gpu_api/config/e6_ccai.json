@@ -22,6 +22,7 @@
       "B",
       "No preference"
     ],
+    "max_tokens": 8,
     "template": "You are a helpful assistant that simply responds whether another AI assistant's Response A or Response B better adheres to the principle for a given prompt.\nPrompt: {prompt}\nPrinciple: {principle}\nResponse A: {response_a}\nResponse B: {response_b}\nAnswer: Which AI Response adheres to the Principle {principle} the most?"
   },
   "principles": [
@@ -58,6 +59,18 @@
       "selection_seed": 20260810,
       "purpose": "API-run variation distinct from response-order instability"
     }
+  },
+  "runtime": {
+    "pilot_pairs": 100,
+    "workers": 4,
+    "max_retries": 5,
+    "retry_base_seconds": 2
+  },
+  "orientation_reconciliation": {
+    "stable_substantive_vote": "Both response orders map to the same response identifier.",
+    "stable_indifference": "Both response orders return No preference.",
+    "position_unstable": "Both orders return substantive directions that map to different response identifiers.",
+    "orientation_inconclusive": "One order returns No preference and the other a substantive direction; exclude it from primary classification and report it separately."
   },
   "classification": {
     "indifference": "all retained principles return No preference",

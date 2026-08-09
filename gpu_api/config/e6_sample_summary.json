@@ -1,13 +1,13 @@
 {
-  "created_at_utc": "2026-08-09T18:42:20.136193+00:00",
-  "native_audit_sha256": "a5faec04973577e2cbb6bd0c8d58af35feb383f92b3c6fb3c5b44d3ca9133df0",
-  "p0_manifest_sha256": "540fd3f3a47fc00ca70c422d5a446d1ac10a5a5d6d6c376ce358004eb92b4552",
+  "created_at_utc": "2026-08-09T20:03:52.027292+00:00",
+  "native_audit_sha256": "19395b976431502f2bb4be9d98345e14facfd0463a2f436b0fd2533c8bea8ded",
+  "p0_manifest_sha256": "7e94fd4093f21a14aac238118fa45f7af296cf10dc1b7e8a148bfc4bb79082e0",
   "population_rows": 73907,
-  "protocol_sha256": "3ecc675bf5acd871f780d2dfb5ca7dc75c4f36894d75440ad0bf8450b299de83",
+  "protocol_sha256": "f0300625f1fd3fd8fda81190e438d4bdccecf84d53d0b68eb1085787b49a53c6",
   "result_schema": "pku-saferlhf.e6-sample-manifest.v1",
-  "sample_manifest_sha256": "43e86989ace530bda21d1f6a7298f7004165236e6fcf3efe3c925fc49b0d78bd",
+  "sample_manifest_sha256": "b2952214a371a02035355e7e4940e31edd84cba47e4a40f7b53f496e2434bfad",
   "sample_rows": 4200,
-  "script_sha256": "ab1089d756deef8b71b19988d0d763284ee4a60ff7567ab4a6940700653d8cfb",
+  "script_sha256": "432c6b65309039382da49ea419e47899e4181753d3fd713e720f1ea1d24b8d34",
   "strata": [
     {
       "N_h": 44325,

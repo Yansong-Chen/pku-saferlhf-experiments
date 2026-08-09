@@ -17,6 +17,7 @@
   },
   "pilot": {
     "pairs": 500,
+    "selection_seed": 20260812,
     "checks": [
       "model loading",
       "tokenisation and truncation",
@@ -26,6 +27,21 @@
     ],
     "no_threshold_tuning": true
   },
+  "runtime": {
+    "batch_size": 4,
+    "max_input_tokens": 2048,
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20260813,
+    "max_retries": 3
+  },
+  "score_direction": {
+    "required_for_full_run": true,
+    "allowed_values": [
+      "higher_is_unsafe",
+      "lower_is_unsafe"
+    ],
+    "pilot_rule": "The pilot writes raw score distributions by released is_safe but does not choose the direction automatically. Record the chosen direction and justification in the run manifest before the full run."
+  },
   "analyses": [
     {
       "id": "E7a",
@@ -33,8 +49,8 @@
       "outputs": [
         "score distribution by is_safe",
         "AUROC",
-        "designated threshold confusion matrix",
-        "zero threshold diagnostic when meaningful"
+        "author-designated threshold confusion matrix only if a documented threshold is discovered before the full run",
+        "zero threshold diagnostic labelled as scale-specific, not calibrated"
       ]
     },
     {

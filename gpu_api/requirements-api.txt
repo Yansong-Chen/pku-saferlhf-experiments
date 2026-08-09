@@ -1,0 +1,2 @@
+# Install inside an isolated environment on the machine that holds the API key.
+openai>=1.0

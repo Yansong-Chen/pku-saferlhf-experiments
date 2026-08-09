@@ -31,3 +31,5 @@ gpu_api/results/*
 gpu_api/checkpoints/
 gpu_api/cache/
 gpu_api/*.jsonl
+gpu_api/private_runs/
+gpu_api/.venv/

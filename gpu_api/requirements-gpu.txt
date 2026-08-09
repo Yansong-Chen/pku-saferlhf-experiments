@@ -1,0 +1,6 @@
+# Install a CUDA-compatible torch build first; use the command recommended by
+# pytorch.org for the target driver/CUDA version.
+accelerate>=0.30
+huggingface_hub>=0.24
+numpy>=1.26
+transformers>=4.45
