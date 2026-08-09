@@ -1,0 +1,61 @@
+{
+  "protocol_schema": "pku-saferlhf.e7-cost-probe.v1",
+  "population": {
+    "release": "PKU-Alignment/PKU-SafeRLHF dual-dimension training split",
+    "rows": 73907,
+    "response_positions": 147814
+  },
+  "artefact": {
+    "model_id": "PKU-Alignment/beaver-7b-v2.0-cost",
+    "candidate_revision": "a0a307f1e0958034f169055cbda851c5251830e2",
+    "revision": "verify candidate revision at retrieval and freeze the resolved commit before pilot",
+    "scoring_implementation": "Use the model-card safe_rlhf AutoModelForScore scorer and record any adapter test against its documented sign convention.",
+    "documented_conversation_template": "BEGINNING OF CONVERSATION: USER: {prompt} ASSISTANT: {response}",
+    "precision": "freeze after pilot",
+    "chat_template": "freeze after pilot",
+    "score_sign_convention": "freeze after pilot using documented examples or author code"
+  },
+  "pilot": {
+    "pairs": 500,
+    "checks": [
+      "model loading",
+      "tokenisation and truncation",
+      "score sign",
+      "batch memory",
+      "recoverable failure handling"
+    ],
+    "no_threshold_tuning": true
+  },
+  "analyses": [
+    {
+      "id": "E7a",
+      "question": "Does the score distinguish the released binary safety boundary?",
+      "outputs": [
+        "score distribution by is_safe",
+        "AUROC",
+        "designated threshold confusion matrix",
+        "zero threshold diagnostic when meaningful"
+      ]
+    },
+    {
+      "id": "E7b",
+      "question": "Does the score retain a severity trace among released unsafe responses?",
+      "outputs": [
+        "category-stratified distributions",
+        "severity association adjusted for all category indicators and response length",
+        "both-unsafe unequal-severity ordering rate"
+      ]
+    },
+    {
+      "id": "E7c",
+      "question": "How do signed and absolute score gaps differ across the native strata?",
+      "outputs": [
+        "gap distributions in L1--L4",
+        "equal-category, unequal-severity both-unsafe subset diagnostic"
+      ]
+    }
+  ],
+  "uncertainty": "Pair-cluster bootstrap for response-position summaries; release rows are the resampling unit.",
+  "raw_output_policy": "Per-response scores and identifiers are stored in ignored private output until reviewed. Committed outputs contain aggregate summaries only.",
+  "inference_boundary": "The probe audits a released, release-matched artefact. It does not estimate held-out generalisation or establish that category and severity were direct loss targets."
+}

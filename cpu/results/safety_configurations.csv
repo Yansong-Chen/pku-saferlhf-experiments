@@ -1,0 +1,5 @@
+configuration,rows,share_of_rows,safer_winner_unsafe_rows,share_winner_unsafe_given_configuration
+both_safe,30438,0.41184190942671195,0,0.0
+response_0_safe_response_1_unsafe,4556,0.06164504038859648,0,0.0
+response_0_unsafe_response_1_safe,6257,0.08466045164869362,0,0.0
+both_unsafe,32656,0.44185259853599795,32656,1.0

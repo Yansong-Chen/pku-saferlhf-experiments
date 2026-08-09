@@ -1,0 +1,271 @@
+{
+  "absolute_state_decomposition": [
+    {
+      "alternative_is_safe": "true",
+      "rows": 30438,
+      "safer_winner_is_safe": "true",
+      "share_of_rows": 0.41184190942671195
+    },
+    {
+      "alternative_is_safe": "false",
+      "rows": 10813,
+      "safer_winner_is_safe": "true",
+      "share_of_rows": 0.1463054920372901
+    },
+    {
+      "alternative_is_safe": "true",
+      "rows": 0,
+      "safer_winner_is_safe": "false",
+      "share_of_rows": 0.0
+    },
+    {
+      "alternative_is_safe": "false",
+      "rows": 32656,
+      "safer_winner_is_safe": "false",
+      "share_of_rows": 0.44185259853599795
+    }
+  ],
+  "analysis_population": {
+    "release": "PKU-Alignment/PKU-SafeRLHF dual-dimension training split",
+    "response_positions": 147814,
+    "rows": 73907,
+    "source_files": [
+      "Alpaca-7B-train.jsonl",
+      "Alpaca2-7B-train.jsonl",
+      "Alpaca3-8B-train.jsonl"
+    ]
+  },
+  "created_at_utc": "2026-08-09T18:56:42.158906+00:00",
+  "native_strata": {
+    "definition": "L4: is_safe differs; else L3: severity differs; else L2: complete category set differs; else L1: all three released safety fields tie.",
+    "rows": [
+      {
+        "both_unsafe_rows": 13890,
+        "rows": 44325,
+        "share_of_rows": 0.5997402140527961,
+        "stratum": "L1_no_recorded_safety_field_difference"
+      },
+      {
+        "both_unsafe_rows": 12828,
+        "rows": 12828,
+        "share_of_rows": 0.173569485975618,
+        "stratum": "L2_category_difference_tied_safety_and_severity"
+      },
+      {
+        "both_unsafe_rows": 5938,
+        "rows": 5941,
+        "share_of_rows": 0.08038480793429581,
+        "stratum": "L3_severity_difference_same_safety_state"
+      },
+      {
+        "both_unsafe_rows": 0,
+        "rows": 10813,
+        "share_of_rows": 0.1463054920372901,
+        "stratum": "L4_safety_boundary_difference"
+      }
+    ]
+  },
+  "output_files": {
+    "absolute_state_decomposition": "absolute_state_decomposition.csv",
+    "all_position_category_matrix_ignored": "cpu/intermediate/category_matrix_all_positions.csv",
+    "category_frequency": "category_frequency.csv",
+    "category_severity_profile": "category_severity_profile.csv",
+    "category_solo_rate": "category_solo_rate.csv",
+    "conditional_cooccurrence": "category_conditional_cooccurrence.csv",
+    "native_strata": "native_strata.csv",
+    "one_response_category_matrix_ignored": "cpu/intermediate/category_matrix_one_response_per_pair.csv",
+    "safety_configurations": "safety_configurations.csv"
+  },
+  "pairwise_labels": {
+    "different_selected_response": 17798,
+    "same_selected_response": 56109
+  },
+  "provenance": {
+    "p0_dual_revision": "9421ffafec3fa40a1f1a7d567b4d525079477ecb",
+    "p0_manifest_path": "cpu/results/p0_snapshot.json",
+    "p0_manifest_sha256": "7e94fd4093f21a14aac238118fa45f7af296cf10dc1b7e8a148bfc4bb79082e0",
+    "script_sha256": "190dfde8e9258a79e2fd1cc2aeb81ac3ce7df01204c2026bed815c98bc6ee622",
+    "seed_one_response_per_pair": 20260809
+  },
+  "response_level_marginals": {
+    "is_safe": {
+      "safe": 71689,
+      "unsafe": 76125
+    },
+    "severity_level": {
+      "0": 71689,
+      "1": 9104,
+      "2": 56537,
+      "3": 10484
+    }
+  },
+  "result_schema": "pku-saferlhf.native-audit.v1",
+  "safety_configurations": [
+    {
+      "configuration": "both_safe",
+      "rows": 30438,
+      "safer_winner_unsafe_rows": 0,
+      "share_of_rows": 0.41184190942671195,
+      "share_winner_unsafe_given_configuration": 0.0
+    },
+    {
+      "configuration": "response_0_safe_response_1_unsafe",
+      "rows": 4556,
+      "safer_winner_unsafe_rows": 0,
+      "share_of_rows": 0.06164504038859648,
+      "share_winner_unsafe_given_configuration": 0.0
+    },
+    {
+      "configuration": "response_0_unsafe_response_1_safe",
+      "rows": 6257,
+      "safer_winner_unsafe_rows": 0,
+      "share_of_rows": 0.08466045164869362,
+      "share_winner_unsafe_given_configuration": 0.0
+    },
+    {
+      "configuration": "both_unsafe",
+      "rows": 32656,
+      "safer_winner_unsafe_rows": 32656,
+      "share_of_rows": 0.44185259853599795,
+      "share_winner_unsafe_given_configuration": 1.0
+    }
+  ],
+  "schema": {
+    "field_presence_rows": {
+      "better_response_id": 73907,
+      "is_response_0_safe": 73907,
+      "is_response_1_safe": 73907,
+      "prompt": 73907,
+      "prompt_source": 73907,
+      "response_0": 73907,
+      "response_0_harm_category": 73907,
+      "response_0_severity_level": 73907,
+      "response_0_sha256": 73907,
+      "response_0_source": 73907,
+      "response_1": 73907,
+      "response_1_harm_category": 73907,
+      "response_1_severity_level": 73907,
+      "response_1_sha256": 73907,
+      "response_1_source": 73907,
+      "safer_response_id": 73907
+    },
+    "field_type_support": {
+      "better_response_id": {
+        "int": 73907
+      },
+      "is_response_0_safe": {
+        "bool": 73907
+      },
+      "is_response_1_safe": {
+        "bool": 73907
+      },
+      "prompt": {
+        "str": 73907
+      },
+      "prompt_source": {
+        "str": 73907
+      },
+      "response_0": {
+        "str": 73907
+      },
+      "response_0_harm_category": {
+        "dict": 73907
+      },
+      "response_0_severity_level": {
+        "int": 73907
+      },
+      "response_0_sha256": {
+        "str": 73907
+      },
+      "response_0_source": {
+        "str": 73907
+      },
+      "response_1": {
+        "str": 73907
+      },
+      "response_1_harm_category": {
+        "dict": 73907
+      },
+      "response_1_severity_level": {
+        "int": 73907
+      },
+      "response_1_sha256": {
+        "str": 73907
+      },
+      "response_1_source": {
+        "str": 73907
+      },
+      "safer_response_id": {
+        "int": 73907
+      }
+    },
+    "fields": [
+      "prompt",
+      "response_0",
+      "response_1",
+      "prompt_source",
+      "response_0_source",
+      "response_1_source",
+      "is_response_0_safe",
+      "is_response_1_safe",
+      "response_0_harm_category",
+      "response_1_harm_category",
+      "response_0_severity_level",
+      "response_1_severity_level",
+      "better_response_id",
+      "safer_response_id",
+      "response_0_sha256",
+      "response_1_sha256"
+    ],
+    "harm_categories": [
+      "Endangering National Security",
+      "Insulting Behavior",
+      "Discriminatory Behavior",
+      "Endangering Public Health",
+      "Copyright Issues",
+      "Violence",
+      "Drugs",
+      "Privacy Violation",
+      "Economic Crime",
+      "Mental Manipulation",
+      "Human Trafficking",
+      "Physical Harm",
+      "Sexual Content",
+      "Cybercrime",
+      "Disrupting Public Order",
+      "Environmental Damage",
+      "Psychological Harm",
+      "White-Collar Crime",
+      "Animal Abuse"
+    ],
+    "schema_identity": {
+      "exception_file": "schema_identity_exceptions.csv",
+      "exception_response_positions": 8,
+      "safe_equals_empty_category_set": {
+        "denominator": 147814,
+        "numerator": 147806
+      },
+      "safe_equals_severity_zero": {
+        "denominator": 147814,
+        "numerator": 147806
+      }
+    }
+  },
+  "source_field_profiles": {
+    "prompt_source": {
+      "Alpaca3-70B": 48553,
+      "Beavertails": 14716,
+      "WizardLM-30B-Uncensored": 10638
+    },
+    "response_0_source": {
+      "Alpaca-7B": 27393,
+      "Alpaca2-7B": 25564,
+      "Alpaca3-8B": 20950
+    },
+    "response_1_source": {
+      "Alpaca-7B": 27393,
+      "Alpaca2-7B": 25564,
+      "Alpaca3-8B": 20950
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "created_at_utc": "2026-08-09T18:42:15.625222+00:00",
+  "interpretation": {
+    "not_supported": "Associations among these co-recorded fields are not evidence from independent measurement sites, and the documented GPT-4 role does not identify a causal anchoring effect.",
+    "supported": "The response-level fields and pairwise preferences have shared collection provenance within a documented annotation record."
+  },
+  "link_to_native_audit": "The native data audit checks the released schema and field identities. This documentary trace supplies the response-process context needed to interpret those identities.",
+  "protocol_schema": "pku-saferlhf.e1-response-process.v1",
+  "protocol_sha256": "83041c578a52e504404ca6921d88249df48fd9d426b72cefee347c329abf6a28",
+  "result_schema": "pku-saferlhf.e1-response-process-result.v1",
+  "script_sha256": "0cde3a11a33ee9d8b4525c0c3d3768cbb399caed8ae8810f7105130c9484856b",
+  "sources": [
+    {
+      "finding": "One annotation card presents the prompt and two candidate responses with response-level safety state, harm category, severity, helpfulness preference, and harmlessness preference.",
+      "source": "Ji et al. (2025), Appendix C.1, annotation platform"
+    },
+    {
+      "finding": "GPT-4 first provides an analysis and initial response label; human annotators can refer to that material before entering their judgements.",
+      "source": "Ji et al. (2025), Appendix C.2, Human-AI Collaborative Annotation"
+    },
+    {
+      "finding": "GPT-4 performs first-round batch screening before human quality inspection, and the documentation specifies subsequent researcher spot checks.",
+      "source": "Ji et al. (2025), Appendix C.2, quality control"
+    },
+    {
+      "finding": "The release reports an annotator pool of 28 or more people.",
+      "source": "Ji et al. (2025), dataset description"
+    }
+  ]
+}

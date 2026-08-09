@@ -1,0 +1,343 @@
+conditioning_category,other_category,conditioning_count,joint_count,p_other_given_conditioning
+Endangering National Security,Insulting Behavior,6438,111,0.017241379310344827
+Endangering National Security,Discriminatory Behavior,6438,50,0.007766387076731904
+Endangering National Security,Endangering Public Health,6438,389,0.06042249145697422
+Endangering National Security,Copyright Issues,6438,18,0.0027958993476234857
+Endangering National Security,Violence,6438,909,0.14119291705498602
+Endangering National Security,Drugs,6438,80,0.012426219322771047
+Endangering National Security,Privacy Violation,6438,945,0.146784715750233
+Endangering National Security,Economic Crime,6438,885,0.1374650512581547
+Endangering National Security,Mental Manipulation,6438,675,0.1048462255358807
+Endangering National Security,Human Trafficking,6438,175,0.027182354768561665
+Endangering National Security,Physical Harm,6438,465,0.07222739981360671
+Endangering National Security,Sexual Content,6438,8,0.0012426219322771047
+Endangering National Security,Cybercrime,6438,3398,0.5278036657347002
+Endangering National Security,Disrupting Public Order,6438,1595,0.24774774774774774
+Endangering National Security,Environmental Damage,6438,197,0.030599565082323702
+Endangering National Security,Psychological Harm,6438,182,0.02826964895930413
+Endangering National Security,White-Collar Crime,6438,385,0.059801180490835666
+Endangering National Security,Animal Abuse,6438,32,0.004970487729108419
+Insulting Behavior,Endangering National Security,7852,111,0.014136525725929699
+Insulting Behavior,Discriminatory Behavior,7852,2439,0.3106214977075904
+Insulting Behavior,Endangering Public Health,7852,13,0.0016556291390728477
+Insulting Behavior,Copyright Issues,7852,12,0.0015282730514518594
+Insulting Behavior,Violence,7852,418,0.053234844625573104
+Insulting Behavior,Drugs,7852,9,0.0011462047885888945
+Insulting Behavior,Privacy Violation,7852,852,0.10850738665308202
+Insulting Behavior,Economic Crime,7852,257,0.03273051451859399
+Insulting Behavior,Mental Manipulation,7852,2296,0.2924095771777891
+Insulting Behavior,Human Trafficking,7852,67,0.008532857870606215
+Insulting Behavior,Physical Harm,7852,343,0.04368313805399898
+Insulting Behavior,Sexual Content,7852,225,0.028655119714722364
+Insulting Behavior,Cybercrime,7852,292,0.03718797758532858
+Insulting Behavior,Disrupting Public Order,7852,594,0.07564951604686704
+Insulting Behavior,Environmental Damage,7852,3,0.00038206826286296485
+Insulting Behavior,Psychological Harm,7852,2665,0.3394039735099338
+Insulting Behavior,White-Collar Crime,7852,107,0.013627101375445747
+Insulting Behavior,Animal Abuse,7852,6,0.0007641365257259297
+Discriminatory Behavior,Endangering National Security,3711,50,0.013473457289140393
+Discriminatory Behavior,Insulting Behavior,3711,2439,0.6572352465642683
+Discriminatory Behavior,Endangering Public Health,3711,11,0.0029641606036108865
+Discriminatory Behavior,Copyright Issues,3711,2,0.0005389382915656157
+Discriminatory Behavior,Violence,3711,128,0.034492050660199405
+Discriminatory Behavior,Drugs,3711,8,0.002155753166262463
+Discriminatory Behavior,Privacy Violation,3711,64,0.017246025330099703
+Discriminatory Behavior,Economic Crime,3711,16,0.004311506332524926
+Discriminatory Behavior,Mental Manipulation,3711,180,0.04850444624090541
+Discriminatory Behavior,Human Trafficking,3711,67,0.018054432767448128
+Discriminatory Behavior,Physical Harm,3711,78,0.021018593371059015
+Discriminatory Behavior,Sexual Content,3711,37,0.009970358393963891
+Discriminatory Behavior,Cybercrime,3711,50,0.013473457289140393
+Discriminatory Behavior,Disrupting Public Order,3711,338,0.09108057127458906
+Discriminatory Behavior,Environmental Damage,3711,0,0.0
+Discriminatory Behavior,Psychological Harm,3711,335,0.09027216383724064
+Discriminatory Behavior,White-Collar Crime,3711,5,0.0013473457289140394
+Discriminatory Behavior,Animal Abuse,3711,2,0.0005389382915656157
+Endangering Public Health,Endangering National Security,2046,389,0.19012707722385142
+Endangering Public Health,Insulting Behavior,2046,13,0.00635386119257087
+Endangering Public Health,Discriminatory Behavior,2046,11,0.005376344086021506
+Endangering Public Health,Copyright Issues,2046,5,0.0024437927663734115
+Endangering Public Health,Violence,2046,107,0.05229716520039101
+Endangering Public Health,Drugs,2046,94,0.04594330400782014
+Endangering Public Health,Privacy Violation,2046,276,0.1348973607038123
+Endangering Public Health,Economic Crime,2046,195,0.09530791788856305
+Endangering Public Health,Mental Manipulation,2046,59,0.028836754643206255
+Endangering Public Health,Human Trafficking,2046,6,0.002932551319648094
+Endangering Public Health,Physical Harm,2046,396,0.1935483870967742
+Endangering Public Health,Sexual Content,2046,8,0.0039100684261974585
+Endangering Public Health,Cybercrime,2046,281,0.13734115347018572
+Endangering Public Health,Disrupting Public Order,2046,230,0.11241446725317693
+Endangering Public Health,Environmental Damage,2046,605,0.2956989247311828
+Endangering Public Health,Psychological Harm,2046,328,0.1603128054740958
+Endangering Public Health,White-Collar Crime,2046,23,0.011241446725317693
+Endangering Public Health,Animal Abuse,2046,2,0.0009775171065493646
+Copyright Issues,Endangering National Security,2096,18,0.008587786259541985
+Copyright Issues,Insulting Behavior,2096,12,0.0057251908396946565
+Copyright Issues,Discriminatory Behavior,2096,2,0.0009541984732824427
+Copyright Issues,Endangering Public Health,2096,5,0.002385496183206107
+Copyright Issues,Violence,2096,3,0.0014312977099236641
+Copyright Issues,Drugs,2096,21,0.010019083969465648
+Copyright Issues,Privacy Violation,2096,184,0.08778625954198473
+Copyright Issues,Economic Crime,2096,308,0.14694656488549618
+Copyright Issues,Mental Manipulation,2096,6,0.0028625954198473282
+Copyright Issues,Human Trafficking,2096,1,0.00047709923664122136
+Copyright Issues,Physical Harm,2096,2,0.0009541984732824427
+Copyright Issues,Sexual Content,2096,6,0.0028625954198473282
+Copyright Issues,Cybercrime,2096,608,0.2900763358778626
+Copyright Issues,Disrupting Public Order,2096,8,0.003816793893129771
+Copyright Issues,Environmental Damage,2096,4,0.0019083969465648854
+Copyright Issues,Psychological Harm,2096,8,0.003816793893129771
+Copyright Issues,White-Collar Crime,2096,38,0.01812977099236641
+Copyright Issues,Animal Abuse,2096,1,0.00047709923664122136
+Violence,Endangering National Security,9417,909,0.09652755654667092
+Violence,Insulting Behavior,9417,418,0.0443878092810874
+Violence,Discriminatory Behavior,9417,128,0.013592439205691835
+Violence,Endangering Public Health,9417,107,0.011362429648508017
+Violence,Copyright Issues,9417,3,0.00031857279388340236
+Violence,Drugs,9417,108,0.011468620579802484
+Violence,Privacy Violation,9417,581,0.06169693108208559
+Violence,Economic Crime,9417,656,0.06966125092917065
+Violence,Mental Manipulation,9417,667,0.07082935117340979
+Violence,Human Trafficking,9417,334,0.03546777105235213
+Violence,Physical Harm,9417,4895,0.5198046086864182
+Violence,Sexual Content,9417,276,0.029308697037273016
+Violence,Cybercrime,9417,1398,0.1484549219496655
+Violence,Disrupting Public Order,9417,1190,0.12636720824041628
+Violence,Environmental Damage,9417,66,0.007008601465434852
+Violence,Psychological Harm,9417,1361,0.14452585749177022
+Violence,White-Collar Crime,9417,23,0.002442391419772751
+Violence,Animal Abuse,9417,373,0.03960921737283636
+Drugs,Endangering National Security,7232,80,0.011061946902654867
+Drugs,Insulting Behavior,7232,9,0.0012444690265486725
+Drugs,Discriminatory Behavior,7232,8,0.0011061946902654867
+Drugs,Endangering Public Health,7232,94,0.012997787610619468
+Drugs,Copyright Issues,7232,21,0.002903761061946903
+Drugs,Violence,7232,108,0.014933628318584071
+Drugs,Privacy Violation,7232,1282,0.17726769911504425
+Drugs,Economic Crime,7232,1885,0.2606471238938053
+Drugs,Mental Manipulation,7232,124,0.017146017699115043
+Drugs,Human Trafficking,7232,146,0.020188053097345133
+Drugs,Physical Harm,7232,409,0.05655420353982301
+Drugs,Sexual Content,7232,81,0.011200221238938053
+Drugs,Cybercrime,7232,3682,0.5091261061946902
+Drugs,Disrupting Public Order,7232,32,0.004424778761061947
+Drugs,Environmental Damage,7232,19,0.002627212389380531
+Drugs,Psychological Harm,7232,201,0.027793141592920356
+Drugs,White-Collar Crime,7232,550,0.07605088495575221
+Drugs,Animal Abuse,7232,36,0.00497787610619469
+Privacy Violation,Endangering National Security,16976,945,0.05566682375117813
+Privacy Violation,Insulting Behavior,16976,852,0.050188501413760606
+Privacy Violation,Discriminatory Behavior,16976,64,0.003770028275212064
+Privacy Violation,Endangering Public Health,16976,276,0.016258246936852027
+Privacy Violation,Copyright Issues,16976,184,0.010838831291234684
+Privacy Violation,Violence,16976,581,0.034224787935909516
+Privacy Violation,Drugs,16976,1282,0.07551837888784166
+Privacy Violation,Economic Crime,16976,3667,0.21601083883129124
+Privacy Violation,Mental Manipulation,16976,1397,0.08229264844486334
+Privacy Violation,Human Trafficking,16976,1264,0.07445805843543826
+Privacy Violation,Physical Harm,16976,1022,0.06020263901979265
+Privacy Violation,Sexual Content,16976,357,0.021029688972667295
+Privacy Violation,Cybercrime,16976,9802,0.5774033930254477
+Privacy Violation,Disrupting Public Order,16976,235,0.013843072573044297
+Privacy Violation,Environmental Damage,16976,409,0.024092836946277098
+Privacy Violation,Psychological Harm,16976,1910,0.11251178133836004
+Privacy Violation,White-Collar Crime,16976,1137,0.06697690857681432
+Privacy Violation,Animal Abuse,16976,63,0.0037111215834118756
+Economic Crime,Endangering National Security,19122,885,0.04628176968936304
+Economic Crime,Insulting Behavior,19122,257,0.013440016734651188
+Economic Crime,Discriminatory Behavior,19122,16,0.0008367325593557159
+Economic Crime,Endangering Public Health,19122,195,0.010197678067147787
+Economic Crime,Copyright Issues,19122,308,0.016107101767597533
+Economic Crime,Violence,19122,656,0.034306034933584355
+Economic Crime,Drugs,19122,1885,0.09857755464909529
+Economic Crime,Privacy Violation,19122,3667,0.19176864344733816
+Economic Crime,Mental Manipulation,19122,706,0.036920824181570965
+Economic Crime,Human Trafficking,19122,160,0.00836732559355716
+Economic Crime,Physical Harm,19122,550,0.028762681727852735
+Economic Crime,Sexual Content,19122,5,0.00026147892479866125
+Economic Crime,Cybercrime,19122,6636,0.3470348289927832
+Economic Crime,Disrupting Public Order,19122,237,0.012394101035456542
+Economic Crime,Environmental Damage,19122,176,0.009204058152912874
+Economic Crime,Psychological Harm,19122,902,0.047170798033678484
+Economic Crime,White-Collar Crime,19122,8303,0.43421190252065683
+Economic Crime,Animal Abuse,19122,23,0.0012028030540738417
+Mental Manipulation,Endangering National Security,13853,675,0.048725907745614666
+Mental Manipulation,Insulting Behavior,13853,2296,0.1657402728650834
+Mental Manipulation,Discriminatory Behavior,13853,180,0.012993575398830578
+Mental Manipulation,Endangering Public Health,13853,59,0.00425900526961669
+Mental Manipulation,Copyright Issues,13853,6,0.00043311917996101927
+Mental Manipulation,Violence,13853,667,0.04814841550566664
+Mental Manipulation,Drugs,13853,124,0.008951129719194399
+Mental Manipulation,Privacy Violation,13853,1397,0.10084458240092399
+Mental Manipulation,Economic Crime,13853,706,0.050963690175413266
+Mental Manipulation,Human Trafficking,13853,1340,0.09672995019129431
+Mental Manipulation,Physical Harm,13853,741,0.05349021872518588
+Mental Manipulation,Sexual Content,13853,396,0.02858586587742727
+Mental Manipulation,Cybercrime,13853,1115,0.08048798094275608
+Mental Manipulation,Disrupting Public Order,13853,1299,0.09377030246156068
+Mental Manipulation,Environmental Damage,13853,26,0.0018768497798310835
+Mental Manipulation,Psychological Harm,13853,3596,0.25958276185663753
+Mental Manipulation,White-Collar Crime,13853,258,0.018624124738323828
+Mental Manipulation,Animal Abuse,13853,2,0.00014437305998700643
+Human Trafficking,Endangering National Security,4689,175,0.03732139048837705
+Human Trafficking,Insulting Behavior,4689,67,0.014288760929835786
+Human Trafficking,Discriminatory Behavior,4689,67,0.014288760929835786
+Human Trafficking,Endangering Public Health,4689,6,0.0012795905310300703
+Human Trafficking,Copyright Issues,4689,1,0.00021326508850501172
+Human Trafficking,Violence,4689,334,0.07123053956067392
+Human Trafficking,Drugs,4689,146,0.031136702921731714
+Human Trafficking,Privacy Violation,4689,1264,0.26956707187033485
+Human Trafficking,Economic Crime,4689,160,0.034122414160801876
+Human Trafficking,Mental Manipulation,4689,1340,0.28577521859671573
+Human Trafficking,Physical Harm,4689,857,0.18276818084879506
+Human Trafficking,Sexual Content,4689,617,0.13158455960759224
+Human Trafficking,Cybercrime,4689,728,0.15525698443164854
+Human Trafficking,Disrupting Public Order,4689,20,0.0042653017701002344
+Human Trafficking,Environmental Damage,4689,17,0.0036255065045851993
+Human Trafficking,Psychological Harm,4689,1393,0.29707826828748135
+Human Trafficking,White-Collar Crime,4689,46,0.00981019407123054
+Human Trafficking,Animal Abuse,4689,49,0.010449989336745574
+Physical Harm,Endangering National Security,9209,465,0.050494081876425234
+Physical Harm,Insulting Behavior,9209,343,0.037246172222825495
+Physical Harm,Discriminatory Behavior,9209,78,0.00846997502443262
+Physical Harm,Endangering Public Health,9209,396,0.04300141166250407
+Physical Harm,Copyright Issues,9209,2,0.0002171788467803236
+Physical Harm,Violence,9209,4895,0.531545227494842
+Physical Harm,Drugs,9209,409,0.04441307416657617
+Physical Harm,Privacy Violation,9209,1022,0.11097839070474536
+Physical Harm,Economic Crime,9209,550,0.05972418286458899
+Physical Harm,Mental Manipulation,9209,741,0.0804647627321099
+Physical Harm,Human Trafficking,9209,857,0.09306113584536867
+Physical Harm,Sexual Content,9209,395,0.04289282223911391
+Physical Harm,Cybercrime,9209,1152,0.1250950157454664
+Physical Harm,Disrupting Public Order,9209,362,0.039309371267238574
+Physical Harm,Environmental Damage,9209,74,0.008035617330871972
+Physical Harm,Psychological Harm,9209,1986,0.21565859485286132
+Physical Harm,White-Collar Crime,9209,12,0.0013030730806819417
+Physical Harm,Animal Abuse,9209,369,0.040069497230969704
+Sexual Content,Endangering National Security,1792,8,0.004464285714285714
+Sexual Content,Insulting Behavior,1792,225,0.12555803571428573
+Sexual Content,Discriminatory Behavior,1792,37,0.020647321428571428
+Sexual Content,Endangering Public Health,1792,8,0.004464285714285714
+Sexual Content,Copyright Issues,1792,6,0.0033482142857142855
+Sexual Content,Violence,1792,276,0.15401785714285715
+Sexual Content,Drugs,1792,81,0.045200892857142856
+Sexual Content,Privacy Violation,1792,357,0.19921875
+Sexual Content,Economic Crime,1792,5,0.0027901785714285715
+Sexual Content,Mental Manipulation,1792,396,0.22098214285714285
+Sexual Content,Human Trafficking,1792,617,0.3443080357142857
+Sexual Content,Physical Harm,1792,395,0.22042410714285715
+Sexual Content,Cybercrime,1792,116,0.06473214285714286
+Sexual Content,Disrupting Public Order,1792,11,0.006138392857142857
+Sexual Content,Environmental Damage,1792,1,0.0005580357142857143
+Sexual Content,Psychological Harm,1792,767,0.42801339285714285
+Sexual Content,White-Collar Crime,1792,2,0.0011160714285714285
+Sexual Content,Animal Abuse,1792,33,0.018415178571428572
+Cybercrime,Endangering National Security,22836,3398,0.1488001401296199
+Cybercrime,Insulting Behavior,22836,292,0.01278682781572955
+Cybercrime,Discriminatory Behavior,22836,50,0.002189525310912594
+Cybercrime,Endangering Public Health,22836,281,0.012305132247328779
+Cybercrime,Copyright Issues,22836,608,0.026624627780697144
+Cybercrime,Violence,22836,1398,0.06121912769311613
+Cybercrime,Drugs,22836,3682,0.16123664389560344
+Cybercrime,Privacy Violation,22836,9802,0.42923454195130495
+Cybercrime,Economic Crime,22836,6636,0.2905937992643195
+Cybercrime,Mental Manipulation,22836,1115,0.04882641443335085
+Cybercrime,Human Trafficking,22836,728,0.03187948852688737
+Cybercrime,Physical Harm,22836,1152,0.05044666316342617
+Cybercrime,Sexual Content,22836,116,0.005079698721317218
+Cybercrime,Disrupting Public Order,22836,826,0.036170958136276056
+Cybercrime,Environmental Damage,22836,156,0.006831318970047294
+Cybercrime,Psychological Harm,22836,1021,0.044710106848835175
+Cybercrime,White-Collar Crime,22836,970,0.042476791031704327
+Cybercrime,Animal Abuse,22836,25,0.001094762655456297
+Disrupting Public Order,Endangering National Security,4819,1595,0.3309815314380577
+Disrupting Public Order,Insulting Behavior,4819,594,0.12326208757003528
+Disrupting Public Order,Discriminatory Behavior,4819,338,0.07013903299439718
+Disrupting Public Order,Endangering Public Health,4819,230,0.047727744345299854
+Disrupting Public Order,Copyright Issues,4819,8,0.0016600954554886907
+Disrupting Public Order,Violence,4819,1190,0.24693919900394273
+Disrupting Public Order,Drugs,4819,32,0.006640381821954763
+Disrupting Public Order,Privacy Violation,4819,235,0.04876530400498029
+Disrupting Public Order,Economic Crime,4819,237,0.04918032786885246
+Disrupting Public Order,Mental Manipulation,4819,1299,0.2695579995849761
+Disrupting Public Order,Human Trafficking,4819,20,0.004150238638721726
+Disrupting Public Order,Physical Harm,4819,362,0.07511931936086325
+Disrupting Public Order,Sexual Content,4819,11,0.0022826312512969496
+Disrupting Public Order,Cybercrime,4819,826,0.1714048557792073
+Disrupting Public Order,Environmental Damage,4819,86,0.017846026146503425
+Disrupting Public Order,Psychological Harm,4819,256,0.0531230545756381
+Disrupting Public Order,White-Collar Crime,4819,38,0.00788545341357128
+Disrupting Public Order,Animal Abuse,4819,49,0.01016808466486823
+Environmental Damage,Endangering National Security,1621,197,0.121529919802591
+Environmental Damage,Insulting Behavior,1621,3,0.001850709438618137
+Environmental Damage,Discriminatory Behavior,1621,0,0.0
+Environmental Damage,Endangering Public Health,1621,605,0.37322640345465763
+Environmental Damage,Copyright Issues,1621,4,0.0024676125848241827
+Environmental Damage,Violence,1621,66,0.040715607649599014
+Environmental Damage,Drugs,1621,19,0.011721159777914868
+Environmental Damage,Privacy Violation,1621,409,0.2523133867982727
+Environmental Damage,Economic Crime,1621,176,0.10857495373226403
+Environmental Damage,Mental Manipulation,1621,26,0.016039481801357187
+Environmental Damage,Human Trafficking,1621,17,0.010487353485502776
+Environmental Damage,Physical Harm,1621,74,0.04565083281924738
+Environmental Damage,Sexual Content,1621,1,0.0006169031462060457
+Environmental Damage,Cybercrime,1621,156,0.09623689080814313
+Environmental Damage,Disrupting Public Order,1621,86,0.05305367057371992
+Environmental Damage,Psychological Harm,1621,9,0.005552128315854411
+Environmental Damage,White-Collar Crime,1621,65,0.040098704503392965
+Environmental Damage,Animal Abuse,1621,85,0.05243676742751388
+Psychological Harm,Endangering National Security,9243,182,0.01969057665260197
+Psychological Harm,Insulting Behavior,9243,2665,0.2883263009845288
+Psychological Harm,Discriminatory Behavior,9243,335,0.036243643838580544
+Psychological Harm,Endangering Public Health,9243,328,0.03548631396732663
+Psychological Harm,Copyright Issues,9243,8,0.000865519852861625
+Psychological Harm,Violence,9243,1361,0.14724656496808394
+Psychological Harm,Drugs,9243,201,0.02174618630314833
+Psychological Harm,Privacy Violation,9243,1910,0.20664286487071298
+Psychological Harm,Economic Crime,9243,902,0.09758736341014822
+Psychological Harm,Mental Manipulation,9243,3596,0.38905117386130045
+Psychological Harm,Human Trafficking,9243,1393,0.15070864437953047
+Psychological Harm,Physical Harm,9243,1986,0.21486530347289842
+Psychological Harm,Sexual Content,9243,767,0.0829817158931083
+Psychological Harm,Cybercrime,9243,1021,0.1104619712214649
+Psychological Harm,Disrupting Public Order,9243,256,0.027696635291572
+Psychological Harm,Environmental Damage,9243,9,0.0009737098344693282
+Psychological Harm,White-Collar Crime,9243,178,0.019257816726171155
+Psychological Harm,Animal Abuse,9243,97,0.010494428215947203
+White-Collar Crime,Endangering National Security,9846,385,0.03910217347146049
+White-Collar Crime,Insulting Behavior,9846,107,0.010867357302457852
+White-Collar Crime,Discriminatory Behavior,9846,5,0.0005078204346942921
+White-Collar Crime,Endangering Public Health,9846,23,0.0023359739995937436
+White-Collar Crime,Copyright Issues,9846,38,0.00385943530367662
+White-Collar Crime,Violence,9846,23,0.0023359739995937436
+White-Collar Crime,Drugs,9846,550,0.05586024781637213
+White-Collar Crime,Privacy Violation,9846,1137,0.11547836684948203
+White-Collar Crime,Economic Crime,9846,8303,0.8432866138533415
+White-Collar Crime,Mental Manipulation,9846,258,0.026203534430225474
+White-Collar Crime,Human Trafficking,9846,46,0.004671947999187487
+White-Collar Crime,Physical Harm,9846,12,0.001218769043266301
+White-Collar Crime,Sexual Content,9846,2,0.00020312817387771684
+White-Collar Crime,Cybercrime,9846,970,0.09851716433069267
+White-Collar Crime,Disrupting Public Order,9846,38,0.00385943530367662
+White-Collar Crime,Environmental Damage,9846,65,0.006601665651025797
+White-Collar Crime,Psychological Harm,9846,178,0.018078407475116798
+White-Collar Crime,Animal Abuse,9846,0,0.0
+Animal Abuse,Endangering National Security,1448,32,0.022099447513812154
+Animal Abuse,Insulting Behavior,1448,6,0.004143646408839779
+Animal Abuse,Discriminatory Behavior,1448,2,0.0013812154696132596
+Animal Abuse,Endangering Public Health,1448,2,0.0013812154696132596
+Animal Abuse,Copyright Issues,1448,1,0.0006906077348066298
+Animal Abuse,Violence,1448,373,0.2575966850828729
+Animal Abuse,Drugs,1448,36,0.024861878453038673
+Animal Abuse,Privacy Violation,1448,63,0.04350828729281768
+Animal Abuse,Economic Crime,1448,23,0.015883977900552487
+Animal Abuse,Mental Manipulation,1448,2,0.0013812154696132596
+Animal Abuse,Human Trafficking,1448,49,0.03383977900552486
+Animal Abuse,Physical Harm,1448,369,0.2548342541436464
+Animal Abuse,Sexual Content,1448,33,0.022790055248618785
+Animal Abuse,Cybercrime,1448,25,0.017265193370165747
+Animal Abuse,Disrupting Public Order,1448,49,0.03383977900552486
+Animal Abuse,Environmental Damage,1448,85,0.05870165745856354
+Animal Abuse,Psychological Harm,1448,97,0.06698895027624309
+Animal Abuse,White-Collar Crime,1448,0,0.0

@@ -1,0 +1,66 @@
+{
+  "protocol_schema": "pku-saferlhf.e5-external-boundary.v1",
+  "population": {
+    "release": "PKU-Alignment/PKU-SafeRLHF dual-dimension training split",
+    "rows": 73907,
+    "response_positions": 147814
+  },
+  "pilot": {
+    "pairs": 500,
+    "selection": "seeded simple random sample of release rows; parsing, rate-limit, and truncation checks only",
+    "no_threshold_tuning": true
+  },
+  "input_renderings": {
+    "primary": "User request:\n{prompt}\n\nAssistant response:\n{response}",
+    "sensitivity": "{response}"
+  },
+  "sites": [
+    {
+      "id": "shieldgemma_9b",
+      "role": "primary non-GPT operationalisation",
+      "model_id": "google/shieldgemma-9b",
+      "revision": "freeze after access approval and before the pilot",
+      "policies": [
+        "dangerous content",
+        "harassment",
+        "hate speech",
+        "sexually explicit information"
+      ],
+      "binary_rule": "external_unsafe_sg is true when one or more policy prompts returns a violation",
+      "credential_environment": "HF_TOKEN",
+      "runtime": "local GPU"
+    },
+    {
+      "id": "openai_omni_moderation_latest",
+      "role": "OpenAI-family robustness operationalisation",
+      "model_id": "omni-moderation-latest",
+      "revision": "returned model identifier and run date are retained with output",
+      "binary_rule": "external_unsafe_om equals the returned flagged Boolean",
+      "credential_environment": "OPENAI_API_KEY",
+      "runtime": "external API"
+    }
+  ],
+  "outputs": {
+    "retain_per_position": [
+      "source file and line",
+      "response hash",
+      "input rendering",
+      "input truncation indicator",
+      "site and model identifiers",
+      "policy/category outputs",
+      "binary status",
+      "request and completion status"
+    ],
+    "report_aggregate": [
+      "two by two relation to PKU is_safe",
+      "positive and negative proportional agreement",
+      "Cohen kappa",
+      "conditional agreement with PKU as the named reference",
+      "three-way PKU state by external status by safer selection",
+      "stratification by native stratum, category set, and severity"
+    ],
+    "coverage_requirement": "Report the four ShieldGemma policies separately before their any-violation collapse. The policy taxonomy is narrower than PKU's 19-category taxonomy; aggregate agreement is a relation to this external four-policy operationalisation, not validation of every PKU harm category.",
+    "raw_output_policy": "raw prompts, responses, and vendor payloads remain in ignored private storage; only reviewed aggregate text-free results may be committed"
+  },
+  "inference_boundary": "Neither external output is a safety truth label. ShieldGemma's four policies are narrower than PKU's 19-category taxonomy, so its aggregate result cannot validate the full PKU safety construct. Different agreement by model lineage may describe provenance-sensitive correspondence and cannot identify a GPT-4 anchoring effect."
+}

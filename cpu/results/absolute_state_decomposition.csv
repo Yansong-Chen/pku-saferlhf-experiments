@@ -1,0 +1,5 @@
+safer_winner_is_safe,alternative_is_safe,rows,share_of_rows
+true,true,30438,0.41184190942671195
+true,false,10813,0.1463054920372901
+false,true,0,0.0
+false,false,32656,0.44185259853599795

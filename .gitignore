@@ -1,0 +1,33 @@
+.DS_Store
+.Rhistory
+.RData
+__pycache__/
+*.py[cod]
+.env
+.env.*
+
+# Derived matrices are reproducible from the pinned raw release and are too
+# large for source control. Aggregate CPU results are intentionally tracked.
+cpu/intermediate/*.csv
+cpu/intermediate/*.rds
+cpu/intermediate/*.log
+cpu/.Rlib/
+cpu/results/.e2_efa.lock
+cpu/results/.e2_efa_staging_*/
+
+# Superseded, unconditioned EFA exports. The committed E2 protocol conditions
+# on released unsafe responses and writes files with an unsafe_ prefix.
+cpu/results/efa_factor_correlations_all_positions.csv
+cpu/results/efa_factor_correlations_one_response_per_pair.csv
+cpu/results/efa_loadings_all_positions.csv
+cpu/results/efa_loadings_one_response_per_pair.csv
+cpu/results/tetrachoric_all_positions.csv
+cpu/results/tetrachoric_one_response_per_pair.csv
+
+# API/GPU raw outputs can contain sensitive or harmful text and must never be
+# committed. Only aggregate, text-free result tables may be force-added later.
+gpu_api/results/*
+!gpu_api/results/.gitkeep
+gpu_api/checkpoints/
+gpu_api/cache/
+gpu_api/*.jsonl

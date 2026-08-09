@@ -1,0 +1,77 @@
+category,severity_level,response_positions,share_given_category
+Endangering National Security,0,0,0.0
+Endangering National Security,1,80,0.012426219322771047
+Endangering National Security,2,2889,0.4487418452935694
+Endangering National Security,3,3469,0.5388319353836595
+Insulting Behavior,0,0,0.0
+Insulting Behavior,1,3084,0.3927661742231279
+Insulting Behavior,2,4257,0.5421548650025472
+Insulting Behavior,3,511,0.06507896077432501
+Discriminatory Behavior,0,0,0.0
+Discriminatory Behavior,1,1576,0.4246833737537052
+Discriminatory Behavior,2,1661,0.44758825114524387
+Discriminatory Behavior,3,474,0.12772837510105092
+Endangering Public Health,0,0,0.0
+Endangering Public Health,1,81,0.039589442815249266
+Endangering Public Health,2,1258,0.6148582600195504
+Endangering Public Health,3,707,0.3455522971652004
+Copyright Issues,0,0,0.0
+Copyright Issues,1,110,0.05248091603053435
+Copyright Issues,2,1961,0.9355916030534351
+Copyright Issues,3,25,0.011927480916030535
+Violence,0,0,0.0
+Violence,1,453,0.048104491876393755
+Violence,2,6677,0.7090368482531592
+Violence,3,2287,0.24285865987044705
+Drugs,0,0,0.0
+Drugs,1,270,0.03733407079646018
+Drugs,2,6419,0.8875829646017699
+Drugs,3,543,0.07508296460176991
+Privacy Violation,0,0,0.0
+Privacy Violation,1,898,0.05289820923656927
+Privacy Violation,2,14144,0.8331762488218661
+Privacy Violation,3,1934,0.11392554194156457
+Economic Crime,0,0,0.0
+Economic Crime,1,301,0.015741031272879406
+Economic Crime,2,17517,0.9160652651396297
+Economic Crime,3,1304,0.06819370358749084
+Mental Manipulation,0,0,0.0
+Mental Manipulation,1,2833,0.2045044394715946
+Mental Manipulation,2,9533,0.6881541904280661
+Mental Manipulation,3,1487,0.10734137010033927
+Human Trafficking,0,0,0.0
+Human Trafficking,1,77,0.016421411814885902
+Human Trafficking,2,1694,0.36127105992748987
+Human Trafficking,3,2918,0.6223075282576243
+Physical Harm,0,0,0.0
+Physical Harm,1,571,0.06200456075578239
+Physical Harm,2,6489,0.7046367683787599
+Physical Harm,3,2149,0.2333586708654577
+Sexual Content,0,0,0.0
+Sexual Content,1,225,0.12555803571428573
+Sexual Content,2,881,0.4916294642857143
+Sexual Content,3,686,0.3828125
+Cybercrime,0,0,0.0
+Cybercrime,1,206,0.009020844280959887
+Cybercrime,2,18651,0.8167367314766159
+Cybercrime,3,3979,0.17424242424242425
+Disrupting Public Order,0,0,0.0
+Disrupting Public Order,1,365,0.0757418551566715
+Disrupting Public Order,2,2997,0.6219132600124507
+Disrupting Public Order,3,1457,0.3023448848308778
+Environmental Damage,0,0,0.0
+Environmental Damage,1,32,0.01974090067859346
+Environmental Damage,2,1095,0.67550894509562
+Environmental Damage,3,494,0.30475015422578655
+Psychological Harm,0,0,0.0
+Psychological Harm,1,1179,0.12755598831548198
+Psychological Harm,2,6467,0.6996646110570162
+Psychological Harm,3,1597,0.17277940062750188
+White-Collar Crime,0,0,0.0
+White-Collar Crime,1,108,0.010968921389396709
+White-Collar Crime,2,9269,0.9413975218362787
+White-Collar Crime,3,469,0.0476335567743246
+Animal Abuse,0,0,0.0
+Animal Abuse,1,312,0.2154696132596685
+Animal Abuse,2,1052,0.7265193370165746
+Animal Abuse,3,84,0.058011049723756904

@@ -1,0 +1,9 @@
+source_file,source_line,response_position,response_sha256,is_safe,severity_level,assigned_category_count,safe_equals_severity_zero,safe_equals_empty_category_set
+Alpaca-7B-train.jsonl,7985,0,bd2512a8d765d51a49b941321fa64713f5fd6a3b237ab35b21fa0b3a44b2d274,false,0,0,false,false
+Alpaca-7B-train.jsonl,9346,1,12c70851e8cac9510ae5d953f9ee0bcf6b63929a32c8e0047140b8dc6fd58cde,false,0,0,false,false
+Alpaca-7B-train.jsonl,14070,0,4c3792552b81d05a8229482378fa071c7916bc6112a20d4dfda5db6c44ad2c8d,true,1,2,false,false
+Alpaca-7B-train.jsonl,14420,0,c40ff8dd11c3267f4d7da40d89a211089e8e37d2181c52c09ef3ce957372376e,false,0,0,false,false
+Alpaca-7B-train.jsonl,20923,0,0a5dab3a667880ed653dbc12da8dc0b6d05cfc31f54a06e4243a8b3e2ba61920,true,2,1,false,false
+Alpaca-7B-train.jsonl,26572,1,ff37cd2b5cbaa45282a0f5f1272aa179eb253d76b4be41cb25e8112d3e6f7401,false,0,0,false,false
+Alpaca3-8B-train.jsonl,7466,1,2a287eadfb0b2507a95a8f01fceb9116696f96dce911c327b444a604817d601b,true,1,1,false,false
+Alpaca3-8B-train.jsonl,19079,1,60c86713e53699fec8fb6c641dcacf43454720e4a1c7ea38a32d5139f6d08aba,true,1,2,false,false

@@ -1,0 +1,118 @@
+{
+  "exact_matching": {
+    "common_groups_with_prompt_digest_mismatch": 0,
+    "common_unordered_response_hash_groups": 64642,
+    "one_to_one_matches_after_excluding_any_duplicate_group": 64640,
+    "one_to_one_row_matches_before_duplicate_exclusion": 64643,
+    "raw_cross_product_row_matches": 64646
+  },
+  "releases": {
+    "dual": {
+      "dataset": "PKU-Alignment/PKU-SafeRLHF",
+      "distinct_prompts": 38641,
+      "duplicate_pair_groups": 1,
+      "duplicate_pair_rows": 2,
+      "files": [
+        {
+          "bytes": 77487588,
+          "matches_pinned_lfs_oid": true,
+          "path": "data/raw/dual/Alpaca-7B-train.jsonl",
+          "rows": 27393,
+          "sha256": "e9aeebe2bbbed37d7a28561809f47c6c0622e48b170c80bc2eb72d908d2c4666"
+        },
+        {
+          "bytes": 72501040,
+          "matches_pinned_lfs_oid": true,
+          "path": "data/raw/dual/Alpaca2-7B-train.jsonl",
+          "rows": 25564,
+          "sha256": "f7845941c570087a320121d222cbdc500189c59310c60aadaf23b14877c92e0a"
+        },
+        {
+          "bytes": 59367911,
+          "matches_pinned_lfs_oid": true,
+          "path": "data/raw/dual/Alpaca3-8B-train.jsonl",
+          "rows": 20950,
+          "sha256": "21c3b4f2572444e42d161f09166471d14208c9e153fcc0ec900ae05013e47d4c"
+        }
+      ],
+      "revision": "9421ffafec3fa40a1f1a7d567b4d525079477ecb",
+      "rows": 73907,
+      "safe_equals_severity_zero": {
+        "denominator": 147814,
+        "numerator": 147806
+      },
+      "schemas": [
+        {
+          "fields": [
+            "prompt",
+            "response_0",
+            "response_1",
+            "prompt_source",
+            "response_0_source",
+            "response_1_source",
+            "is_response_0_safe",
+            "is_response_1_safe",
+            "response_0_harm_category",
+            "response_1_harm_category",
+            "response_0_severity_level",
+            "response_1_severity_level",
+            "better_response_id",
+            "safer_response_id",
+            "response_0_sha256",
+            "response_1_sha256"
+          ],
+          "rows": 73907
+        }
+      ]
+    },
+    "single": {
+      "dataset": "PKU-Alignment/PKU-SafeRLHF-single-dimension",
+      "distinct_prompts": 38425,
+      "duplicate_pair_groups": 2,
+      "duplicate_pair_rows": 4,
+      "files": [
+        {
+          "bytes": 42854646,
+          "matches_pinned_lfs_oid": true,
+          "path": "data/raw/single/Alpaca-7B-train.jsonl",
+          "rows": 27220,
+          "sha256": "643fe074861fa7a0883a590c51e3c5e356d7f00e988cee125c0328a6573d8e5e"
+        },
+        {
+          "bytes": 40085242,
+          "matches_pinned_lfs_oid": true,
+          "path": "data/raw/single/Alpaca2-7B-train.jsonl",
+          "rows": 25348,
+          "sha256": "b8dce8f06a2d608d93f7b49e7ea83df55fab823e06825567476421d880a43f7e"
+        },
+        {
+          "bytes": 32234134,
+          "matches_pinned_lfs_oid": true,
+          "path": "data/raw/single/Alpaca3-8B-train.jsonl",
+          "rows": 20428,
+          "sha256": "2d39f5e0af751db8b7b61fbb6e5ea16a1cfb01ec3569ba9f654a9227f406ae7f"
+        }
+      ],
+      "revision": "877416778ed53479d63315795558fe83495276d8",
+      "rows": 72996,
+      "schemas": [
+        {
+          "fields": [
+            "prompt",
+            "response_0",
+            "response_1",
+            "prompt_source",
+            "response_0_source",
+            "response_1_source",
+            "better_response_id",
+            "response_0_sha256",
+            "response_1_sha256"
+          ],
+          "rows": 72996
+        }
+      ]
+    }
+  },
+  "result_schema": "pku-saferlhf.p0-snapshot.v1",
+  "script_sha256": "623dc5098c548ae4aac0f39fd4c248be83fbfdfe3981affec2a45f6c7e48c2e8"
+}

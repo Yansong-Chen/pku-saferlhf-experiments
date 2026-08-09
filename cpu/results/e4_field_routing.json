@@ -1,0 +1,75 @@
+{
+  "created_at_utc": "2026-08-09T18:42:18.905171+00:00",
+  "discrepancy_register": [
+    {
+      "description": "Ji et al. section 4.2 describes an amendment of the original pairwise cost loss but prints classification terms only; Dai et al. equation 6 prints both pairwise and classification terms.",
+      "id": "D1",
+      "treatment": "Report this as a documentary discrepancy. The safer-response pairwise route is documented from Dai et al.; no statement in this result asserts that a PKU-specific executable configuration has been inspected."
+    }
+  ],
+  "fields": [
+    {
+      "cost_loss": "no direct term",
+      "evidence": "Dai et al. (2024), equation 5",
+      "field": "better_response_id",
+      "moderation_branch": "no direct term documented",
+      "released_role": "pairwise helpfulness selection",
+      "reward_loss": "pairwise Bradley--Terry term"
+    },
+    {
+      "cost_loss": "pairwise Bradley--Terry term",
+      "evidence": "Dai et al. (2024), equation 6",
+      "field": "safer_response_id",
+      "moderation_branch": "no direct term documented",
+      "released_role": "pairwise safety selection",
+      "reward_loss": "no direct term"
+    },
+    {
+      "cost_loss": "classification/origin term",
+      "evidence": "Dai et al. (2024), equation 6 and virtual-response derivation",
+      "field": "is_response_0_safe / is_response_1_safe",
+      "moderation_branch": "binary safety target is documented",
+      "released_role": "response-level binary safety state",
+      "reward_loss": "no direct term"
+    },
+    {
+      "cost_loss": "no direct term",
+      "evidence": "Ji et al. (2025), section 4.1; Dai et al. (2024), equations 5--6",
+      "field": "response_0_harm_category / response_1_harm_category",
+      "moderation_branch": "available to the severity-sensitive moderation branch",
+      "released_role": "19-label response-level harm taxonomy",
+      "reward_loss": "no direct term"
+    },
+    {
+      "cost_loss": "no direct term",
+      "evidence": "Ji et al. (2025), section 4.1; Dai et al. (2024), equations 5--6",
+      "field": "response_0_severity_level / response_1_severity_level",
+      "moderation_branch": "all severity meta-labels are reported as training inputs",
+      "released_role": "three-level response-level severity annotation",
+      "reward_loss": "no direct term"
+    }
+  ],
+  "interpretive_boundary": "A missing direct loss term establishes that the published objective has no declared direct supervision channel for that field. It does not establish that the trained model cannot recover correlated textual information.",
+  "protocol_schema": "pku-saferlhf.e4-field-routing.v1",
+  "protocol_sha256": "9351a8380890e28f26a76797c2dfb7e455622276b886be21eb996ecc020291e1",
+  "result_schema": "pku-saferlhf.e4-field-routing-result.v1",
+  "scope": "documentary trace of direct released-field use; it does not infer every feature a trained model may recover from text",
+  "script_sha256": "5484d279eed17258e7a7ad0aacf9501b654446f770d396097f0ebc164a5375d8",
+  "source_hierarchy": [
+    {
+      "rank": 1,
+      "source": "Released training implementation and configuration",
+      "status": "not inspected in this CPU package"
+    },
+    {
+      "rank": 2,
+      "source": "Dai et al. (2024), equations 5--6",
+      "status": "used for the documented Safe RLHF reward and cost objectives"
+    },
+    {
+      "rank": 3,
+      "source": "Ji et al. (2025), sections 4.1--4.2",
+      "status": "used for PKU-SafeRLHF application-branch context"
+    }
+  ]
+}

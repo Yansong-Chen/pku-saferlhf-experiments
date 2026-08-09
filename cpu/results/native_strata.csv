@@ -1,0 +1,5 @@
+stratum,rows,share_of_rows,both_unsafe_rows
+L1_no_recorded_safety_field_difference,44325,0.5997402140527961,13890
+L2_category_difference_tied_safety_and_severity,12828,0.173569485975618,12828
+L3_severity_difference_same_safety_state,5941,0.08038480793429581,5938
+L4_safety_boundary_difference,10813,0.1463054920372901,0

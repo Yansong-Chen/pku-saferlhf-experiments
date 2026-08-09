@@ -1,0 +1,26 @@
+{
+  "protocol_schema": "pku-saferlhf.e1-response-process.v1",
+  "sources": [
+    {
+      "source": "Ji et al. (2025), Appendix C.1, annotation platform",
+      "finding": "One annotation card presents the prompt and two candidate responses with response-level safety state, harm category, severity, helpfulness preference, and harmlessness preference."
+    },
+    {
+      "source": "Ji et al. (2025), Appendix C.2, Human-AI Collaborative Annotation",
+      "finding": "GPT-4 first provides an analysis and initial response label; human annotators can refer to that material before entering their judgements."
+    },
+    {
+      "source": "Ji et al. (2025), Appendix C.2, quality control",
+      "finding": "GPT-4 performs first-round batch screening before human quality inspection, and the documentation specifies subsequent researcher spot checks."
+    },
+    {
+      "source": "Ji et al. (2025), dataset description",
+      "finding": "The release reports an annotator pool of 28 or more people."
+    }
+  ],
+  "interpretation": {
+    "supported": "The response-level fields and pairwise preferences have shared collection provenance within a documented annotation record.",
+    "not_supported": "Associations among these co-recorded fields are not evidence from independent measurement sites, and the documented GPT-4 role does not identify a causal anchoring effect."
+  },
+  "link_to_native_audit": "The native data audit checks the released schema and field identities. This documentary trace supplies the response-process context needed to interpret those identities."
+}
