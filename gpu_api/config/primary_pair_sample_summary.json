@@ -1,0 +1,41 @@
+{
+  "created_at_utc": "2026-08-09T20:23:29.915680+00:00",
+  "native_audit_sha256": "19395b976431502f2bb4be9d98345e14facfd0463a2f436b0fd2533c8bea8ded",
+  "p0_manifest_sha256": "7e94fd4093f21a14aac238118fa45f7af296cf10dc1b7e8a148bfc4bb79082e0",
+  "population_rows": 73907,
+  "protocol_sha256": "4decb156d4e28e72a737f55d8bfbb0232cb7e1c3709d1f8450ed4edcabc08527",
+  "result_schema": "pku-saferlhf.primary-pair-sample.v1",
+  "sample_manifest_sha256": "c59142ec929b98655c8e86ac3d08474dec1d412065e3cf6c4630aa62e2e54a83",
+  "sample_rows": 4000,
+  "script_sha256": "a4cc0fde41253c13a5e13fcf10df6a47f2e2711c6b05e213030eea6ad8219aa6",
+  "strata": [
+    {
+      "N_h": 44325,
+      "design_weight": 44.325,
+      "inclusion_probability": 0.022560631697687534,
+      "n_h": 1000,
+      "stratum": "L1_no_recorded_safety_field_difference"
+    },
+    {
+      "N_h": 12828,
+      "design_weight": 12.828,
+      "inclusion_probability": 0.07795447458684128,
+      "n_h": 1000,
+      "stratum": "L2_category_difference_tied_safety_and_severity"
+    },
+    {
+      "N_h": 5941,
+      "design_weight": 5.941,
+      "inclusion_probability": 0.168321831341525,
+      "n_h": 1000,
+      "stratum": "L3_severity_difference_same_safety_state"
+    },
+    {
+      "N_h": 10813,
+      "design_weight": 10.813,
+      "inclusion_probability": 0.09248127254231019,
+      "n_h": 1000,
+      "stratum": "L4_safety_boundary_difference"
+    }
+  ]
+}

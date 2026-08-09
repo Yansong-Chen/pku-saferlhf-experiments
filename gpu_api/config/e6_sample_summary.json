@@ -1,40 +1,42 @@
 {
-  "created_at_utc": "2026-08-09T20:03:52.027292+00:00",
+  "created_at_utc": "2026-08-09T20:23:29.985375+00:00",
   "native_audit_sha256": "19395b976431502f2bb4be9d98345e14facfd0463a2f436b0fd2533c8bea8ded",
+  "nested_base_manifest": "gpu_api/config/primary_pair_sample_manifest.csv",
+  "nested_base_manifest_sha256": "c59142ec929b98655c8e86ac3d08474dec1d412065e3cf6c4630aa62e2e54a83",
   "p0_manifest_sha256": "7e94fd4093f21a14aac238118fa45f7af296cf10dc1b7e8a148bfc4bb79082e0",
   "population_rows": 73907,
-  "protocol_sha256": "f0300625f1fd3fd8fda81190e438d4bdccecf84d53d0b68eb1085787b49a53c6",
+  "protocol_sha256": "a7ffc9bc8dbe43c8c2f6885453d10e17b21dce71ae5235d10234057c574f7dfa",
   "result_schema": "pku-saferlhf.e6-sample-manifest.v1",
-  "sample_manifest_sha256": "b2952214a371a02035355e7e4940e31edd84cba47e4a40f7b53f496e2434bfad",
-  "sample_rows": 4200,
-  "script_sha256": "432c6b65309039382da49ea419e47899e4181753d3fd713e720f1ea1d24b8d34",
+  "sample_manifest_sha256": "26ea2e2e6535498daaf80f51b43fdedc4e2888bf2c3c7f66027e2167081344c8",
+  "sample_rows": 1200,
+  "script_sha256": "5be103f781e836906c55cd0b106f6eacf4e2cbc78e5d58043599bb7dd7dbb2dc",
   "strata": [
     {
       "N_h": 44325,
-      "design_weight": 24.076588810429115,
-      "inclusion_probability": 0.04153412295544275,
-      "n_h": 1841,
+      "design_weight": 147.75,
+      "inclusion_probability": 0.00676818950930626,
+      "n_h": 300,
       "stratum": "L1_no_recorded_safety_field_difference"
     },
     {
       "N_h": 12828,
-      "design_weight": 14.627137970353477,
-      "inclusion_probability": 0.0683660742126598,
-      "n_h": 877,
+      "design_weight": 42.76,
+      "inclusion_probability": 0.023386342376052385,
+      "n_h": 300,
       "stratum": "L2_category_difference_tied_safety_and_severity"
     },
     {
       "N_h": 5941,
-      "design_weight": 8.92042042042042,
-      "inclusion_probability": 0.11210233967345565,
-      "n_h": 666,
+      "design_weight": 19.803333333333335,
+      "inclusion_probability": 0.0504965494024575,
+      "n_h": 300,
       "stratum": "L3_severity_difference_same_safety_state"
     },
     {
       "N_h": 10813,
-      "design_weight": 13.251225490196079,
-      "inclusion_probability": 0.07546471839452511,
-      "n_h": 816,
+      "design_weight": 36.04333333333334,
+      "inclusion_probability": 0.027744381762693053,
+      "n_h": 300,
       "stratum": "L4_safety_boundary_difference"
     }
   ]

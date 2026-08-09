@@ -1,16 +1,18 @@
 {
   "protocol_schema": "pku-saferlhf.e6-ccai.v1",
   "sample": {
-    "pairs": 4200,
+    "pairs": 1200,
     "seed": 20260809,
+    "nested_base_manifest": "primary_pair_sample_manifest.csv",
+    "nested_base_pairs_per_stratum": 1000,
     "strata": [
       "L1_no_recorded_safety_field_difference",
       "L2_category_difference_tied_safety_and_severity",
       "L3_severity_difference_same_safety_state",
       "L4_safety_boundary_difference"
     ],
-    "minimum_per_stratum": 500,
-    "remaining_allocation": "proportional to eligible rows after the minimum allocation",
+    "pairs_per_stratum": 300,
+    "selection": "seeded simple random subsample within each stratum of the shared 4,000-pair E5/E7 primary sample; the combined inclusion probability remains n_h / N_h",
     "design_weight": "N_h / n_h"
   },
   "oracle": {

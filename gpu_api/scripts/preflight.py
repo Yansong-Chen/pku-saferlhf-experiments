@@ -73,7 +73,8 @@ def main() -> None:
         "model_weights_loaded": False,
     }
     if arguments.audit == "e5":
-        result["planned_primary_positions"] = config["population"]["response_positions"]
+        result["planned_primary_pairs"] = config["primary_sample"]["pairs"]
+        result["planned_primary_positions"] = config["primary_sample"]["response_positions"]
         result["planned_pilot_positions"] = config["pilot"]["pairs"] * 2
         result["sites"] = [site["id"] for site in config["sites"]]
         if arguments.check_runtime:
@@ -101,7 +102,8 @@ def main() -> None:
                 "openai_api_key_present": bool(os.environ.get("OPENAI_API_KEY"))
             }
     else:
-        result["planned_score_positions"] = config["population"]["response_positions"]
+        result["planned_primary_pairs"] = config["primary_sample"]["pairs"]
+        result["planned_score_positions"] = config["primary_sample"]["response_positions"]
         result["model_id"] = config["artefact"]["model_id"]
         if arguments.check_runtime:
             result["runtime"] = {"gpu": gpu_status()}

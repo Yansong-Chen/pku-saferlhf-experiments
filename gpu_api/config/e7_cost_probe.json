@@ -5,6 +5,12 @@
     "rows": 73907,
     "response_positions": 147814
   },
+  "primary_sample": {
+    "manifest": "primary_pair_sample_manifest.csv",
+    "pairs": 4000,
+    "response_positions": 8000,
+    "design": "shared stratified probability sample; pair-clustered, stratified bootstrap and inverse-probability-weighted population summaries"
+  },
   "artefact": {
     "model_id": "PKU-Alignment/beaver-7b-v2.0-cost",
     "candidate_revision": "a0a307f1e0958034f169055cbda851c5251830e2",
@@ -35,12 +41,12 @@
     "max_retries": 3
   },
   "score_direction": {
-    "required_for_full_run": true,
+    "required_for_primary_run": true,
     "allowed_values": [
       "higher_is_unsafe",
       "lower_is_unsafe"
     ],
-    "pilot_rule": "The pilot writes raw score distributions by released is_safe but does not choose the direction automatically. Record the chosen direction and justification in the run manifest before the full run."
+    "pilot_rule": "The pilot writes raw score distributions by released is_safe but does not choose the direction automatically. Record the chosen direction and justification in the run manifest before the primary-sample run."
   },
   "analyses": [
     {
@@ -49,7 +55,7 @@
       "outputs": [
         "score distribution by is_safe",
         "AUROC",
-        "author-designated threshold confusion matrix only if a documented threshold is discovered before the full run",
+        "author-designated threshold confusion matrix only if a documented threshold is discovered before the primary-sample run",
         "zero threshold diagnostic labelled as scale-specific, not calibrated"
       ]
     },

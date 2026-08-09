@@ -5,12 +5,12 @@ Examples, from the experiments directory:
 
   python3 gpu_api/scripts/e5_run.py --site openai --phase pilot --run-id e5-pilot
   python3 gpu_api/scripts/e5_run.py --site shieldgemma --phase pilot --run-id e5-pilot
-  python3 gpu_api/scripts/e5_run.py --site all --phase full --run-id e5-full \
+  python3 gpu_api/scripts/e5_run.py --site all --phase primary --run-id e5-primary \
       --shieldgemma-revision RESOLVED_HF_SHA
 
-The full ShieldGemma run deliberately requires a resolved revision.  The pilot
-records the revision visible to the loader; copy that SHA into the full command
-and the run manifest before starting the full population.
+The primary ShieldGemma run deliberately requires a resolved revision.  The
+pilot records the revision visible to the loader; copy that SHA into the
+primary command and the run manifest before starting the frozen sample.
 """
 
 from __future__ import annotations
@@ -34,6 +34,7 @@ from common import (
     existing_ids,
     public_task_fields,
     read_json,
+    primary_sample_rows,
     response_tasks,
     run_directory,
     utc_now,
@@ -44,6 +45,7 @@ from common import (
 
 SCRIPT = Path(__file__).resolve()
 CONFIG_PATH = CONFIG_DIR / "e5_external_boundary.json"
+PRIMARY_SAMPLE_PATH = CONFIG_DIR / "primary_pair_sample_manifest.csv"
 
 
 def mapping(value: object) -> dict:
@@ -73,14 +75,16 @@ def render_input(task: dict, rendering: str, config: dict) -> str:
     )
 
 
-def selected_rows(phase: str, config: dict) -> list[tuple[str, int, dict]]:
-    from common import all_release_rows
-
+def selected_rows(phase: str, config: dict) -> list[tuple]:
     if phase == "pilot":
         return deterministic_pilot_rows(
             config["pilot"]["pairs"], config["pilot"]["selection_seed"]
         )
-    return list(all_release_rows())
+    if not PRIMARY_SAMPLE_PATH.exists():
+        raise ProtocolError(
+            "Create the frozen shared primary sample with make_primary_sample.py before E5."
+        )
+    return primary_sample_rows(PRIMARY_SAMPLE_PATH)
 
 
 def retry(operation, attempts: int, base_seconds: float):
@@ -242,9 +246,9 @@ def run_shieldgemma(
     ]
     if dry_run:
         return len(todo), 0
-    if phase == "full" and not revision:
+    if phase == "primary" and not revision:
         raise ProtocolError(
-            "A full ShieldGemma run requires --shieldgemma-revision from the completed pilot."
+            "A primary ShieldGemma run requires --shieldgemma-revision from the completed pilot."
         )
     site, tokenizer, model, torch, yes_id, no_id, resolved = load_shieldgemma(config, revision)
     metadata["shieldgemma_resolved_revision"] = resolved
@@ -327,7 +331,7 @@ def run_shieldgemma(
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--site", choices=("openai", "shieldgemma", "all"), default="all")
-    parser.add_argument("--phase", choices=("pilot", "full"), required=True)
+    parser.add_argument("--phase", choices=("pilot", "primary"), required=True)
     parser.add_argument("--run-id", required=True)
     parser.add_argument(
         "--rendering",
@@ -339,6 +343,14 @@ def main() -> None:
     arguments = parser.parse_args()
 
     validate_cpu_provenance()
+    if (
+        arguments.phase == "primary"
+        and arguments.site in {"shieldgemma", "all"}
+        and not arguments.shieldgemma_revision
+    ):
+        raise ProtocolError(
+            "A primary ShieldGemma request requires --shieldgemma-revision from the completed pilot."
+        )
     config = read_json(CONFIG_PATH)
     rows = selected_rows(arguments.phase, config)
     tasks = response_tasks(rows)
@@ -357,6 +369,9 @@ def main() -> None:
             "renderings": renderings,
             "pair_rows": len(rows),
             "response_positions": len(tasks),
+            "sampling_manifest": (
+                PRIMARY_SAMPLE_PATH.name if arguments.phase == "primary" else None
+            ),
             "dry_run": arguments.dry_run,
         }
     )

@@ -151,14 +151,29 @@ def response_task(source_file: str, source_line: int, row: dict, position: int) 
 
 def response_tasks(rows: Iterable[tuple[str, int, dict]]) -> list[dict]:
     tasks: list[dict] = []
-    for source_file, source_line, row in rows:
-        tasks.append(response_task(source_file, source_line, row, 0))
-        tasks.append(response_task(source_file, source_line, row, 1))
+    for entry in rows:
+        source_file, source_line, row = entry[:3]
+        sampling = entry[3] if len(entry) == 4 else None
+        for position in (0, 1):
+            task = response_task(source_file, source_line, row, position)
+            if sampling is not None:
+                task.update(
+                    {
+                        "pair_inclusion_probability": float(
+                            sampling["inclusion_probability"]
+                        ),
+                        "pair_design_weight": float(
+                            sampling["design_weight_N_h_over_n_h"]
+                        ),
+                        "sampling_manifest": sampling.get("sampling_manifest"),
+                    }
+                )
+            tasks.append(task)
     return tasks
 
 
 def public_task_fields(task: dict) -> dict:
-    return {
+    fields = {
         key: task[key]
         for key in (
             "pair_id",
@@ -174,6 +189,14 @@ def public_task_fields(task: dict) -> dict:
             "native_stratum",
         )
     }
+    for key in (
+        "pair_inclusion_probability",
+        "pair_design_weight",
+        "sampling_manifest",
+    ):
+        if key in task:
+            fields[key] = task[key]
+    return fields
 
 
 def load_rows_for_manifest(manifest: Path) -> list[tuple[dict, dict]]:
@@ -210,6 +233,24 @@ def load_rows_for_manifest(manifest: Path) -> list[tuple[dict, dict]]:
     if len(resolved) != len(records):
         raise ProtocolError("At least one E6 manifest row could not be resolved.")
     return resolved
+
+
+def primary_sample_rows(manifest: Path) -> list[tuple[str, int, dict, dict]]:
+    """Load a text-free pair sample and attach its pair-level design fields.
+
+    The raw release is rehydrated only in memory.  A selected pair retains the
+    inverse-probability weight recorded when the manifest was frozen, so a
+    runner and its aggregator can distinguish population estimates from raw
+    sample counts.
+    """
+
+    rows: list[tuple[str, int, dict, dict]] = []
+    for record, row in load_rows_for_manifest(manifest):
+        metadata = {**record, "sampling_manifest": manifest.name}
+        rows.append(
+            (record["source_file"], int(record["source_line"]), row, metadata)
+        )
+    return rows
 
 
 def run_directory(audit: str, run_id: str) -> Path:

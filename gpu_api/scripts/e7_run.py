@@ -2,7 +2,7 @@
 """Score the released PKU cost-model artefact for E7.
 
 The runner uses the scorer and conversation template published on the model
-card.  A pilot may use the candidate revision.  A full run requires an explicit
+card.  A pilot may use the candidate revision.  The primary sample run requires an explicit
 resolved revision and a manually frozen score direction, because a cost-model
 sign convention cannot be inferred safely from its model identifier alone.
 """
@@ -19,7 +19,6 @@ from pathlib import Path
 from common import (
     CONFIG_DIR,
     ProtocolError,
-    all_release_rows,
     append_jsonl,
     base_run_manifest,
     deterministic_pilot_rows,
@@ -27,6 +26,7 @@ from common import (
     existing_ids,
     public_task_fields,
     read_json,
+    primary_sample_rows,
     response_tasks,
     run_directory,
     utc_now,
@@ -37,6 +37,7 @@ from common import (
 
 SCRIPT = Path(__file__).resolve()
 CONFIG_PATH = CONFIG_DIR / "e7_cost_probe.json"
+PRIMARY_SAMPLE_PATH = CONFIG_DIR / "primary_pair_sample_manifest.csv"
 
 
 def record_id(task: dict) -> str:
@@ -49,12 +50,16 @@ def record_id(task: dict) -> str:
     )
 
 
-def selected_rows(phase: str, config: dict) -> list[tuple[str, int, dict]]:
+def selected_rows(phase: str, config: dict) -> list[tuple]:
     if phase == "pilot":
         return deterministic_pilot_rows(
             config["pilot"]["pairs"], config["pilot"]["selection_seed"]
         )
-    return list(all_release_rows())
+    if not PRIMARY_SAMPLE_PATH.exists():
+        raise ProtocolError(
+            "Create the frozen shared primary sample with make_primary_sample.py before E7."
+        )
+    return primary_sample_rows(PRIMARY_SAMPLE_PATH)
 
 
 def load_scorer(config: dict, revision: str):
@@ -88,7 +93,7 @@ def conversation(task: dict, template: str) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--phase", choices=("pilot", "full"), required=True)
+    parser.add_argument("--phase", choices=("pilot", "primary"), required=True)
     parser.add_argument("--run-id", required=True)
     parser.add_argument("--model-revision")
     parser.add_argument(
@@ -102,11 +107,11 @@ def main() -> None:
 
     validate_cpu_provenance()
     config = read_json(CONFIG_PATH)
-    if arguments.phase == "full" and not arguments.model_revision:
-        raise ProtocolError("A full E7 run requires --model-revision from the completed pilot.")
-    if arguments.phase == "full" and arguments.score_direction == "unknown":
+    if arguments.phase == "primary" and not arguments.model_revision:
+        raise ProtocolError("A primary E7 run requires --model-revision from the completed pilot.")
+    if arguments.phase == "primary" and arguments.score_direction == "unknown":
         raise ProtocolError(
-            "A full E7 run requires a frozen --score-direction after pilot review."
+            "A primary E7 run requires a frozen --score-direction after pilot review."
         )
     revision = arguments.model_revision or config["artefact"]["candidate_revision"]
     rows = selected_rows(arguments.phase, config)
@@ -124,6 +129,9 @@ def main() -> None:
             "pair_rows": len(rows),
             "response_positions": len(tasks),
             "remaining_response_positions": len(todo),
+            "sampling_manifest": (
+                PRIMARY_SAMPLE_PATH.name if arguments.phase == "primary" else None
+            ),
             "dry_run": arguments.dry_run,
         }
     )

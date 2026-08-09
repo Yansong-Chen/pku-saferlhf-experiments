@@ -76,7 +76,7 @@ def main() -> None:
         "decision_required": (
             "Select a score direction using the model-card convention and the pilot "
             "distribution, record the justification, then supply it explicitly to "
-            "the full E7 command. This report never chooses a direction itself."
+            "the primary E7 command. This report never chooses a direction itself."
         ),
     }
     write_json(arguments.output, result)

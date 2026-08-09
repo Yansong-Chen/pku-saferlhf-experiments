@@ -1,0 +1,26 @@
+{
+  "protocol_schema": "pku-saferlhf.primary-pair-sample.v1",
+  "population": {
+    "release": "PKU-Alignment/PKU-SafeRLHF dual-dimension training split",
+    "pairs": 73907,
+    "response_positions": 147814
+  },
+  "sample": {
+    "pairs": 4000,
+    "pairs_per_stratum": 1000,
+    "seed": 20260814,
+    "design": "independent simple random sample of 1,000 release pairs within each native L1--L4 stratum",
+    "strata": [
+      "L1_no_recorded_safety_field_difference",
+      "L2_category_difference_tied_safety_and_severity",
+      "L3_severity_difference_same_safety_state",
+      "L4_safety_boundary_difference"
+    ],
+    "estimation": "Use inverse pair-inclusion-probability weights for population summaries. Keep raw sample counts beside each weighted estimate. Bootstrap resampling remains pair-clustered and stratified."
+  },
+  "reuse": {
+    "E5": "primary sample",
+    "E7": "primary sample",
+    "E6": "seeded nested 300-pair-per-stratum subsample"
+  }
+}

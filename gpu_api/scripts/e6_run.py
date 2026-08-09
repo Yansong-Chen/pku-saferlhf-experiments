@@ -9,8 +9,8 @@ Run a dry-run first, then a small pilot:
 
   python3 gpu_api/scripts/e6_run.py --phase pilot --run-id e6-pilot --dry-run
   python3 gpu_api/scripts/e6_run.py --phase pilot --run-id e6-pilot
-  python3 gpu_api/scripts/e6_run.py --phase primary --run-id e6-full
-  python3 gpu_api/scripts/e6_run.py --phase repeat --run-id e6-full
+  python3 gpu_api/scripts/e6_run.py --phase primary --run-id e6-primary
+  python3 gpu_api/scripts/e6_run.py --phase repeat --run-id e6-primary
 """
 
 from __future__ import annotations

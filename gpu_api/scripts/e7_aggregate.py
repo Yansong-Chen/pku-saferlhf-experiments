@@ -23,21 +23,36 @@ def write_csv(path: Path, rows: list[dict]) -> None:
         writer.writerows(rows)
 
 
-def auc(labels: np.ndarray, scores: np.ndarray) -> float | None:
+def auc(
+    labels: np.ndarray, scores: np.ndarray, weights: np.ndarray | None = None
+) -> float | None:
+    """Wilcoxon AUROC, optionally standardised back to the release population."""
+
+    if weights is None:
+        weights = np.ones(len(labels), dtype=float)
     positive = int(labels.sum())
     negative = len(labels) - positive
     if not positive or not negative:
         return None
     order = np.argsort(scores, kind="mergesort")
-    ranks = np.empty(len(scores), dtype=float)
+    positive_weight = float(np.sum(weights[labels.astype(bool)]))
+    negative_weight = float(np.sum(weights[~labels.astype(bool)]))
+    if not positive_weight or not negative_weight:
+        return None
     index = 0
+    negative_before = 0.0
+    favourable_pairs = 0.0
     while index < len(scores):
         end = index + 1
         while end < len(scores) and scores[order[end]] == scores[order[index]]:
             end += 1
-        ranks[order[index:end]] = (index + 1 + end) / 2
+        group = order[index:end]
+        group_positive = float(np.sum(weights[group][labels[group].astype(bool)]))
+        group_negative = float(np.sum(weights[group][~labels[group].astype(bool)]))
+        favourable_pairs += group_positive * (negative_before + 0.5 * group_negative)
+        negative_before += group_negative
         index = end
-    return float((ranks[labels.astype(bool)].sum() - positive * (positive + 1) / 2) / (positive * negative))
+    return float(favourable_pairs / (positive_weight * negative_weight))
 
 
 def distribution(values: np.ndarray) -> dict:
@@ -64,14 +79,21 @@ def bootstrap_pair_intervals(
     by_pair: defaultdict[str, list[dict]] = defaultdict(list)
     for record in records:
         by_pair[record["pair_id"]].append(record)
-    pairs = list(by_pair.values())
+    by_stratum: defaultdict[str, list[list[dict]]] = defaultdict(list)
+    for pair in by_pair.values():
+        by_stratum[pair[0]["native_stratum"]].append(pair)
     rng = np.random.default_rng(seed)
     auc_values: list[float] = []
     for _ in range(repetitions):
-        sampled = [pairs[index] for index in rng.integers(0, len(pairs), len(pairs))]
+        sampled: list[list[dict]] = []
+        for pairs in by_stratum.values():
+            sampled.extend(
+                [pairs[index] for index in rng.integers(0, len(pairs), len(pairs))]
+            )
         flat = [record for pair in sampled for record in pair]
         labels = np.array([not bool(record["is_safe"]) for record in flat])
-        current_auc = auc(labels, risk_scores(flat, direction))
+        weights = np.array([float(record.get("pair_design_weight", 1.0)) for record in flat])
+        current_auc = auc(labels, risk_scores(flat, direction), weights)
         if current_auc is not None:
             auc_values.append(current_auc)
     return {
@@ -106,9 +128,15 @@ def main() -> None:
     direction = arguments.score_direction
     risks = risk_scores(records, direction)
     labels = np.array([not bool(record["is_safe"]) for record in records])
+    design_weights = np.array(
+        [float(record.get("pair_design_weight", 1.0)) for record in records]
+    )
     boundary = {
         "risk_score_definition": direction,
         "auroc_unsafe_vs_safe": auc(labels, risks),
+        "design_weighted_population_auroc": auc(labels, risks, design_weights),
+        "sample_response_positions": len(records),
+        "design_weighted_response_position_estimate": float(np.sum(design_weights)),
         "unsafe": distribution(risks[labels]),
         "safe": distribution(risks[~labels]),
     }
@@ -120,12 +148,19 @@ def main() -> None:
         "true_safe_predicted_safe": int(np.sum(~labels & ~threshold_predictions)),
         "boundary": "Scale-specific diagnostic only; no calibrated or author-designated threshold is assumed.",
     }
+    boundary["zero_threshold_diagnostic"]["design_weighted_position_estimates"] = {
+        "true_unsafe_predicted_unsafe": float(np.sum(design_weights[labels & threshold_predictions])),
+        "true_unsafe_predicted_safe": float(np.sum(design_weights[labels & ~threshold_predictions])),
+        "true_safe_predicted_unsafe": float(np.sum(design_weights[~labels & threshold_predictions])),
+        "true_safe_predicted_safe": float(np.sum(design_weights[~labels & ~threshold_predictions])),
+    }
     category_names = sorted(
         {category for record in records for category in record["harm_categories"]}
     )
     unsafe_indices = np.array([not bool(record["is_safe"]) for record in records])
     unsafe_records = [record for record, keep in zip(records, unsafe_indices) if keep]
     unsafe_risks = risks[unsafe_indices]
+    unsafe_weights = design_weights[unsafe_indices]
     design = np.column_stack(
         [
             np.ones(len(unsafe_records)),
@@ -143,15 +178,20 @@ def main() -> None:
             ),
         ]
     )
-    coefficients, _, _, _ = np.linalg.lstsq(design, unsafe_risks, rcond=None)
+    square_root_weights = np.sqrt(unsafe_weights)
+    coefficients, _, _, _ = np.linalg.lstsq(
+        design * square_root_weights[:, None], unsafe_risks * square_root_weights, rcond=None
+    )
     severity_model = {
         "n_unsafe_positions": len(unsafe_records),
+        "design_weighted_unsafe_position_estimate": float(np.sum(unsafe_weights)),
         "risk_score_definition": direction,
         "severity_coefficient_adjusted_for_categories_and_log_character_length": float(
             coefficients[1]
         ),
         "category_order": category_names,
         "coefficient_vector": [float(value) for value in coefficients],
+        "estimation": "Inverse-probability-weighted least squares within the stratified pair sample.",
         "boundary": "Associational description; severity was not assumed to be a direct cost-loss target.",
     }
     category_distribution_rows = [

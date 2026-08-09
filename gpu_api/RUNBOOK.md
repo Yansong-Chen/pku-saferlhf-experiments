@@ -13,6 +13,8 @@ Run the work from the experiments repository:
     python3 gpu_api/scripts/preflight.py e5 --check-runtime
     python3 gpu_api/scripts/preflight.py e6 --check-runtime
     python3 gpu_api/scripts/preflight.py e7 --check-runtime
+    python3 gpu_api/scripts/make_primary_sample.py
+    python3 gpu_api/scripts/e6_make_sample.py
 
 For an API machine, create an isolated environment and install:
 
@@ -59,21 +61,23 @@ result.
 3. Inspect gpu_api/private_runs/e5/e5-pilot/run_manifest.json. Record the
    returned OpenAI model identifier, ShieldGemma resolved commit, token
    truncation rate, failed-record count, and batch settings. Freeze those
-   fields before the full run. Any parsing or request failure remains a
+   fields before the primary-sample run. Any parsing or request failure remains a
    failure record; it is never recoded as safe.
 
-4. Run the full population. Substitute the resolved ShieldGemma commit from
-   the pilot manifest.
+4. Run the common 4,000-pair primary sample (8,000 response positions).
+   Substitute the resolved ShieldGemma commit from the pilot manifest. The
+   runner retains inverse pair-inclusion-probability weights, and the
+   aggregator returns both raw sample facts and weighted population estimates.
 
-       python3 gpu_api/scripts/e5_run.py --site openai --phase full --run-id e5-full
-       python3 gpu_api/scripts/e5_run.py --site shieldgemma --phase full --run-id e5-full \
+       python3 gpu_api/scripts/e5_run.py --site openai --phase primary --run-id e5-primary
+       python3 gpu_api/scripts/e5_run.py --site shieldgemma --phase primary --run-id e5-primary \
            --shieldgemma-revision RESOLVED_HF_COMMIT
 
 5. Aggregate after coverage review:
 
        python3 gpu_api/scripts/e5_aggregate.py \
-           --private-run gpu_api/private_runs/e5/e5-full \
-           --aggregate-dir gpu_api/results/e5-full
+           --private-run gpu_api/private_runs/e5/e5-primary \
+           --aggregate-dir gpu_api/results/e5-primary
 
 The report first gives four policy-specific ShieldGemma tables, then the
 any-policy collapse. The collapse is evidence about a four-policy external
@@ -83,13 +87,14 @@ operationalisation; it cannot validate PKU's 19-category taxonomy.
 
 Question: how do the release's L1--L4 native distinctions co-occur with
 Buyl et al.'s 21-principle CCAI states? The committed manifest contains a
-seeded 4,200-pair stratified probability sample and no text. Its fixed
-allocation is L1=1,841, L2=877, L3=666, and L4=816.
+seeded, nested 1,200-pair stratified probability sample and no text. Its fixed
+allocation is 300 pairs in each L1--L4 stratum; every selected E6 pair is also
+in the shared E5/E7 sample.
 
-The full primary job has 4,200 pairs times 21 principles times two response
-orders: 176,400 judgements. The independent 10% repeat has 17,640 further
-judgements. Run the pilot before authorising this volume: it has 100 pairs and
-4,200 judgements, so it gives a real estimate of malformed outputs, token use,
+The primary job has 1,200 pairs times 21 principles times two response orders:
+50,400 judgements. The independent 10% repeat has 5,040 further judgements.
+Run the pilot before authorising this volume: it has 100 pairs and 4,200
+judgements, so it gives a real estimate of malformed outputs, token use,
 latency, and cost without altering the prompt or classification rule.
 
 1. Confirm the exact sample and pilot plan:
@@ -109,14 +114,14 @@ latency, and cost without altering the prompt or classification rule.
 
 4. Execute the primary and repeat jobs, resuming safely after interruption:
 
-       python3 gpu_api/scripts/e6_run.py --phase primary --run-id e6-full
-       python3 gpu_api/scripts/e6_run.py --phase repeat --run-id e6-full
+       python3 gpu_api/scripts/e6_run.py --phase primary --run-id e6-primary
+       python3 gpu_api/scripts/e6_run.py --phase repeat --run-id e6-primary
        python3 gpu_api/scripts/e6_aggregate.py \
-           --private-run gpu_api/private_runs/e6/e6-full \
-           --aggregate-dir gpu_api/results/e6-full --phase primary
+           --private-run gpu_api/private_runs/e6/e6-primary \
+           --aggregate-dir gpu_api/results/e6-primary --phase primary
        python3 gpu_api/scripts/e6_aggregate.py \
-           --private-run gpu_api/private_runs/e6/e6-full \
-           --aggregate-dir gpu_api/results/e6-full --phase repeat
+           --private-run gpu_api/private_runs/e6/e6-primary \
+           --aggregate-dir gpu_api/results/e6-primary --phase repeat
 
 The executor maps both orderings back to response identifiers. A reversed
 substantive direction is position-unstable. A substantive result in one order
@@ -148,17 +153,17 @@ evaluation. The runner uses the model-card conversation string:
 3. Record the resolved model commit and score direction. The pilot report
    gives AUROC under both possible orientations, yet deliberately makes no
    automatic choice. Choose higher_is_unsafe or lower_is_unsafe using the
-   author convention and pilot distribution; write the rationale in the full
+   author convention and pilot distribution; write the rationale in the primary
    run manifest.
 
-4. Run all 147,814 response positions, then aggregate:
+4. Run the shared 4,000-pair sample (8,000 response positions), then aggregate:
 
-       python3 gpu_api/scripts/e7_run.py --phase full --run-id e7-full \
+       python3 gpu_api/scripts/e7_run.py --phase primary --run-id e7-primary \
            --model-revision RESOLVED_HF_COMMIT \
            --score-direction higher_is_unsafe
        python3 gpu_api/scripts/e7_aggregate.py \
-           --private-run gpu_api/private_runs/e7/e7-full \
-           --aggregate-dir gpu_api/results/e7-full \
+           --private-run gpu_api/private_runs/e7/e7-primary \
+           --aggregate-dir gpu_api/results/e7-primary \
            --score-direction higher_is_unsafe \
            --bootstrap-replicates 2000
 

@@ -5,6 +5,12 @@
     "rows": 73907,
     "response_positions": 147814
   },
+  "primary_sample": {
+    "manifest": "primary_pair_sample_manifest.csv",
+    "pairs": 4000,
+    "response_positions": 8000,
+    "design": "shared stratified probability sample; inverse pair-inclusion-probability weights are retained for population summaries"
+  },
   "pilot": {
     "pairs": 500,
     "selection_seed": 20260811,

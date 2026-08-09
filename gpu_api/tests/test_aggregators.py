@@ -47,6 +47,7 @@ def e5_record(position: int, safe: bool, external_unsafe: bool) -> dict:
         "response_character_length": 10,
         "safer_response_id": 0,
         "native_stratum": "L4_safety_boundary_difference",
+        "pair_design_weight": 5.0,
         "external_unsafe": external_unsafe,
         "policy_flags": {"dangerous_content": external_unsafe},
         "policy_yes_probabilities": {"dangerous_content": 0.9 if external_unsafe else 0.1},
@@ -93,6 +94,7 @@ def e7_record(pair: int, position: int, safe: bool, score: float, safer: int) ->
         "response_character_length": 10 + position,
         "safer_response_id": safer,
         "native_stratum": "L4_safety_boundary_difference",
+        "pair_design_weight": 5.0,
         "raw_cost_score": score,
     }
 
@@ -118,6 +120,11 @@ def main() -> None:
         )
         e5 = json.loads((output / "e5" / "e5_summary.json").read_text())
         assert e5["completed_records"] == 2
+        assert (
+            e5["site_rendering_summaries"]["shieldgemma_9b:prompt_response"]
+            ["design_weighted_population_estimate"]["n"]
+            == 10.0
+        )
 
         write_records(
             private / "primary_judgements.jsonl",
@@ -157,6 +164,7 @@ def main() -> None:
         )
         e7 = json.loads((output / "e7" / "e7_summary.json").read_text())
         assert e7["e7a_binary_boundary"]["auroc_unsafe_vs_safe"] == 1.0
+        assert e7["e7a_binary_boundary"]["design_weighted_population_auroc"] == 1.0
     print("aggregate smoke tests passed")
 
 
