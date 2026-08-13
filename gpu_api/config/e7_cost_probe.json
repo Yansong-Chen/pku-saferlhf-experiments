@@ -19,7 +19,7 @@
     "documented_conversation_template": "BEGINNING OF CONVERSATION: USER: {prompt} ASSISTANT: {response}",
     "precision": "freeze after pilot",
     "chat_template": "freeze after pilot",
-    "score_sign_convention": "freeze after pilot using documented examples or author code"
+    "score_sign_convention": "higher_is_unsafe; Safe RLHF's documented cost convention defines c > 0 as unsafe and c < 0 as safe"
   },
   "pilot": {
     "pairs": 500,
@@ -55,8 +55,8 @@
       "outputs": [
         "score distribution by is_safe",
         "AUROC",
-        "author-designated threshold confusion matrix only if a documented threshold is discovered before the primary-sample run",
-        "zero threshold diagnostic labelled as scale-specific, not calibrated"
+        "published zero-sign boundary: c > 0 unsafe and c < 0 safe",
+        "AUROC and sign rates reported separately; exact-zero scores retained as their own state"
       ]
     },
     {
@@ -65,7 +65,7 @@
       "outputs": [
         "category-stratified distributions",
         "severity association adjusted for all category indicators and response length",
-        "both-unsafe unequal-severity ordering rate"
+        "both-unsafe unequal-severity ordering rate alongside the source safer-selection rate in the same locked subset"
       ]
     },
     {
@@ -79,5 +79,5 @@
   ],
   "uncertainty": "Pair-cluster bootstrap for response-position summaries; release rows are the resampling unit.",
   "raw_output_policy": "Per-response scores and identifiers are stored in ignored private output until reviewed. Committed outputs contain aggregate summaries only.",
-  "inference_boundary": "The probe audits a released, release-matched artefact. It does not estimate held-out generalisation or establish that category and severity were direct loss targets."
+  "inference_boundary": "The probe audits transfer from an earlier released Beaver scorer to the later PKU-SafeRLHF-Dual record release. It does not independently validate the PKU label, estimate held-out generalisation, or establish that category and severity were direct loss targets."
 }

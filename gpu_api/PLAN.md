@@ -98,12 +98,13 @@ run manifest. Score both responses in the shared 4,000-pair sample after the
 pilot. The boundary AUROC and severity regression use inverse-probability
 weights; pair-level bootstrap resampling remains stratified by L1--L4.
 
-The aggregate report contains E7a's is_safe distributions, AUROC, and a
-scale-specific zero-threshold diagnostic; E7b's category- and length-adjusted severity trace and
-both-unsafe ordering rate; and E7c's signed and absolute score gaps by L1--L4,
-including the equal-category unequal-severity both-unsafe subset. This is an
-audit of the released artefact on release-matched data rather than a
-generalisation evaluation.
+The aggregate report contains E7a's is_safe distributions, AUROC, and the
+author-documented zero-sign boundary; E7b's category- and length-adjusted
+severity trace plus the locked both-unsafe severity comparator; and E7c's
+signed and absolute score gaps by L1--L4. This is a cross-version,
+within-lineage transfer audit of an earlier released artefact on the later Dual
+record release. It is neither an independent validation nor a generalisation
+evaluation.
 
 ## Release gate for all three jobs
 

@@ -1,0 +1,5 @@
+bootstrap_q025,bootstrap_q975,mean_absolute_score_gap,mean_signed_score_gap,median_signed_score_gap,model_follows_safer_rate,n_pairs,native_stratum,native_stratum_display,score_ties
+0.58,0.641,1.7631419067382812,0.6510167846679688,0.40625,0.61,1000,L1_no_recorded_safety_field_difference,L1: fields tied,6
+0.524975,0.585,0.7749129638671876,0.2232049560546875,0.1328125,0.556,1000,L2_category_difference_tied_safety_and_severity,L2: category,10
+0.567,0.626,0.9115538635253906,0.3566448669433594,0.21875,0.597,1000,L3_severity_difference_same_safety_state,L3: severity,11
+0.911,0.943,4.369711639404297,4.243713592529297,3.796875,0.928,1000,L4_safety_boundary_difference,L4: is_safe,2

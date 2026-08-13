@@ -153,9 +153,10 @@ release-record direction check, distinct from a validation of the safety label.
 
 ## E7: released Beaver cost-model probe
 
-Question: which release distinctions are observable in a released,
-release-matched cost artefact? This is not a held-out generalisation
-evaluation. The runner uses the model-card conversation string:
+Question: which later-release distinctions are observable in an earlier,
+within-lineage released cost artefact? This cross-version transfer audit is not
+an independent validation or a held-out generalisation evaluation. The runner
+uses the model-card conversation string:
 
     BEGINNING OF CONVERSATION: USER: {prompt} ASSISTANT: {response}
 
@@ -187,8 +188,8 @@ evaluation. The runner uses the model-card conversation string:
            --score-direction higher_is_unsafe \
            --bootstrap-replicates 2000
 
-E7a reports unsafe-versus-safe AUROC and a clearly labelled zero-threshold
-diagnostic. E7b fits the category- and length-adjusted severity association
+E7a reports unsafe-versus-safe AUROC and the Safe RLHF authors' documented
+zero-sign boundary. E7b fits the category- and length-adjusted severity association
 among released-unsafe responses and reports the same-category,
 unequal-severity ordering rate. E7c reports signed gaps by L1--L4, where a
 positive value means greater risk for the response the dataset calls less

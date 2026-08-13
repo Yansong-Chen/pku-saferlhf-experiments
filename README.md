@@ -22,7 +22,7 @@ The dissertation's headline claims have direct evidence anchors:
 | Categories and severity remain available to moderation, while alignment objectives receive a binary boundary and relative order | Audit I taxonomy description plus Audit II field routing | Field routing does not prove a neural model cannot recover correlated text features |
 | The released safety boundary has a specified relation to outside operationalisations | Audit III | Neither external operationalisation is safety ground truth |
 | PKU's native distinctions have a describable relation to Buyl et al.'s CCAI system | Audit IV | It is a cross-system sensitivity analysis, not a truth test or exact reproduction |
-| The released cost model expresses some subset of the available distinctions | Audit II artefact probe | Evaluation is release-matched, not held-out generalisation |
+| An earlier released cost model carries some subset of the later release's distinctions | Audit II transfer probe | Cross-version, within-lineage evidence; neither independent validation nor held-out generalisation |
 
 ## Reproducibility rules
 
@@ -47,5 +47,6 @@ run completed all 8,000 response positions at model revision
 `higher_is_unsafe`. Its authoritative summary reports a design-weighted
 unsafe-versus-safe AUROC of 0.9582 (2,000-bootstrap interval 0.9517--0.9645),
 a severity coefficient of 0.4550 after the specified controls, and a 0.5900
-same-category both-unsafe lower-severity ordering rate. See the directory
+same-category both-unsafe lower-severity ordering rate, compared with 0.6846
+for the release's own `safer` selection in that locked subset. See the directory
 README for the output inventory and the private-run aggregation command.

@@ -12,7 +12,7 @@ It is a design record, not a result claim.
 | The native fields reflect one documented measurement record and response process | Schema support, identity exceptions, annotation-card documentation | Retain E1 | Co-recorded associations are recording-architecture evidence, not independent convergence |
 | Moderation and alignment retain different distinctions | Field-to-branch and loss trace | Retain E4 | A missing direct loss term does not show a neural model cannot recover correlated text features |
 | The released safety boundary has a stated relation to outside safety readings | An operationalisation independent of the annotation card | Retain E5; ShieldGemma is primary, OpenAI moderation is robustness | Neither external site supplies ground truth; lineage differences cannot identify GPT-4 anchoring |
-| The released cost artefact visibly retains or collapses native distinctions | Release-matched cost-model scores | Retain E7 | This is an artefact audit, not a causal policy or held-out-generalisation study |
+| An earlier released cost artefact visibly retains or collapses later native distinctions | Cross-version, within-lineage cost-model scores | Retain E7 | This is a transfer audit, not independent validation, a causal policy study, or held-out generalisation |
 | PKU native distinctions can be placed beside an explicit principle system | New stratified mapping to Buyl's CCAI states | Retain E6 as a horizontal comparison | CCAI is neither a safety truth label nor an arbitrariness estimate |
 
 ## Decisions made after reading the chapters

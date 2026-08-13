@@ -1,12 +1,20 @@
 {
-  "bootstrap": {
+  "analysis_scope": "Cross-version, within-lineage transfer audit: a 2023 released Beaver scorer evaluated on the later PKU-SafeRLHF-Dual v1 record release. It is neither an independent external validation nor a held-out model-generalisation evaluation.",
+  "bootstrap_pair_auroc": {
     "auc_q025": 0.9517456587462791,
     "auc_q975": 0.9645343750985804,
     "repetitions": 2000
   },
-  "created_at_utc": "2026-08-12T16:55:19.159763+00:00",
+  "bootstrap_protocol": {
+    "pair_auroc": "Resample complete response pairs within each planned L1--L4 stratum.",
+    "repetitions": 2000,
+    "seed": 20260813,
+    "within_stratum_rates": "Resample complete pairs within the named fixed stratum. The equal probability allocation makes unweighted and design-weighted rates identical within each stratum."
+  },
+  "created_at_utc": "2026-08-13T22:32:36.971831+00:00",
   "e7a_binary_boundary": {
     "auroc_unsafe_vs_safe": 0.9486928261354964,
+    "author_designated_decision_rule": "Safe RLHF defines c > 0 as unsafe and c < 0 as safe; this audit retains that published sign convention.",
     "design_weighted_population_auroc": 0.9581563439606164,
     "design_weighted_response_position_estimate": 147814.0,
     "risk_score_definition": "higher_is_unsafe",
@@ -25,23 +33,24 @@
       "q25": 2.71875,
       "q75": 4.0625
     },
-    "zero_threshold_diagnostic": {
-      "boundary": "Scale-specific diagnostic only; no calibrated or author-designated threshold is assumed.",
+    "zero_sign_diagnostic": {
       "design_weighted_position_estimates": {
-        "true_safe_predicted_safe": 53207.42299999999,
-        "true_safe_predicted_unsafe": 18862.727,
-        "true_unsafe_predicted_safe": 1242.3630000000003,
-        "true_unsafe_predicted_unsafe": 74501.487
+        "released_safe_with_negative_score": 53207.42299999999,
+        "released_safe_with_positive_score": 18862.727,
+        "released_unsafe_with_negative_score": 1242.3630000000003,
+        "released_unsafe_with_positive_score": 74501.487
       },
-      "true_safe_predicted_safe": 1651,
-      "true_safe_predicted_unsafe": 731,
-      "true_unsafe_predicted_safe": 100,
-      "true_unsafe_predicted_unsafe": 5518
+      "exactly_zero": 0,
+      "released_safe_negative_score_rate": 0.6931150293870697,
+      "released_safe_with_negative_score": 1651,
+      "released_safe_with_positive_score": 731,
+      "released_unsafe_positive_score_rate": 0.9822000711997152,
+      "released_unsafe_with_negative_score": 100,
+      "released_unsafe_with_positive_score": 5518
     }
   },
   "e7b_severity_trace": {
-    "both_unsafe_same_category_unequal_severity_pairs": 539,
-    "boundary": "Associational description; severity was not assumed to be a direct cost-loss target.",
+    "boundary": "Associational description; severity was not a direct cost-loss target in the documented objective.",
     "category_order": [
       "Animal Abuse",
       "Copyright Issues",
@@ -64,72 +73,211 @@
       "White-Collar Crime"
     ],
     "coefficient_vector": [
-      5.36936621480305,
-      0.455009519897977,
-      0.40650887948815173,
-      0.4695893332436773,
-      0.4203463315794873,
-      0.45537880915500606,
-      0.2988608195325564,
-      0.417951388047318,
-      0.48964000050666123,
-      -0.09893033010666244,
-      0.15746474419300005,
-      0.1812812302306812,
-      0.18873658207385813,
-      0.4581886564885221,
-      0.3728662286801095,
-      0.6228871282564186,
-      0.24146996312565067,
-      0.16765504093235323,
-      0.16041685831646965,
-      0.5994198154457206,
-      0.5418207527968437,
-      -0.5981411498223657
+      5.369366214802884,
+      0.45500951989796495,
+      0.4065088794881806,
+      0.46958933324369406,
+      0.4203463315795054,
+      0.45537880915500595,
+      0.2988608195325729,
+      0.4179513880473307,
+      0.489640000506639,
+      -0.09893033010664681,
+      0.15746474419301185,
+      0.1812812302306935,
+      0.18873658207387103,
+      0.45818865648853246,
+      0.37286622868012953,
+      0.6228871282564321,
+      0.2414699631256572,
+      0.16765504093235695,
+      0.16041685831647612,
+      0.59941981544573,
+      0.5418207527968836,
+      -0.5981411498223806
     ],
     "design_weighted_unsafe_position_estimate": 75743.85,
-    "estimation": "Inverse-probability-weighted least squares within the stratified pair sample.",
+    "estimation": "Inverse-probability-weighted least squares with pair-cluster sandwich uncertainty.",
     "n_unsafe_positions": 5618,
+    "pair_clusters": 3309,
     "risk_score_definition": "higher_is_unsafe",
-    "severity_coefficient_adjusted_for_categories_and_log_character_length": 0.455009519897977,
-    "share_lower_severity_receives_lower_risk": 0.5899814471243042
+    "severity_coefficient_adjusted_for_categories_and_log_character_length": 0.45500951989796495,
+    "severity_coefficient_normal_95_interval": [
+      0.36369773985663045,
+      0.5463212999392995
+    ],
+    "severity_coefficient_pair_cluster_robust_standard_error": 0.046587642878231895,
+    "strict_pair_comparator": {
+      "both_unsafe_same_category_unequal_severity_pairs": 539,
+      "comparison": "Within a locked double-unsafe, same-category, unequal-severity subset, compare the release's safer selection with the score ordering of the lower-severity response.",
+      "model": {
+        "bootstrap_q025": 0.5473098330241187,
+        "bootstrap_q975": 0.6326530612244898,
+        "point_estimate": 0.5899814471243042
+      },
+      "model_minus_source": {
+        "bootstrap_q025": -0.14656771799628943,
+        "bootstrap_q975": -0.04081632653061229,
+        "point_estimate": -0.09461966604823757
+      },
+      "score_ties": 9,
+      "source": {
+        "bootstrap_q025": 0.647495361781076,
+        "bootstrap_q975": 0.7235621521335807,
+        "point_estimate": 0.6846011131725418
+      }
+    }
   },
-  "e7c_gap_by_stratum": [
+  "e7c_pair_ordering": [
     {
-      "mean": 0.6510167846679688,
-      "median": 0.40625,
-      "n": 1000,
+      "absolute_score_gap": {
+        "mean": 1.7631419067382812,
+        "median": 1.26171875,
+        "n": 1000,
+        "q25": 0.484375,
+        "q75": 2.509765625
+      },
+      "model_follows_safer": {
+        "bootstrap_q025": 0.58,
+        "bootstrap_q975": 0.641,
+        "point_estimate": 0.61
+      },
       "native_stratum": "L1_no_recorded_safety_field_difference",
-      "q25": -0.626953125,
-      "q75": 1.875
+      "native_stratum_display": "L1: fields tied",
+      "score_gap": {
+        "mean": 0.6510167846679688,
+        "median": 0.40625,
+        "n": 1000,
+        "q25": -0.626953125,
+        "q75": 1.875
+      },
+      "score_ties": 6
     },
     {
-      "mean": 0.2232049560546875,
-      "median": 0.1328125,
-      "n": 1000,
+      "absolute_score_gap": {
+        "mean": 0.7749129638671876,
+        "median": 0.5625,
+        "n": 1000,
+        "q25": 0.28125,
+        "q75": 1.046875
+      },
+      "model_follows_safer": {
+        "bootstrap_q025": 0.524975,
+        "bootstrap_q975": 0.585,
+        "point_estimate": 0.556
+      },
       "native_stratum": "L2_category_difference_tied_safety_and_severity",
-      "q25": -0.40625,
-      "q75": 0.75
+      "native_stratum_display": "L2: category",
+      "score_gap": {
+        "mean": 0.2232049560546875,
+        "median": 0.1328125,
+        "n": 1000,
+        "q25": -0.40625,
+        "q75": 0.75
+      },
+      "score_ties": 10
     },
     {
-      "mean": 0.3566448669433594,
-      "median": 0.21875,
-      "n": 1000,
+      "absolute_score_gap": {
+        "mean": 0.9115538635253906,
+        "median": 0.640625,
+        "n": 1000,
+        "q25": 0.28125,
+        "q75": 1.21875
+      },
+      "model_follows_safer": {
+        "bootstrap_q025": 0.567,
+        "bootstrap_q975": 0.626,
+        "point_estimate": 0.597
+      },
       "native_stratum": "L3_severity_difference_same_safety_state",
-      "q25": -0.36328125,
-      "q75": 0.947265625
+      "native_stratum_display": "L3: severity",
+      "score_gap": {
+        "mean": 0.3566448669433594,
+        "median": 0.21875,
+        "n": 1000,
+        "q25": -0.36328125,
+        "q75": 0.947265625
+      },
+      "score_ties": 11
     },
     {
-      "mean": 4.243713592529297,
-      "median": 3.796875,
-      "n": 1000,
+      "absolute_score_gap": {
+        "mean": 4.369711639404297,
+        "median": 3.84765625,
+        "n": 1000,
+        "q25": 1.578125,
+        "q75": 6.6279296875
+      },
+      "model_follows_safer": {
+        "bootstrap_q025": 0.911,
+        "bootstrap_q975": 0.943,
+        "point_estimate": 0.928
+      },
       "native_stratum": "L4_safety_boundary_difference",
-      "q25": 1.50244140625,
-      "q75": 6.6279296875
+      "native_stratum_display": "L4: is_safe",
+      "score_gap": {
+        "mean": 4.243713592529297,
+        "median": 3.796875,
+        "n": 1000,
+        "q25": 1.50244140625,
+        "q75": 6.6279296875
+      },
+      "score_ties": 2
+    }
+  ],
+  "e7c_pair_state_summary": [
+    {
+      "absolute_score_gap": {
+        "mean": 2.1931054298853563,
+        "median": 1.796875,
+        "n": 691,
+        "q25": 0.8203125,
+        "q75": 3.14453125
+      },
+      "model_follows_safer": {
+        "bootstrap_q025": 0.5643632416787264,
+        "bootstrap_q975": 0.6396526772793053,
+        "point_estimate": 0.6034732272069464
+      },
+      "n_pairs": 691,
+      "pair_state": "both_safe"
+    },
+    {
+      "absolute_score_gap": {
+        "mean": 0.8376669043222512,
+        "median": 0.59375,
+        "n": 2309,
+        "q25": 0.265625,
+        "q75": 1.125
+      },
+      "model_follows_safer": {
+        "bootstrap_q025": 0.563014291901256,
+        "bootstrap_q975": 0.6032914681680381,
+        "point_estimate": 0.5829363360762235
+      },
+      "n_pairs": 2309,
+      "pair_state": "both_unsafe"
+    },
+    {
+      "absolute_score_gap": {
+        "mean": 4.369711639404297,
+        "median": 3.84765625,
+        "n": 1000,
+        "q25": 1.578125,
+        "q75": 6.6279296875
+      },
+      "model_follows_safer": {
+        "bootstrap_q025": 0.912,
+        "bootstrap_q975": 0.944,
+        "point_estimate": 0.928
+      },
+      "n_pairs": 1000,
+      "pair_state": "safety_boundary"
     }
   ],
   "failed_response_positions": 0,
-  "result_schema": "pku-saferlhf.e7-aggregate.v1",
+  "result_schema": "pku-saferlhf.e7-aggregate.v2",
   "score_direction": "higher_is_unsafe",
   "successful_response_positions": 8000
 }
