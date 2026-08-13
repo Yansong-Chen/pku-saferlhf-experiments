@@ -37,10 +37,11 @@ Transformers stack.
 
 ## E5: external safety-boundary relation
 
-Question: how does PKU's released binary state relate to two external
-operationalisations? ShieldGemma 9B is primary because it is non-GPT and emits
-one probability for each of four policies. OpenAI moderation is a robustness
-site. Neither produces safety truth.
+Question: how does PKU's released binary state relate to a pre-specified
+external safety adjudication? The primary site is DeepSeek V4 Flash through its
+JSON-mode chat API. It evaluates a frozen safe/unsafe rubric that was not
+produced on the PKU annotation card. Its result is an external LLM judgement,
+not safety truth or an independently collected human label.
 
 The primary input contains prompt and response. The response-only run is a
 sensitivity analysis and uses the model card's prompt-only guidelines, so it
@@ -52,26 +53,24 @@ result.
        python3 gpu_api/scripts/e5_run.py --site all --phase pilot --run-id e5-pilot --dry-run
 
 2. Run the fixed 500-pair pilot. It covers 1,000 response positions per
-   rendering and per site. The threshold is already fixed at a ShieldGemma
-   Yes-token probability of 0.5; the pilot never tunes it.
+   rendering. The safe/unsafe rubric, JSON contract, temperature, disabled
+   thinking mode, and 32-token completion limit are already fixed; the pilot
+   never changes them.
 
-       python3 gpu_api/scripts/e5_run.py --site openai --phase pilot --run-id e5-pilot
-       python3 gpu_api/scripts/e5_run.py --site shieldgemma --phase pilot --run-id e5-pilot
+       python3 gpu_api/scripts/e5_run.py --site deepseek --phase pilot --run-id e5-pilot
 
 3. Inspect gpu_api/private_runs/e5/e5-pilot/run_manifest.json. Record the
-   returned OpenAI model identifier, ShieldGemma resolved commit, token
-   truncation rate, failed-record count, and batch settings. Freeze those
-   fields before the primary-sample run. Any parsing or request failure remains a
-   failure record; it is never recoded as safe.
+   returned DeepSeek model identifier, failed-record count, worker count,
+   completion diagnostics, and retry settings. Freeze those fields before the
+   primary-sample run. Any parsing or request failure remains a failure record;
+   it is never recoded as safe.
 
-4. Run the common 4,000-pair primary sample (8,000 response positions).
-   Substitute the resolved ShieldGemma commit from the pilot manifest. The
-   runner retains inverse pair-inclusion-probability weights, and the
-   aggregator returns both raw sample facts and weighted population estimates.
+4. Run the common 4,000-pair primary sample (8,000 response positions) in its
+   context-preserving and response-only renderings. The runner retains inverse
+   pair-inclusion-probability weights, and the aggregator returns both raw
+   sample facts and weighted population estimates.
 
-       python3 gpu_api/scripts/e5_run.py --site openai --phase primary --run-id e5-primary
-       python3 gpu_api/scripts/e5_run.py --site shieldgemma --phase primary --run-id e5-primary \
-           --shieldgemma-revision RESOLVED_HF_COMMIT
+       python3 gpu_api/scripts/e5_run.py --site deepseek --phase primary --run-id e5-primary
 
 5. Aggregate after coverage review:
 
@@ -79,21 +78,21 @@ result.
            --private-run gpu_api/private_runs/e5/e5-primary \
            --aggregate-dir gpu_api/results/e5-primary
 
-The report first gives four policy-specific ShieldGemma tables, then the
-any-policy collapse. The collapse is evidence about a four-policy external
-operationalisation; it cannot validate PKU's 19-category taxonomy.
+The report gives a binary relation to the frozen DeepSeek safety rubric. It
+does not validate PKU's 19-category taxonomy. ShieldGemma and OpenAI moderation
+can be run later as separately labelled secondary operationalisations.
 
 ## E6: CCAI reference-system comparison
 
 Question: how do the release's L1--L4 native distinctions co-occur with
 Buyl et al.'s 21-principle CCAI states? The committed manifest contains a
-seeded, nested 1,200-pair stratified probability sample and no text. Its fixed
-allocation is 300 pairs in each L1--L4 stratum; every selected E6 pair is also
+seeded, nested 200-pair stratified probability sample and no text. Its fixed
+allocation is 50 pairs in each L1--L4 stratum; every selected E6 pair is also
 in the shared E5/E7 sample.
 
-The primary job has 1,200 pairs times 21 principles times two response orders:
-50,400 judgements. The independent 10% repeat has 5,040 further judgements.
-Run the pilot before authorising this volume: it has 100 pairs and 4,200
+The primary job has 200 pairs times 21 principles times two response orders:
+8,400 judgements. The independent 10% repeat has 840 further judgements.
+Run the pilot before authorising this volume: it has 50 pairs and 2,100
 judgements, so it gives a real estimate of malformed outputs, token use,
 latency, and cost without altering the prompt or classification rule.
 
@@ -109,8 +108,22 @@ latency, and cost without altering the prompt or classification rule.
            --aggregate-dir gpu_api/results/e6-pilot --phase pilot
 
 3. Freeze the returned model identifier, API date, worker count, retry rule,
-   malformed-output rate, token-use total, and any run deviation. Do not edit
-   the 21 principles, prompt, output parser, or sample after this point.
+malformed-output rate, token-use total, and any run deviation. Do not edit
+the 21 principles, prompt, output parser, or sample after this point.
+
+E6 uses DeepSeek JSON mode rather than a bare-text label. The request sets
+`response_format={"type":"json_object"}` and the system instruction requires
+exactly one object with the key `label`, whose value is `A`, `B`, or `No
+preference`. It also disables DeepSeek thinking mode, so the completion budget
+is available to the JSON response; the completion limit is 32 tokens to allow
+the object to complete. The parser accepts only that one-field object. This is a
+DeepSeek-specific output protocol, so the audit retains Buyl et al.'s 21
+principles and pairwise user prompt without claiming an exact reproduction of
+their GPT-4o elicitation. Any other response remains an
+`UnparseableModelOutput` after the configured retries. It is recorded as a
+failed request, excluded from orientation reconciliation, and never recoded as
+`No preference`. A saved failure is terminal for that run ID; begin a new,
+separately documented run if it is to be attempted again.
 
 4. Execute the primary and repeat jobs, resuming safely after interruption:
 
@@ -118,10 +131,14 @@ latency, and cost without altering the prompt or classification rule.
        python3 gpu_api/scripts/e6_run.py --phase repeat --run-id e6-primary
        python3 gpu_api/scripts/e6_aggregate.py \
            --private-run gpu_api/private_runs/e6/e6-primary \
-           --aggregate-dir gpu_api/results/e6-primary --phase primary
+           --aggregate-dir gpu_api/results/e6-primary --phase primary \
+           --bootstrap-replicates 10000 \
+           --bootstrap-seed 20260811 \
+           --sample-manifest gpu_api/config/e6_sample_manifest.csv
        python3 gpu_api/scripts/e6_aggregate.py \
            --private-run gpu_api/private_runs/e6/e6-primary \
-           --aggregate-dir gpu_api/results/e6-primary --phase repeat
+           --aggregate-dir gpu_api/results/e6-primary --phase repeat \
+           --sample-manifest gpu_api/config/e6_sample_manifest.csv
 
 The executor maps both orderings back to response identifiers. A reversed
 substantive direction is position-unstable. A substantive result in one order
@@ -130,6 +147,9 @@ separately and excluded from the primary state table. Remaining principle
 votes produce indifference, consensus, or conflict. The weighted L1--L4 table
 is the contribution; Buyl et al.'s published overall percentages are
 contextual reference only.
+The aggregate also records whether the released `safer_response_id`
+selected the released-safe response in the analysed L4 pairs. This is a
+release-record direction check, distinct from a validation of the safety label.
 
 ## E7: released Beaver cost-model probe
 

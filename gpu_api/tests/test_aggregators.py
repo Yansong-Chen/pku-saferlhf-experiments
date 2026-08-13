@@ -125,6 +125,12 @@ def main() -> None:
             ["design_weighted_population_estimate"]["n"]
             == 10.0
         )
+        e5b = e5["site_rendering_summaries"]["shieldgemma_9b:prompt_response"][
+            "e5b_safer_selection"
+        ]
+        assert e5b["complete_pairs"] == 1
+        assert e5b["externally_discriminated_pairs"] == 1
+        assert e5b["safer_selects_external_safe_pairs"] == 1
 
         write_records(
             private / "primary_judgements.jsonl",
@@ -141,6 +147,12 @@ def main() -> None:
         )
         e6 = json.loads((output / "e6" / "e6_primary_summary.json").read_text())
         assert e6["pair_principle_orientation_counts"]["stable_substantive"] == 1
+        assert e6["bootstrap_sampling_uncertainty"]["replicates"] == 10_000
+        assert (
+            e6["bootstrap_sampling_uncertainty"]["stratum_state_shares"]
+            ["L4_safety_boundary_difference|consensus"]["estimate"]
+            == 1.0
+        )
 
         write_records(
             private / "full_scores.jsonl",

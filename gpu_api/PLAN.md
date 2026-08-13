@@ -8,8 +8,8 @@ gpu_api/RUNBOOK.md.
 
 | Audit | Direct question | Fixed population | Required resource | Primary output |
 |---|---|---:|---|---|
-| E5 | Does PKU's absolute boundary correspond with external operationalisations? | 4,000 stratified pairs (8,000 positions) | ShieldGemma GPU and OpenAI moderation API | weighted site-specific agreement and three-way tables |
-| E6 | How do PKU native distinctions co-occur with Buyl's CCAI states? | nested 1,200-pair stratified sample | GPT-4o API | weighted native-stratum by CCAI-state table |
+| E5 | Does PKU's absolute boundary correspond with an external safety adjudication? | 4,000 stratified pairs (8,000 positions) | DeepSeek JSON-mode API | weighted site-specific agreement and three-way tables |
+| E6 | How do PKU native distinctions co-occur with Buyl's CCAI states? | nested 200-pair stratified sample | DeepSeek JSON-mode API | weighted native-stratum by CCAI-state table |
 | E7 | Which release distinctions does the published cost model express? | 4,000 stratified pairs (8,000 positions) | local GPU | weighted boundary, severity, and gap diagnostics |
 
 ## Fixed sequencing
@@ -34,28 +34,26 @@ The pilot comprises 500 seeded pairs, hence 1,000 response positions per
 rendering. The primary rendering includes the user request and assistant
 response; response-only scoring is a separate sensitivity run. The primary
 analysis uses the common 4,000-pair sample, which contains 1,000 independently
-sampled pairs from each L1--L4 stratum. ShieldGemma therefore makes 64,000
-policy decisions across its two renderings. The OpenAI site retains the
-returned flagged state and category output for the same 8,000 positions per
-rendering. The report includes raw sample counts beside inverse-probability
+sampled pairs from each L1--L4 stratum. DeepSeek therefore makes 8,000 binary
+adjudications in each rendering, or 16,000 across the primary and sensitivity
+renderings. The report includes raw sample counts beside inverse-probability
 weighted population estimates, site-specific two-by-two tables against PKU
 is_safe, proportional agreement, Cohen's kappa, directional conditional
 agreement with PKU named as reference, and three-way tables stratified by
-L1--L4, category set, and severity. The four ShieldGemma policy outputs must
-be reported before any-violation collapse: their taxonomy has narrower coverage
-than PKU's 19 released harm categories. The collapsed result concerns this
-four-policy external operationalisation, rather than complete validation of the
-PKU taxonomy.
+L1--L4, category set, and severity. The fixed DeepSeek rubric supplies only a
+binary state. It is an external operationalisation of a safety boundary, rather
+than a test of the full 19-category PKU taxonomy.
 
-Start ShieldGemma on a GPU with enough memory for 9B inference in the frozen
-precision; a 24 GB device is the recommended first-run target. The model-card
-licence acceptance and HF token stay outside this repository. The OpenAI API
-credential also remains outside the repository. Neither classifier supplies a
-safety truth label.
+DeepSeek uses JSON mode, temperature zero, disabled thinking mode, and the
+frozen safe/unsafe rubric in
+\texttt{e5\_external\_boundary.json}. The configured credential and base URL
+remain outside the repository. Its labels are external LLM judgements, not
+safety truth labels or independent human annotations. ShieldGemma and OpenAI
+moderation remain optional secondary sites rather than execution prerequisites.
 
 ## E6: CCAI reference-system comparison
 
-The text-free shared 4,000-pair manifest and nested 1,200-pair E6 manifest are
+The text-free shared 4,000-pair manifest and nested 200-pair E6 manifest are
 fixed by:
 
     python3 gpu_api/scripts/e6_make_sample.py
@@ -68,8 +66,8 @@ The shared manifest is first created with:
 The manifests record source coordinates, hashes, strata, inclusion
 probabilities, and weights. The API runner must re-read each selected raw row
 from the pinned release rather than copy text into version control. The primary
-job contains 1,200 times 21 principles times two response orders, or 50,400
-judgements. The 10 percent repeat batch adds 5,040 judgements, for 55,440
+job contains 200 times 21 principles times two response orders, or 8,400
+judgements. The 10 percent repeat batch adds 840 judgements, for 9,240
 planned judgements after the pilot. Temperature is zero; the execution-time model
 snapshot, API date, retry policy, and malformed-output policy are committed
 before submission.

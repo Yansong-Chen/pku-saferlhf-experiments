@@ -26,6 +26,7 @@ from pathlib import Path
 from common import (
     CONFIG_DIR,
     ProtocolError,
+    acquire_run_lock,
     append_jsonl,
     base_run_manifest,
     environment_present,
@@ -45,17 +46,32 @@ SCRIPT = Path(__file__).resolve()
 CONFIG_PATH = CONFIG_DIR / "e6_ccai.json"
 SAMPLE_PATH = CONFIG_DIR / "e6_sample_manifest.csv"
 THREAD_LOCAL = threading.local()
+PARSER_POLICY = "deepseek_json_object_label_v1"
+
+
+class UnparseableModelOutput(ValueError):
+    """The model returned text outside the frozen three-label interface."""
 
 
 def parse_label(content: str | None) -> str | None:
     if content is None:
         return None
-    normalized = content.strip().strip('"').strip("'").strip().lower()
-    if normalized == "a":
+    # E6 uses DeepSeek JSON mode.  Only the configured label field is read;
+    # the parser never infers a preference from explanatory prose.
+    try:
+        payload = json.loads(content)
+    except json.JSONDecodeError:
+        return None
+    if not isinstance(payload, dict) or set(payload) != {"label"}:
+        return None
+    label = payload["label"]
+    if not isinstance(label, str):
+        return None
+    if label == "A":
         return "A"
-    if normalized == "b":
+    if label == "B":
         return "B"
-    if normalized in {"no preference", "no-preference", "nopreference"}:
+    if label == "No preference":
         return "No preference"
     return None
 
@@ -131,33 +147,46 @@ def prompt_for(task: dict, config: dict) -> str:
 
 def call(task: dict, config: dict) -> dict:
     oracle = config["oracle"]
+    structured_output = oracle["structured_output"]
     attempts = int(config["runtime"]["max_retries"])
     delay = float(config["runtime"]["retry_base_seconds"])
     last_error: Exception | None = None
+    last_output_diagnostic: dict[str, int | str | None] | None = None
     for attempt in range(attempts):
         try:
             result = client().chat.completions.create(
                 model=oracle["model"],
                 temperature=oracle["temperature"],
+                extra_body={"thinking": oracle["thinking"]},
                 max_tokens=oracle["max_tokens"],
+                response_format=structured_output["response_format"],
                 messages=[
                     {
                         "role": "system",
-                        "content": "Return exactly one of: A, B, or No preference.",
+                        "content": structured_output["system_instruction"],
                     },
                     {"role": "user", "content": prompt_for(task, config)},
                 ],
             )
-            content = result.choices[0].message.content
+            choice = result.choices[0]
+            content = choice.message.content
+            output_diagnostic = {
+                "finish_reason": getattr(choice, "finish_reason", None),
+                "completion_characters": len(content or ""),
+                "parser_policy": PARSER_POLICY,
+            }
             label = parse_label(content)
             if label is None:
-                raise ValueError("UnparseableModelOutput")
+                last_output_diagnostic = output_diagnostic
+                raise UnparseableModelOutput()
             usage = getattr(result, "usage", None)
             return {
                 "status": "ok",
                 "returned_model": getattr(result, "model", oracle["model"]),
                 "api_request_id": getattr(result, "id", None),
                 "label": label,
+                "attempts_made": attempt + 1,
+                **output_diagnostic,
                 "usage": {
                     "prompt_tokens": getattr(usage, "prompt_tokens", None),
                     "completion_tokens": getattr(usage, "completion_tokens", None),
@@ -169,7 +198,15 @@ def call(task: dict, config: dict) -> dict:
             if attempt + 1 < attempts:
                 time.sleep(delay * (2**attempt))
     assert last_error is not None
-    return {"status": "failed", "error_type": type(last_error).__name__}
+    outcome = {
+        "status": "failed",
+        "error_type": type(last_error).__name__,
+        "attempts_made": attempts,
+        "parser_policy": PARSER_POLICY,
+    }
+    if isinstance(last_error, UnparseableModelOutput) and last_output_diagnostic is not None:
+        outcome.update({f"last_{key}": value for key, value in last_output_diagnostic.items()})
+    return outcome
 
 
 def result_record(task: dict, outcome: dict) -> dict:
@@ -217,6 +254,9 @@ def main() -> None:
     if arguments.limit is not None:
         tasks = tasks[: arguments.limit]
     run_dir = run_directory("e6", arguments.run_id)
+    # Keep the handle alive for the lifetime of this process. The operating
+    # system releases the advisory lock on normal exit or interruption.
+    run_lock = acquire_run_lock(run_dir)
     output_path = run_dir / f"{arguments.phase}_judgements.jsonl"
     completed = existing_ids(output_path)
     todo = [task for task in tasks if task["request_id"] not in completed]
@@ -233,7 +273,11 @@ def main() -> None:
             "dry_run": arguments.dry_run,
         }
     )
-    write_json(run_dir / "run_manifest.json", metadata)
+    # A primary run and its repeat share one private directory. Preserve a
+    # phase-specific manifest for each so the repeat cannot overwrite the
+    # completed primary-run provenance record.
+    manifest_path = run_dir / f"{arguments.phase}_run_manifest.json"
+    write_json(manifest_path, metadata)
     if arguments.dry_run:
         print(json.dumps(metadata, indent=2, sort_keys=True))
         return
@@ -260,7 +304,7 @@ def main() -> None:
     metadata["new_completed_judgements"] = completed_count
     metadata["new_failed_judgements"] = failed_count
     metadata["returned_models"] = sorted(returned_models)
-    write_json(run_dir / "run_manifest.json", metadata)
+    write_json(manifest_path, metadata)
     print(json.dumps(metadata, indent=2, sort_keys=True))
 
 

@@ -13,8 +13,8 @@
   },
   "artefact": {
     "model_id": "PKU-Alignment/beaver-7b-v2.0-cost",
-    "candidate_revision": "a0a307f1e0958034f169055cbda851c5251830e2",
-    "revision": "verify candidate revision at retrieval and freeze the resolved commit before pilot",
+    "candidate_revision": "26bf7161f09fee958ae64c8b4bb70fb420f7ba39",
+    "revision": "Hugging Face model-repository main commit verified 2026-08-12; freeze this resolved commit for pilot and primary",
     "scoring_implementation": "Use the model-card safe_rlhf AutoModelForScore scorer and record any adapter test against its documented sign convention.",
     "documented_conversation_template": "BEGINNING OF CONVERSATION: USER: {prompt} ASSISTANT: {response}",
     "precision": "freeze after pilot",

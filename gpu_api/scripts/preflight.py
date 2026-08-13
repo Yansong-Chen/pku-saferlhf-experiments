@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
 import os
 import shutil
@@ -38,6 +39,10 @@ def gpu_status() -> dict:
             line.strip() for line in completed.stdout.splitlines() if line.strip()
         ],
     }
+
+
+def package_importable(name: str) -> bool:
+    return importlib.util.find_spec(name) is not None
 
 
 def main() -> None:
@@ -82,6 +87,7 @@ def main() -> None:
                 "gpu": gpu_status(),
                 "hf_token_present": bool(os.environ.get("HF_TOKEN")),
                 "openai_api_key_present": bool(os.environ.get("OPENAI_API_KEY")),
+                "openai_package_importable": package_importable("openai"),
             }
     elif arguments.audit == "e6":
         manifest = CONFIG_DIR / "e6_sample_manifest.csv"
@@ -99,7 +105,8 @@ def main() -> None:
         )
         if arguments.check_runtime:
             result["runtime"] = {
-                "openai_api_key_present": bool(os.environ.get("OPENAI_API_KEY"))
+                "openai_api_key_present": bool(os.environ.get("OPENAI_API_KEY")),
+                "openai_package_importable": package_importable("openai"),
             }
     else:
         result["planned_primary_pairs"] = config["primary_sample"]["pairs"]

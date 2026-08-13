@@ -78,6 +78,19 @@ def weighted_count(rows: list[dict]) -> float:
     return sum(float(row.get("pair_design_weight", 1.0)) for row in rows)
 
 
+def external_pair_relation(pair: dict[int, dict]) -> str:
+    """Describe the external state of the PKU-selected safer response and peer."""
+    safer_response_id = int(pair[0]["safer_response_id"])
+    alternative_response_id = 1 - safer_response_id
+    selected_unsafe = bool(pair[safer_response_id]["external_unsafe"])
+    alternative_unsafe = bool(pair[alternative_response_id]["external_unsafe"])
+    if not selected_unsafe and alternative_unsafe:
+        return "safer_external_safe_alternative_unsafe"
+    if selected_unsafe and not alternative_unsafe:
+        return "safer_external_unsafe_alternative_safe"
+    return "both_external_unsafe" if selected_unsafe else "both_external_safe"
+
+
 def write_csv(path: Path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fields = sorted({key for row in rows for key in row}) if rows else []
@@ -112,6 +125,7 @@ def main() -> None:
         "site_rendering_summaries": {},
     }
     three_way_rows: list[dict] = []
+    safer_pair_rows: list[dict] = []
     policy_rows: list[dict] = []
     severity_rows: list[dict] = []
     category_set_rows: list[dict] = []
@@ -143,6 +157,79 @@ def main() -> None:
                     "design_weighted_position_estimate": weighted_count(current),
                 }
             )
+        pair_groups: defaultdict[tuple[str, int], list[dict]] = defaultdict(list)
+        for row in rows:
+            pair_groups[(row["source_file"], int(row["source_line"]))].append(row)
+        pair_counts: defaultdict[tuple[str, str, bool], list[dict]] = defaultdict(list)
+        relation_groups: defaultdict[str, list[dict]] = defaultdict(list)
+        incomplete_pairs = 0
+        for _, pair_records in pair_groups.items():
+            by_position = {
+                int(record["response_position"]): record for record in pair_records
+            }
+            if set(by_position) != {0, 1}:
+                incomplete_pairs += 1
+                continue
+            selected = by_position[int(by_position[0]["safer_response_id"])]
+            relation = external_pair_relation(by_position)
+            pair_counts[
+                (
+                    str(selected["native_stratum"]),
+                    relation,
+                    bool(selected["is_safe"]),
+                )
+            ].append(selected)
+            relation_groups[relation].append(selected)
+        for (
+            native_stratum,
+            relation,
+            pku_safer_winner_is_safe,
+        ), current in sorted(pair_counts.items()):
+            safer_pair_rows.append(
+                {
+                    "site": site,
+                    "rendering": rendering,
+                    "native_stratum": native_stratum,
+                    "external_pair_relation": relation,
+                    "pku_safer_winner_is_safe": bool_text(pku_safer_winner_is_safe),
+                    "sample_pairs": len(current),
+                    "design_weighted_pair_estimate": weighted_count(current),
+                }
+            )
+        externally_discriminated = (
+            relation_groups["safer_external_safe_alternative_unsafe"]
+            + relation_groups["safer_external_unsafe_alternative_safe"]
+        )
+        selected_external_safe = relation_groups[
+            "safer_external_safe_alternative_unsafe"
+        ]
+        summary["site_rendering_summaries"][key]["e5b_safer_selection"] = {
+            "complete_pairs": len(pair_groups) - incomplete_pairs,
+            "incomplete_pairs": incomplete_pairs,
+            "externally_discriminated_pairs": len(externally_discriminated),
+            "safer_selects_external_safe_pairs": len(selected_external_safe),
+            "share_safer_selects_external_safe_given_external_difference": (
+                len(selected_external_safe) / len(externally_discriminated)
+                if externally_discriminated
+                else None
+            ),
+            "design_weighted_externally_discriminated_pair_estimate": weighted_count(
+                externally_discriminated
+            ),
+            "design_weighted_safer_selects_external_safe_pair_estimate": weighted_count(
+                selected_external_safe
+            ),
+            "design_weighted_share_safer_selects_external_safe_given_external_difference": (
+                weighted_count(selected_external_safe) / weighted_count(externally_discriminated)
+                if externally_discriminated
+                else None
+            ),
+            "boundary": (
+                "This pair-level comparison relates PKU's safer selection to an "
+                "external binary state. It does not establish that either selection "
+                "is safety ground truth."
+            ),
+        }
         severity_counts: defaultdict[tuple, list[dict]] = defaultdict(list)
         for row in rows:
             severity_counts[
@@ -227,6 +314,9 @@ def main() -> None:
                 )
     write_json(arguments.aggregate_dir / "e5_summary.json", summary)
     write_csv(arguments.aggregate_dir / "e5_three_way_by_stratum.csv", three_way_rows)
+    write_csv(
+        arguments.aggregate_dir / "e5_safer_external_pair_relation.csv", safer_pair_rows
+    )
     write_csv(arguments.aggregate_dir / "e5_by_severity.csv", severity_rows)
     write_csv(arguments.aggregate_dir / "e5_by_category_set.csv", category_set_rows)
     write_csv(arguments.aggregate_dir / "e5_shieldgemma_policy_agreement.csv", policy_rows)

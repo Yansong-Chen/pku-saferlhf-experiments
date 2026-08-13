@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Create E6's nested, text-free CCAI sample manifest.
 
-E6 draws 300 pairs within each native stratum from the frozen 4,000-pair E5/E7
+E6 draws 50 pairs within each native stratum from the frozen 4,000-pair E5/E7
 sample.  Nesting retains a common set of observations for cross-experiment
-comparison while preserving an inclusion probability of 300 / N_h for each
+comparison while preserving an inclusion probability of 50 / N_h for each
 population pair in stratum h.  Prompts and responses never enter the manifest.
 """
 

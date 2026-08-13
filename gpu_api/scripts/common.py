@@ -9,6 +9,7 @@ response text.  Private run directories are ignored by Git.
 from __future__ import annotations
 
 import csv
+import fcntl
 import hashlib
 import json
 import os
@@ -75,10 +76,16 @@ def read_jsonl(path: Path) -> Iterable[dict]:
 
 
 def existing_ids(path: Path, key: str = "request_id") -> set[str]:
+    """Return terminally recorded request identifiers.
+
+    Each executor performs its configured retries before it emits a record.
+    A saved failure is therefore a terminal missing-measurement state for that
+    run, rather than an unfinished request to be silently retried on resume.
+    """
     return {
         str(record[key])
         for record in read_jsonl(path)
-        if key in record and record.get("status") == "ok"
+        if key in record
     }
 
 
@@ -118,6 +125,11 @@ def native_stratum(row: dict) -> str:
 
 def all_release_rows() -> Iterable[tuple[str, int, dict]]:
     for path in sorted(RAW_DUAL.glob("*.jsonl")):
+        # macOS archive extraction can leave AppleDouble sidecars such as
+        # ``._Alpaca-7B-train.jsonl`` beside the actual JSONL files.  They
+        # match the extension but contain filesystem metadata, never rows.
+        if path.name.startswith("._"):
+            continue
         with path.open(encoding="utf-8") as handle:
             for line_number, line in enumerate(handle, start=1):
                 yield path.name, line_number, json.loads(line)
@@ -259,6 +271,20 @@ def run_directory(audit: str, run_id: str) -> Path:
     path = PRIVATE_ROOT / audit / run_id
     path.mkdir(parents=True, exist_ok=True)
     return path
+
+
+def acquire_run_lock(run_dir: Path):
+    """Acquire a non-blocking process lock for one private run directory."""
+    lock_path = run_dir / ".run.lock"
+    handle = lock_path.open("a", encoding="utf-8")
+    try:
+        fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError as error:
+        handle.close()
+        raise ProtocolError(
+            f"Another executor is already writing {run_dir}; choose a new run_id or wait."
+        ) from error
+    return handle
 
 
 def base_run_manifest(audit: str, config_path: Path, run_id: str, script_path: Path) -> dict:
