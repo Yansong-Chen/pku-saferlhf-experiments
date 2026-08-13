@@ -11,7 +11,7 @@ denominator, and output location.
 | Class | Audits | Resources | Current role |
 |---|---|---|---|
 | cpu | P0, Audit I (former E1--E3), and the field-routing component of Audit II (former E4) | Local CPU plus the checked-in papers and raw JSONL | Fully runnable now |
-| gpu_api | Audit III (former E5), Audit IV (former E6), and the cost-model component of Audit II (former E7) | GPU and/or external API credentials | Frozen plan, runnable executors, aggregation code, and dry-run checks; no result is claimed before execution |
+| gpu_api | Audit III (former E5), Audit IV (former E6), and the cost-model component of Audit II (former E7) | GPU and/or external API credentials | Frozen plan, runnable executors, and promoted text-free aggregate outputs for completed primary runs |
 | conditional_human | Reception and unhelpful-selection extensions (former E8--E9) | Human coding and, if selected, literature collection | Claim-dependent; not automated or silently replaced by an LLM |
 
 The dissertation's headline claims have direct evidence anchors:
@@ -37,3 +37,15 @@ The dissertation's headline claims have direct evidence anchors:
 
 See cpu/README.md for immediately runnable analyses and gpu_api/RUNBOOK.md for
 the credentialed execution package.
+
+## Promoted E7 primary output
+
+`gpu_api/results/e7-primary-beaver-cost-4000/` contains the reviewed,
+text-free aggregate from the 4,000-pair Beaver cost-model audit. The primary
+run completed all 8,000 response positions at model revision
+`26bf7161f09fee958ae64c8b4bb70fb420f7ba39`, with score direction
+`higher_is_unsafe`. Its authoritative summary reports a design-weighted
+unsafe-versus-safe AUROC of 0.9582 (2,000-bootstrap interval 0.9517--0.9645),
+a severity coefficient of 0.4550 after the specified controls, and a 0.5900
+same-category both-unsafe lower-severity ordering rate. See the directory
+README for the output inventory and the private-run aggregation command.
