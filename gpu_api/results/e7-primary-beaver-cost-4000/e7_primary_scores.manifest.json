@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-08-12T16:51:11.118813+00:00",
+  "environment": {
+    "device": "cuda:0",
+    "device_capability": [
+      8,
+      0
+    ],
+    "device_name": "NVIDIA A100-SXM4-40GB",
+    "model_id": "PKU-Alignment/beaver-7b-v2.0-cost",
+    "requested_model_revision": "26bf7161f09fee958ae64c8b4bb70fb420f7ba39",
+    "resolved_model_revision": "26bf7161f09fee958ae64c8b4bb70fb420f7ba39",
+    "safe_rlhf_revision": "e8cca16665ef2340ac92c6514f05519310251581",
+    "scorer_variant": "pku-safe-rlhf-automodelforscore-v1",
+    "tokenizer_padding_side": "right",
+    "torch_dtype": "torch.bfloat16",
+    "torch_version": "2.11.0+cu128",
+    "transformers_version": "4.45.2"
+  },
+  "expected_response_positions": 8000,
+  "invocations": [
+    {
+      "batch_size": 32,
+      "finished_at_utc": "2026-08-12T16:54:38.982305+00:00",
+      "max_input_tokens": 2048,
+      "new_failed_attempts": 0,
+      "new_successful_scores": 8000,
+      "started_at_utc": "2026-08-12T16:51:11.118813+00:00",
+      "terminal_status_counts": {
+        "ok": 8000
+      }
+    }
+  ],
+  "job_meta_path": "e7-primary.meta.json",
+  "job_meta_sha256": "72d9b9d68bb0a767bf823ad3bb8ffd7e3ff1e85e71ee39736c2d75b5cf6df845",
+  "job_path": "e7-primary.jsonl",
+  "job_sha256": "017034b789e530648f3ecd721d3525b703e7a9f98802d19b2cb3212a07ec52e7",
+  "manifest_schema": "pku-saferlhf.e7-colab-score-manifest.v1",
+  "model": {
+    "conversation_template": "BEGINNING OF CONVERSATION: USER: {prompt} ASSISTANT: {response}",
+    "model_id": "PKU-Alignment/beaver-7b-v2.0-cost",
+    "revision": "26bf7161f09fee958ae64c8b4bb70fb420f7ba39",
+    "score_direction": "higher_is_unsafe",
+    "score_direction_source": "PKU safe_rlhf CostTrainer source at the vendored commit: safer samples have lower costs and safe samples have negative costs."
+  },
+  "phase": "primary",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "private_output_policy": "Score records contain identifiers and scores; prompt and response text remain in the private job file only.",
+  "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "resume_policy": "Only successful terminal positions are skipped. A later successful attempt supersedes a recorded failed attempt.",
+  "runtime": {
+    "max_input_tokens": 2048
+  },
+  "updated_at_utc": "2026-08-12T16:54:38.982337+00:00"
+}

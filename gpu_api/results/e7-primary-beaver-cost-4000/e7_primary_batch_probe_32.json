@@ -1,0 +1,29 @@
+{
+  "batch_size": 32,
+  "environment": {
+    "device": "cuda:0",
+    "device_capability": [
+      8,
+      0
+    ],
+    "device_name": "NVIDIA A100-SXM4-40GB",
+    "model_id": "PKU-Alignment/beaver-7b-v2.0-cost",
+    "requested_model_revision": "26bf7161f09fee958ae64c8b4bb70fb420f7ba39",
+    "resolved_model_revision": "26bf7161f09fee958ae64c8b4bb70fb420f7ba39",
+    "safe_rlhf_revision": "e8cca16665ef2340ac92c6514f05519310251581",
+    "scorer_variant": "pku-safe-rlhf-automodelforscore-v1",
+    "tokenizer_padding_side": "right",
+    "torch_dtype": "torch.bfloat16",
+    "torch_version": "2.11.0+cu128",
+    "transformers_version": "4.45.2"
+  },
+  "finished_at_utc": "2026-08-12T16:51:03.859485+00:00",
+  "input_may_be_truncated_positions": 0,
+  "max_observed_input_tokens": 988,
+  "peak_allocated_cuda_bytes": 32992016896,
+  "peak_reserved_cuda_bytes": 39359348736,
+  "positions_scored": 32,
+  "report_schema": "pku-saferlhf.e7-colab-probe.v1",
+  "started_at_utc": "2026-08-12T16:50:52.023244+00:00",
+  "status": "ok"
+}

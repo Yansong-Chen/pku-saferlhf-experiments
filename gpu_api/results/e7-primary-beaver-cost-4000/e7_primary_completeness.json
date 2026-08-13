@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "created_at_utc": "2026-08-12T16:55:18.682952+00:00",
+  "expected_response_positions": 8000,
+  "failed_terminal_records": 0,
+  "missing_positions": 0,
+  "phase": "primary",
+  "result_schema": "pku-saferlhf.e7-colab-completeness.v1",
+  "successful_terminal_records": 8000,
+  "terminal_records": 8000,
+  "unexpected_positions": 0,
+  "wrong_model_or_revision_positions": 0
+}
