@@ -22,6 +22,7 @@ def main() -> None:
     e1 = read_json("e1_response_process.json")
     e2 = read_json("e2_efa.json")
     e4 = read_json("e4_field_routing.json")
+    dual_single = read_json("dual_single_contrast.json")
     assert native["result_schema"] == "pku-saferlhf.native-audit.v1"
     assert e1["result_schema"] == "pku-saferlhf.e1-response-process-result.v1"
     assert len(e1["sources"]) == 4
@@ -49,6 +50,25 @@ def main() -> None:
     assert e2["one_response_per_pair_unsafe_sensitivity"]["parallel_analysis"]["simulations"] == 1_000
     assert len(e4["fields"]) == 5
     assert e4["protocol_schema"] == "pku-saferlhf.e4-field-routing.v1"
+    assert dual_single["result_schema"] == "pku-saferlhf.dual-single-contrast.v1"
+    assert dual_single["matching"]["one_to_one_matched_pairs"] == 64_640
+    assert dual_single["provenance"]["matched_prompt_mismatches"] == 0
+    assert dual_single["dual_preference_relation"]["agree"]["rows"] == 49_050
+    assert dual_single["dual_preference_relation"]["conflict"]["rows"] == 15_590
+    assert dual_single["dual_preference_relation"]["conflict"]["single_follows_dual_safer"] == {
+        "rows": 7_899,
+        "share_given_conflict": 7_899 / 15_590,
+    }
+    assert dual_single["l4_binary_boundary_contrast"] == {
+        "definition": (
+            "Subset of matched pairs where Dual better and safer select different responses "
+            "and Dual records different is_safe states. In every such matched row, the Dual "
+            "safer selection is the released-safe response."
+        ),
+        "rows": 1_604,
+        "single_selects_dual_released_safe": 1_187,
+        "share": 1_187 / 1_604,
+    }
     print(
         json.dumps(
             {
@@ -56,6 +76,9 @@ def main() -> None:
                 "native_rows": native["analysis_population"]["rows"],
                 "e2_parallel_simulations_per_analysis": 1_000,
                 "e4_routed_fields": len(e4["fields"]),
+                "dual_single_one_to_one_pairs": dual_single["matching"][
+                    "one_to_one_matched_pairs"
+                ],
             },
             indent=2,
             sort_keys=True,

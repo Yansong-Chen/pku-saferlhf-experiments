@@ -9,6 +9,8 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
+import numpy as np
+
 from common import append_jsonl, read_jsonl, utc_now, write_json
 
 
@@ -91,6 +93,133 @@ def external_pair_relation(pair: dict[int, dict]) -> str:
     return "both_external_unsafe" if selected_unsafe else "both_external_safe"
 
 
+def safer_selection_statistics(rows: list[dict]) -> dict:
+    """Calculate the pair-level relation between `safer` and an external state."""
+
+    pair_groups: defaultdict[tuple[str, int], list[dict]] = defaultdict(list)
+    for row in rows:
+        pair_groups[(row["source_file"], int(row["source_line"]))].append(row)
+
+    relation_groups: defaultdict[str, list[dict]] = defaultdict(list)
+    incomplete_pairs = 0
+    for pair_records in pair_groups.values():
+        by_position = {
+            int(record["response_position"]): record for record in pair_records
+        }
+        if set(by_position) != {0, 1}:
+            incomplete_pairs += 1
+            continue
+        relation_groups[external_pair_relation(by_position)].append(
+            by_position[int(by_position[0]["safer_response_id"])]
+        )
+
+    externally_discriminated = (
+        relation_groups["safer_external_safe_alternative_unsafe"]
+        + relation_groups["safer_external_unsafe_alternative_safe"]
+    )
+    selected_external_safe = relation_groups[
+        "safer_external_safe_alternative_unsafe"
+    ]
+    return {
+        "complete_pairs": len(pair_groups) - incomplete_pairs,
+        "incomplete_pairs": incomplete_pairs,
+        "externally_discriminated_pairs": len(externally_discriminated),
+        "safer_selects_external_safe_pairs": len(selected_external_safe),
+        "share_safer_selects_external_safe_given_external_difference": (
+            len(selected_external_safe) / len(externally_discriminated)
+            if externally_discriminated
+            else None
+        ),
+        "design_weighted_externally_discriminated_pair_estimate": weighted_count(
+            externally_discriminated
+        ),
+        "design_weighted_safer_selects_external_safe_pair_estimate": weighted_count(
+            selected_external_safe
+        ),
+        "design_weighted_share_safer_selects_external_safe_given_external_difference": (
+            weighted_count(selected_external_safe) / weighted_count(externally_discriminated)
+            if externally_discriminated
+            else None
+        ),
+    }
+
+
+def strata_complete_pairs(rows: list[dict]) -> dict[str, list[list[dict]]]:
+    """Return complete response pairs grouped by their sampled native stratum."""
+
+    by_pair: defaultdict[tuple[str, str, int], list[dict]] = defaultdict(list)
+    for row in rows:
+        by_pair[(row["native_stratum"], row["source_file"], int(row["source_line"]))].append(
+            row
+        )
+    grouped: defaultdict[str, list[list[dict]]] = defaultdict(list)
+    for (stratum, _, _), pair_records in by_pair.items():
+        if {int(row["response_position"]) for row in pair_records} == {0, 1}:
+            grouped[stratum].append(pair_records)
+    return dict(grouped)
+
+
+def percentile_interval(values: list[float | None]) -> list[float | None]:
+    valid = [value for value in values if value is not None]
+    if not valid:
+        return [None, None]
+    return [float(np.quantile(valid, 0.025)), float(np.quantile(valid, 0.975))]
+
+
+def bootstrap_external_relation(
+    rows: list[dict], external_key: str, repetitions: int, seed: int
+) -> dict:
+    """Bootstrap design-weighted E5 summaries by resampling pairs within L1--L4."""
+
+    pairs_by_stratum = strata_complete_pairs(rows)
+    if not pairs_by_stratum:
+        return {"repetitions": 0, "seed": seed, "method": "not available"}
+
+    rng = np.random.default_rng(seed)
+    agreement_metrics = {
+        "observed_agreement": [],
+        "positive_proportional_agreement": [],
+        "negative_proportional_agreement": [],
+        "cohens_kappa": [],
+        "external_unsafe_given_pku_unsafe": [],
+        "external_safe_given_pku_safe": [],
+    }
+    safer_rates: list[float | None] = []
+    for _ in range(repetitions):
+        sampled_rows: list[dict] = []
+        for stratum in sorted(pairs_by_stratum):
+            stratum_pairs = pairs_by_stratum[stratum]
+            sampled_indices = rng.integers(0, len(stratum_pairs), size=len(stratum_pairs))
+            for index in sampled_indices:
+                sampled_rows.extend(stratum_pairs[int(index)])
+        agreement = agreement_statistics(sampled_rows, external_key, weighted=True)
+        for metric in agreement_metrics:
+            agreement_metrics[metric].append(agreement.get(metric))
+        safer_rates.append(
+            safer_selection_statistics(sampled_rows)[
+                "design_weighted_share_safer_selects_external_safe_given_external_difference"
+            ]
+        )
+
+    return {
+        "repetitions": repetitions,
+        "seed": seed,
+        "method": (
+            "Stratified non-parametric pair bootstrap: resample complete pairs within "
+            "each native L1--L4 stratum, retain pair design weights, and recompute "
+            "each design-weighted statistic."
+        ),
+        "pair_counts_by_stratum": {
+            stratum: len(pair_rows) for stratum, pair_rows in sorted(pairs_by_stratum.items())
+        },
+        "design_weighted_agreement_95_intervals": {
+            metric: percentile_interval(values)
+            for metric, values in agreement_metrics.items()
+        },
+        "design_weighted_safer_selection_95_interval": percentile_interval(safer_rates),
+    }
+
+
 def write_csv(path: Path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fields = sorted({key for row in rows for key in row}) if rows else []
@@ -104,6 +233,8 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--private-run", type=Path, required=True)
     parser.add_argument("--aggregate-dir", type=Path, required=True)
+    parser.add_argument("--bootstrap-replicates", type=int, default=2000)
+    parser.add_argument("--bootstrap-seed", type=int, default=20260814)
     arguments = parser.parse_args()
     records = [
         record
@@ -117,7 +248,7 @@ def main() -> None:
     for record in completed:
         grouped[(record["site"], record["rendering"])].append(record)
     summary = {
-        "result_schema": "pku-saferlhf.e5-aggregate.v1",
+        "result_schema": "pku-saferlhf.e5-aggregate.v2",
         "created_at_utc": utc_now(),
         "private_run": str(arguments.private_run),
         "completed_records": len(completed),
@@ -161,14 +292,11 @@ def main() -> None:
         for row in rows:
             pair_groups[(row["source_file"], int(row["source_line"]))].append(row)
         pair_counts: defaultdict[tuple[str, str, bool], list[dict]] = defaultdict(list)
-        relation_groups: defaultdict[str, list[dict]] = defaultdict(list)
-        incomplete_pairs = 0
         for _, pair_records in pair_groups.items():
             by_position = {
                 int(record["response_position"]): record for record in pair_records
             }
             if set(by_position) != {0, 1}:
-                incomplete_pairs += 1
                 continue
             selected = by_position[int(by_position[0]["safer_response_id"])]
             relation = external_pair_relation(by_position)
@@ -179,7 +307,6 @@ def main() -> None:
                     bool(selected["is_safe"]),
                 )
             ].append(selected)
-            relation_groups[relation].append(selected)
         for (
             native_stratum,
             relation,
@@ -196,40 +323,22 @@ def main() -> None:
                     "design_weighted_pair_estimate": weighted_count(current),
                 }
             )
-        externally_discriminated = (
-            relation_groups["safer_external_safe_alternative_unsafe"]
-            + relation_groups["safer_external_unsafe_alternative_safe"]
-        )
-        selected_external_safe = relation_groups[
-            "safer_external_safe_alternative_unsafe"
-        ]
         summary["site_rendering_summaries"][key]["e5b_safer_selection"] = {
-            "complete_pairs": len(pair_groups) - incomplete_pairs,
-            "incomplete_pairs": incomplete_pairs,
-            "externally_discriminated_pairs": len(externally_discriminated),
-            "safer_selects_external_safe_pairs": len(selected_external_safe),
-            "share_safer_selects_external_safe_given_external_difference": (
-                len(selected_external_safe) / len(externally_discriminated)
-                if externally_discriminated
-                else None
-            ),
-            "design_weighted_externally_discriminated_pair_estimate": weighted_count(
-                externally_discriminated
-            ),
-            "design_weighted_safer_selects_external_safe_pair_estimate": weighted_count(
-                selected_external_safe
-            ),
-            "design_weighted_share_safer_selects_external_safe_given_external_difference": (
-                weighted_count(selected_external_safe) / weighted_count(externally_discriminated)
-                if externally_discriminated
-                else None
-            ),
+            **safer_selection_statistics(rows),
             "boundary": (
                 "This pair-level comparison relates PKU's safer selection to an "
                 "external binary state. It does not establish that either selection "
                 "is safety ground truth."
             ),
         }
+        summary["site_rendering_summaries"][key]["bootstrap_sampling_uncertainty"] = (
+            bootstrap_external_relation(
+                rows,
+                "external_unsafe",
+                arguments.bootstrap_replicates,
+                arguments.bootstrap_seed,
+            )
+        )
         severity_counts: defaultdict[tuple, list[dict]] = defaultdict(list)
         for row in rows:
             severity_counts[

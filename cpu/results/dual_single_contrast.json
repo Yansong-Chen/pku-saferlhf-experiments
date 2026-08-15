@@ -1,0 +1,69 @@
+{
+  "created_at_utc": "2026-08-15T12:04:03.245787+00:00",
+  "dual_preference_relation": {
+    "agree": {
+      "rows": 49050,
+      "share": 0.7588180693069307,
+      "single_departs_from_shared_direction": {
+        "rows": 4205,
+        "share_given_agreement": 0.08572884811416921
+      },
+      "single_preserves_shared_direction": {
+        "rows": 44845,
+        "share_given_agreement": 0.9142711518858307
+      }
+    },
+    "conflict": {
+      "by_native_dual_stratum_file": "dual_single_conflict_strata.csv",
+      "rows": 15590,
+      "share": 0.2411819306930693,
+      "single_follows_dual_better": {
+        "rows": 7691,
+        "share_given_conflict": 0.49332905708787683
+      },
+      "single_follows_dual_safer": {
+        "rows": 7899,
+        "share_given_conflict": 0.5066709429121231
+      }
+    }
+  },
+  "interpretive_boundary": "This is a correspondence analysis of separately released records. Exact response-pair matching does not establish common annotators, a shared task procedure, a temporal order, or a documented transformation from Dual to Single.",
+  "l4_binary_boundary_contrast": {
+    "definition": "Subset of matched pairs where Dual better and safer select different responses and Dual records different is_safe states. In every such matched row, the Dual safer selection is the released-safe response.",
+    "rows": 1604,
+    "share": 0.7400249376558603,
+    "single_selects_dual_released_safe": 1187
+  },
+  "matching": {
+    "attrition_rows_file": "dual_single_match_attrition.csv",
+    "common_unordered_response_hash_groups": 64642,
+    "dual_released_rows": 73907,
+    "one_to_one_matched_pairs": 64640,
+    "single_released_rows": 72996
+  },
+  "output_files": {
+    "conflict_strata": "dual_single_conflict_strata.csv",
+    "match_attrition": "dual_single_match_attrition.csv"
+  },
+  "overall_direction_correspondence": {
+    "single_equals_dual_better": {
+      "rows": 52536,
+      "share": 0.8127475247524752
+    },
+    "single_equals_dual_safer": {
+      "rows": 52744,
+      "share": 0.8159653465346535
+    }
+  },
+  "provenance": {
+    "dual_revision": "9421ffafec3fa40a1f1a7d567b4d525079477ecb",
+    "match_key": "sorted pair of stored response_0_sha256 and response_1_sha256",
+    "matched_prompt_mismatches": 0,
+    "p0_manifest_path": "cpu/results/p0_snapshot.json",
+    "p0_manifest_sha256": "7e94fd4093f21a14aac238118fa45f7af296cf10dc1b7e8a148bfc4bb79082e0",
+    "script_sha256": "1eae2eb4d5d645c2e309db2a62be68116d5ace15f8756489746a2ac93e88bf88",
+    "single_revision": "877416778ed53479d63315795558fe83495276d8"
+  },
+  "research_question": "How do the released composite overall preferences in PKU-SafeRLHF-Single correspond to the separately released helpfulness and safety preferences and safety fields in PKU-SafeRLHF-Dual on identical response pairs?",
+  "result_schema": "pku-saferlhf.dual-single-contrast.v1"
+}

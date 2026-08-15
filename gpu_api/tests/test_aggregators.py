@@ -131,6 +131,14 @@ def main() -> None:
         assert e5b["complete_pairs"] == 1
         assert e5b["externally_discriminated_pairs"] == 1
         assert e5b["safer_selects_external_safe_pairs"] == 1
+        e5_bootstrap = e5["site_rendering_summaries"]["shieldgemma_9b:prompt_response"][
+            "bootstrap_sampling_uncertainty"
+        ]
+        assert e5_bootstrap["repetitions"] == 2_000
+        assert e5_bootstrap["pair_counts_by_stratum"]["L4_safety_boundary_difference"] == 1
+        assert e5_bootstrap["design_weighted_agreement_95_intervals"][
+            "observed_agreement"
+        ] == [1.0, 1.0]
 
         write_records(
             private / "primary_judgements.jsonl",
@@ -154,15 +162,32 @@ def main() -> None:
             == 1.0
         )
 
-        write_records(
-            private / "full_scores.jsonl",
-            [
-                e7_record(1, 0, True, -1.0, 0),
-                e7_record(1, 1, False, 2.0, 0),
-                e7_record(2, 0, False, 1.0, 1),
-                e7_record(2, 1, True, -2.0, 1),
-            ],
-        )
+        # The E7 severity trace fits an intercept, severity, category indicators,
+        # and length among unsafe positions. Keep this fixture small but full rank
+        # so the smoke test exercises the actual aggregation path.
+        e7_records: list[dict] = []
+        unsafe_profiles = [
+            (1, ["Cybercrime"], 20),
+            (2, ["Privacy Violation"], 30),
+            (3, ["Cybercrime", "Privacy Violation"], 40),
+            (2, ["Cybercrime"], 50),
+            (1, ["Privacy Violation"], 60),
+            (3, ["Cybercrime", "Privacy Violation"], 70),
+        ]
+        for pair, (severity, categories, length) in enumerate(unsafe_profiles, start=1):
+            safer = 0 if pair % 2 else 1
+            unsafe_position = 1 - safer
+            e7_records.extend(
+                [
+                    e7_record(pair, safer, True, -float(pair), safer),
+                    e7_record(pair, unsafe_position, False, float(pair), safer),
+                ]
+            )
+            unsafe_record = e7_records[-1]
+            unsafe_record["severity_level"] = severity
+            unsafe_record["harm_categories"] = categories
+            unsafe_record["response_character_length"] = length
+        write_records(private / "full_scores.jsonl", e7_records)
         run(
             "e7_aggregate.py",
             "--private-run",

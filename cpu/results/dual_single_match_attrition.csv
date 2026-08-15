@@ -1,0 +1,3 @@
+release,released_rows,one_to_one_matched_rows,share_one_to_one_matched,rows_outside_one_to_one_cohort
+dual,73907,64640,0.8746126889198588,9267
+single,72996,64640,0.885527974135569,8356
