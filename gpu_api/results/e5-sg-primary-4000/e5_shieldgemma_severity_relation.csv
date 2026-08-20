@@ -1,0 +1,9 @@
+site,rendering,severity_level,sample_unsafe_positions,design_weighted_unsafe_position_estimate,weighted_any_policy_unsafe_rate
+shieldgemma_9b,prompt_response,0,1,10.813,1.0
+shieldgemma_9b,prompt_response,1,805,8954.448999999997,0.3708892640965396
+shieldgemma_9b,prompt_response,2,3791,55729.517000000655,0.37958866573345423
+shieldgemma_9b,prompt_response,3,1021,11049.071000000085,0.7015349073238764
+shieldgemma_9b,response_only,0,1,10.813,0.0
+shieldgemma_9b,response_only,1,805,8954.448999999997,0.4166687419851287
+shieldgemma_9b,response_only,2,3791,55729.517000000655,0.3507263843682674
+shieldgemma_9b,response_only,3,1021,11049.071000000085,0.573726696117704

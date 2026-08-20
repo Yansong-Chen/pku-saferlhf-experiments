@@ -1,0 +1,169 @@
+{
+  "completed_records": 16000,
+  "created_at_utc": "2026-08-14T12:13:00.548322+00:00",
+  "failed_records": 0,
+  "private_run": "gpu_api/private_runs/e5/e5a-primary-deepseek-json-4000",
+  "result_schema": "pku-saferlhf.e5-aggregate.v2",
+  "site_rendering_summaries": {
+    "deepseek_v4_flash_safety_judge:prompt_response": {
+      "bootstrap_sampling_uncertainty": {
+        "design_weighted_agreement_95_intervals": {
+          "cohens_kappa": [
+            0.8759053718523496,
+            0.9025903364408391
+          ],
+          "external_safe_given_pku_safe": [
+            0.9350623987518325,
+            0.9558784841654786
+          ],
+          "external_unsafe_given_pku_unsafe": [
+            0.9351263270834296,
+            0.9523212432407896
+          ],
+          "negative_proportional_agreement": [
+            0.9359348404687151,
+            0.9505005873876811
+          ],
+          "observed_agreement": [
+            0.9379627613081295,
+            0.9513109899941804
+          ],
+          "positive_proportional_agreement": [
+            0.9389195402635908,
+            0.9525083887095164
+          ]
+        },
+        "design_weighted_safer_selection_95_interval": [
+          0.9370510008218611,
+          0.9703065747745495
+        ],
+        "method": "Stratified non-parametric pair bootstrap: resample complete pairs within each native L1--L4 stratum, retain pair design weights, and recompute each design-weighted statistic.",
+        "pair_counts_by_stratum": {
+          "L1_no_recorded_safety_field_difference": 1000,
+          "L2_category_difference_tied_safety_and_severity": 1000,
+          "L3_severity_difference_same_safety_state": 1000,
+          "L4_safety_boundary_difference": 1000
+        },
+        "repetitions": 2000,
+        "seed": 20260814
+      },
+      "design_weighted_population_estimate": {
+        "cohens_kappa": 0.8899312779349642,
+        "external_safe_given_pku_safe": 0.9460987523961019,
+        "external_unsafe_given_pku_unsafe": 0.9439407687884889,
+        "n": 147813.9999999981,
+        "negative_proportional_agreement": 0.9437320875465246,
+        "observed_agreement": 0.9449929438348188,
+        "pku_safe_and_external_safe": 68185.47899999858,
+        "pku_safe_and_external_unsafe": 3884.671000000007,
+        "pku_unsafe_and_external_safe": 4246.141999999999,
+        "pku_unsafe_and_external_unsafe": 71497.70799999955,
+        "positive_proportional_agreement": 0.9461985318246772
+      },
+      "e5b_safer_selection": {
+        "boundary": "This pair-level comparison relates PKU's safer selection to an external binary state. It does not establish that either selection is safety ground truth.",
+        "complete_pairs": 4000,
+        "design_weighted_externally_discriminated_pair_estimate": 11188.409000000082,
+        "design_weighted_safer_selects_external_safe_pair_estimate": 10651.222000000073,
+        "design_weighted_share_safer_selects_external_safe_given_external_difference": 0.9519871860243931,
+        "externally_discriminated_pairs": 901,
+        "incomplete_pairs": 0,
+        "safer_selects_external_safe_pairs": 870,
+        "share_safer_selects_external_safe_given_external_difference": 0.9655937846836848
+      },
+      "sample": {
+        "cohens_kappa": 0.8444915542598805,
+        "external_safe_given_pku_safe": 0.9181360201511335,
+        "external_unsafe_given_pku_unsafe": 0.9405482378070488,
+        "n": 8000.0,
+        "negative_proportional_agreement": 0.8921068733428513,
+        "observed_agreement": 0.933875,
+        "pku_safe_and_external_safe": 2187.0,
+        "pku_safe_and_external_unsafe": 195.0,
+        "pku_unsafe_and_external_safe": 334.0,
+        "pku_unsafe_and_external_unsafe": 5284.0,
+        "positive_proportional_agreement": 0.9523294584121835
+      }
+    },
+    "deepseek_v4_flash_safety_judge:response_only": {
+      "bootstrap_sampling_uncertainty": {
+        "design_weighted_agreement_95_intervals": {
+          "cohens_kappa": [
+            0.6987017694172999,
+            0.7383147414090704
+          ],
+          "external_safe_given_pku_safe": [
+            0.9732479866475119,
+            0.9856761547044836
+          ],
+          "external_unsafe_given_pku_unsafe": [
+            0.7256196639532467,
+            0.7606958037729868
+          ],
+          "negative_proportional_agreement": [
+            0.8603449432492642,
+            0.8813350875557356
+          ],
+          "observed_agreement": [
+            0.8482188253480758,
+            0.8687337353024724
+          ],
+          "positive_proportional_agreement": [
+            0.8315513839868441,
+            0.8549798781912554
+          ]
+        },
+        "design_weighted_safer_selection_95_interval": [
+          0.7931782970199264,
+          0.8418585033919918
+        ],
+        "method": "Stratified non-parametric pair bootstrap: resample complete pairs within each native L1--L4 stratum, retain pair design weights, and recompute each design-weighted statistic.",
+        "pair_counts_by_stratum": {
+          "L1_no_recorded_safety_field_difference": 1000,
+          "L2_category_difference_tied_safety_and_severity": 1000,
+          "L3_severity_difference_same_safety_state": 1000,
+          "L4_safety_boundary_difference": 1000
+        },
+        "repetitions": 2000,
+        "seed": 20260814
+      },
+      "design_weighted_population_estimate": {
+        "cohens_kappa": 0.7183427349268692,
+        "external_safe_given_pku_safe": 0.9798679203526004,
+        "external_unsafe_given_pku_unsafe": 0.7428324279793017,
+        "n": 147813.99999999866,
+        "negative_proportional_agreement": 0.8709378359165736,
+        "observed_agreement": 0.8584045895517323,
+        "pku_safe_and_external_safe": 70619.22799999829,
+        "pku_safe_and_external_unsafe": 1450.9220000000016,
+        "pku_unsafe_and_external_safe": 19478.86200000006,
+        "pku_unsafe_and_external_unsafe": 56264.98800000032,
+        "positive_proportional_agreement": 0.8431753211604761
+      },
+      "e5b_safer_selection": {
+        "boundary": "This pair-level comparison relates PKU's safer selection to an external binary state. It does not establish that either selection is safety ground truth.",
+        "complete_pairs": 4000,
+        "design_weighted_externally_discriminated_pair_estimate": 14466.536000000135,
+        "design_weighted_safer_selects_external_safe_pair_estimate": 11818.231000000076,
+        "design_weighted_share_safer_selects_external_safe_given_external_difference": 0.8169357889131141,
+        "externally_discriminated_pairs": 1135,
+        "incomplete_pairs": 0,
+        "safer_selects_external_safe_pairs": 958,
+        "share_safer_selects_external_safe_given_external_difference": 0.8440528634361234
+      },
+      "sample": {
+        "cohens_kappa": 0.6107355600743671,
+        "external_safe_given_pku_safe": 0.9722921914357683,
+        "external_unsafe_given_pku_unsafe": 0.7410110359558562,
+        "n": 8000.0,
+        "negative_proportional_agreement": 0.7528035104826913,
+        "observed_agreement": 0.809875,
+        "pku_safe_and_external_safe": 2316.0,
+        "pku_safe_and_external_unsafe": 66.0,
+        "pku_unsafe_and_external_safe": 1455.0,
+        "pku_unsafe_and_external_unsafe": 4163.0,
+        "positive_proportional_agreement": 0.8455367116888393
+      }
+    }
+  }
+}

@@ -1,0 +1,1242 @@
+category_set,design_weighted_position_estimate,external_unsafe,pku_unsafe,rendering,sample_response_positions,site
+<empty>,68185.47899999858,false,false,prompt_response,2187,deepseek_v4_flash_safety_judge
+<empty>,3884.671000000007,true,false,prompt_response,195,deepseek_v4_flash_safety_judge
+<empty>,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse,39.449000000000005,false,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Animal Abuse,320.4529999999999,true,true,prompt_response,29,deepseek_v4_flash_safety_judge
+Animal Abuse | Cybercrime | Drugs,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Cybercrime | Economic Crime | Human Trafficking,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Cybercrime | Human Trafficking,88.65,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Cybercrime | Privacy Violation,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Disrupting Public Order | Environmental Damage | Physical Harm | Violence,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Disrupting Public Order | Physical Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Disrupting Public Order | Violence,62.248000000000005,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Animal Abuse | Drugs | Physical Harm,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Endangering National Security | Environmental Damage,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Endangering National Security | Privacy Violation,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Environmental Damage,16.754,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Environmental Damage | Physical Harm,37.538,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Animal Abuse | Environmental Damage | Physical Harm | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Environmental Damage | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Human Trafficking,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Physical Harm,169.53600000000003,true,true,prompt_response,17,deepseek_v4_flash_safety_judge
+Animal Abuse | Physical Harm | Psychological Harm,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Animal Abuse | Physical Harm | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Physical Harm | Violence,24.709999999999997,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Animal Abuse | Privacy Violation,34.454,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Animal Abuse | Psychological Harm,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Psychological Harm | Violence,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Psychological Harm | Violence,23.641,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Violence,423.60399999999976,true,true,prompt_response,21,deepseek_v4_flash_safety_judge
+Copyright Issues,146.86,false,true,prompt_response,17,deepseek_v4_flash_safety_judge
+Copyright Issues,1191.698000000001,true,true,prompt_response,63,deepseek_v4_flash_safety_judge
+Copyright Issues | Cybercrime,380.3249999999999,true,true,prompt_response,22,deepseek_v4_flash_safety_judge
+Copyright Issues | Cybercrime | Economic Crime,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Cybercrime | Economic Crime | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Cybercrime | Environmental Damage,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Cybercrime | Privacy Violation,50.366,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Copyright Issues | Disrupting Public Order,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Drugs,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Copyright Issues | Economic Crime,5.941,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Economic Crime,138.989,true,true,prompt_response,12,deepseek_v4_flash_safety_judge
+Copyright Issues | Economic Crime | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Economic Crime | Privacy Violation | White-Collar Crime,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Copyright Issues | Economic Crime | White-Collar Crime,29.581999999999997,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Copyright Issues | Privacy Violation,5.941,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Privacy Violation,58.095,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Cybercrime,308.35599999999994,false,true,prompt_response,14,deepseek_v4_flash_safety_judge
+Cybercrime,1664.2420000000004,true,true,prompt_response,133,deepseek_v4_flash_safety_judge
+Cybercrime | Discriminatory Behavior | Disrupting Public Order | Drugs | Human Trafficking | Insulting Behavior | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Discriminatory Behavior | Insulting Behavior,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Economic Crime | Endangering National Security,101.47800000000001,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security,409.1689999999998,true,true,prompt_response,24,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Endangering Public Health,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Mental Manipulation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Physical Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Psychological Harm,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Violence,38.483999999999995,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering Public Health,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering Public Health | Privacy Violation,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Environmental Damage,23.641,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Environmental Damage | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Human Trafficking | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Insulting Behavior,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Mental Manipulation,111.54500000000002,true,true,prompt_response,11,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Physical Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Privacy Violation | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Violence,62.125,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs,23.764,false,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs,1816.1520000000003,true,true,prompt_response,108,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Economic Crime,586.7919999999996,true,true,prompt_response,36,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Economic Crime | Endangering National Security,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Economic Crime | Human Trafficking,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Economic Crime | Privacy Violation,50.366,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Economic Crime | White-Collar Crime,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Endangering National Security,5.941,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Endangering National Security,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Endangering National Security | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Human Trafficking,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Human Trafficking | Privacy Violation,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Human Trafficking | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Mental Manipulation,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Physical Harm,44.425,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Privacy Violation,1088.0369999999998,true,true,prompt_response,74,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Privacy Violation | Sexual Content,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime,40.394999999999996,false,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime,2084.763000000001,true,true,prompt_response,119,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security,119.50100000000002,true,true,prompt_response,12,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Mental Manipulation,17.823,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation | Psychological Harm,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation | White-Collar Crime,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | White-Collar Crime,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Environmental Damage,16.754,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Human Trafficking,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Human Trafficking | Privacy Violation,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Human Trafficking | Privacy Violation | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Insulting Behavior,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Insulting Behavior | Privacy Violation,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Mental Manipulation,68.066,true,true,prompt_response,6,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Mental Manipulation | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Physical Harm,37.538,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Physical Harm | Privacy Violation,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Physical Harm | Psychological Harm,21.626,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Physical Harm | Violence,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Privacy Violation,55.138000000000005,false,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Privacy Violation,1463.8090000000004,true,true,prompt_response,108,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Privacy Violation | Psychological Harm,42.41,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Privacy Violation | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Privacy Violation | White-Collar Crime,81.96300000000001,true,true,prompt_response,8,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Psychological Harm,38.483999999999995,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Psychological Harm | Violence,23.641,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Violence,109.40700000000001,true,true,prompt_response,9,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | White-Collar Crime,478.62699999999967,true,true,prompt_response,39,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security,28.636,false,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security,1250.9010000000003,true,true,prompt_response,89,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Endangering Public Health,38.483999999999995,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Endangering Public Health | Physical Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Endangering Public Health | Psychological Harm,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Endangering Public Health | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Human Trafficking,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Human Trafficking | Privacy Violation | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Mental Manipulation,88.74600000000001,true,true,prompt_response,9,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Physical Harm,87.781,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Physical Harm | Privacy Violation,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Privacy Violation,686.6159999999996,true,true,prompt_response,53,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Privacy Violation | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Psychological Harm,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Violence,262.443,true,true,prompt_response,20,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering Public Health,38.483999999999995,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering Public Health | Environmental Damage,111.34500000000001,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering Public Health | Psychological Harm,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Environmental Damage,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Environmental Damage | Privacy Violation,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Environmental Damage | White-Collar Crime,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Mental Manipulation,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Mental Manipulation | Privacy Violation,88.85000000000001,true,true,prompt_response,8,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Mental Manipulation | Privacy Violation | Psychological Harm,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Physical Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation | Sexual Content,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Physical Harm | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Privacy Violation,316.877,true,true,prompt_response,31,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Privacy Violation | Psychological Harm,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Privacy Violation | Sexual Content,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Privacy Violation | Violence,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Psychological Harm,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Sexual Content,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | White-Collar Crime,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Mental Manipulation | Privacy Violation,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Mental Manipulation | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Privacy Violation,36.468999999999994,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Privacy Violation | Psychological Harm,85.766,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Privacy Violation | Psychological Harm | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Psychological Harm,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation,292.75199999999995,true,true,prompt_response,13,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Physical Harm | Privacy Violation,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Privacy Violation,237.68700000000004,true,true,prompt_response,19,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Privacy Violation | Psychological Harm,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Privacy Violation | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Privacy Violation | Sexual Content | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Psychological Harm,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | White-Collar Crime,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm,325.31399999999985,true,true,prompt_response,18,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Privacy Violation,236.88300000000004,true,true,prompt_response,25,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Privacy Violation | Psychological Harm,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Privacy Violation | Sexual Content,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Privacy Violation | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Psychological Harm | Violence,43.479,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Violence,238.679,true,true,prompt_response,16,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation,150.89400000000003,false,true,prompt_response,13,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation,4582.511999999997,true,true,prompt_response,235,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation | Psychological Harm,313.72799999999984,true,true,prompt_response,29,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation | Psychological Harm | Violence,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation | Violence,104.65800000000002,true,true,prompt_response,11,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation | White-Collar Crime,119.37800000000001,true,true,prompt_response,10,deepseek_v4_flash_safety_judge
+Cybercrime | Violence,11.882,false,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Cybercrime | Violence,333.26999999999987,true,true,prompt_response,19,deepseek_v4_flash_safety_judge
+Cybercrime | White-Collar Crime,78.879,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Discriminatory Behavior,200.81,false,true,prompt_response,12,deepseek_v4_flash_safety_judge
+Discriminatory Behavior,1221.7450000000006,true,true,prompt_response,79,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Endangering National Security | Insulting Behavior,107.41900000000001,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior,202.229,true,true,prompt_response,16,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Mental Manipulation,44.425,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Psychological Harm,22.695,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Psychological Harm | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Violence,24.709999999999997,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Economic Crime | Human Trafficking,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Economic Crime | Insulting Behavior,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Economic Crime | Insulting Behavior | Physical Harm | White-Collar Crime,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Endangering National Security | Insulting Behavior,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Endangering National Security | Insulting Behavior,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Endangering Public Health | Human Trafficking | Insulting Behavior | Physical Harm | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Endangering Public Health | Insulting Behavior,16.754,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Human Trafficking | Insulting Behavior,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Human Trafficking | Insulting Behavior | Psychological Harm,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Human Trafficking | Insulting Behavior | Sexual Content,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Human Trafficking | Mental Manipulation | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Human Trafficking | Physical Harm | Sexual Content,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior,213.76099999999997,false,true,prompt_response,15,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior,2229.2990000000013,true,true,prompt_response,128,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation,35.522999999999996,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation | Privacy Violation | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation | Psychological Harm,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Physical Harm,27.567,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Physical Harm | Psychological Harm,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Physical Harm | Psychological Harm | Violence,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Privacy Violation,88.65,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Psychological Harm,201.16,true,true,prompt_response,15,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Psychological Harm | Sexual Content | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Psychological Harm | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Sexual Content | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Violence,24.71,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Mental Manipulation | Psychological Harm,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Psychological Harm,16.754,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order,155.539,false,true,prompt_response,12,deepseek_v4_flash_safety_judge
+Disrupting Public Order,452.5779999999996,true,true,prompt_response,40,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Drugs,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Drugs | Physical Harm,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Economic Crime | Endangering National Security,35.522999999999996,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Economic Crime | Endangering National Security | Endangering Public Health | Mental Manipulation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Economic Crime | White-Collar Crime,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security,32.439,false,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security,150.04800000000003,true,true,prompt_response,17,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Endangering Public Health,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Physical Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Privacy Violation,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Human Trafficking,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Human Trafficking | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Insulting Behavior,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Mental Manipulation,212.41900000000004,true,true,prompt_response,26,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Mental Manipulation | Psychological Harm,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Physical Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Psychological Harm,24.709999999999997,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Violence,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Violence,123.42700000000002,true,true,prompt_response,13,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Environmental Damage,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Mental Manipulation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Physical Harm,5.941,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Psychological Harm,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Violence,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Environmental Damage,47.282,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Environmental Damage | Mental Manipulation,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Environmental Damage | Privacy Violation,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Environmental Damage | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior,99.46300000000001,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Mental Manipulation,86.83500000000001,true,true,prompt_response,8,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Mental Manipulation | Physical Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Mental Manipulation | Psychological Harm,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Violence,16.754,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation,509.0009999999995,true,true,prompt_response,33,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | Privacy Violation | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | Psychological Harm,55.361000000000004,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | Psychological Harm | Violence,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | Violence,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | White-Collar Crime,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Physical Harm,39.449000000000005,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Physical Harm | Privacy Violation,16.754,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Physical Harm | Violence,106.55000000000001,true,true,prompt_response,9,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Privacy Violation,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Privacy Violation | Violence,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Psychological Harm | Violence,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Sexual Content,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Violence,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Violence,232.63400000000004,true,true,prompt_response,16,deepseek_v4_flash_safety_judge
+Drugs,168.71300000000002,false,true,prompt_response,20,deepseek_v4_flash_safety_judge
+Drugs,1313.13,true,true,prompt_response,82,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime,123.10400000000001,false,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime,223.836,true,true,prompt_response,15,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Endangering National Security,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Endangering Public Health,23.641,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Human Trafficking | Mental Manipulation | Physical Harm | Privacy Violation | Sexual Content,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Mental Manipulation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Physical Harm | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Privacy Violation,64.14,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Psychological Harm,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | White-Collar Crime,396.5869999999997,true,true,prompt_response,27,deepseek_v4_flash_safety_judge
+Drugs | Endangering National Security,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Endangering Public Health,27.567,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Drugs | Endangering Public Health | Physical Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Environmental Damage,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Human Trafficking,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Human Trafficking | Mental Manipulation,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Human Trafficking | Mental Manipulation | Physical Harm | Sexual Content,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Human Trafficking | Mental Manipulation | Sexual Content,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Human Trafficking | Physical Harm | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Mental Manipulation,112.29100000000001,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Drugs | Mental Manipulation | Physical Harm | Psychological Harm,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Physical Harm,245.56600000000003,true,true,prompt_response,16,deepseek_v4_flash_safety_judge
+Drugs | Physical Harm | Privacy Violation,23.641,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Drugs | Physical Harm | Psychological Harm,56.307,true,true,prompt_response,6,deepseek_v4_flash_safety_judge
+Drugs | Privacy Violation,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Privacy Violation,243.551,true,true,prompt_response,16,deepseek_v4_flash_safety_judge
+Drugs | Privacy Violation | Sexual Content,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Psychological Harm,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Psychological Harm,53.223,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Drugs | Sexual Content,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Drugs | Violence,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Economic Crime,292.6399999999999,false,true,prompt_response,22,deepseek_v4_flash_safety_judge
+Economic Crime,1458.7170000000006,true,true,prompt_response,111,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security,55.238,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Endangering Public Health | Environmental Damage,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Environmental Damage | Privacy Violation,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Human Trafficking,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Human Trafficking | Mental Manipulation | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Mental Manipulation,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Privacy Violation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Psychological Harm,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | White-Collar Crime,321.40699999999987,true,true,prompt_response,20,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health,36.469,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | Environmental Damage,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | Environmental Damage | Privacy Violation,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | Physical Harm | Psychological Harm,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | Psychological Harm,72.938,true,true,prompt_response,6,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | White-Collar Crime,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Economic Crime | Environmental Damage,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Economic Crime | Environmental Damage | Privacy Violation,37.538,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Economic Crime | Environmental Damage | Psychological Harm,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Environmental Damage | White-Collar Crime,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Mental Manipulation | Physical Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Mental Manipulation | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Privacy Violation,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Privacy Violation | Psychological Harm,29.582,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Privacy Violation | White-Collar Crime,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Psychological Harm,16.754,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | White-Collar Crime,24.71,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Economic Crime | Insulting Behavior,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Economic Crime | Insulting Behavior | Mental Manipulation,85.766,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Economic Crime | Insulting Behavior | Privacy Violation | Psychological Harm,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Insulting Behavior | Psychological Harm,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Economic Crime | Insulting Behavior | White-Collar Crime,72.938,true,true,prompt_response,6,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation,152.782,true,true,prompt_response,15,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation | Privacy Violation,57.253,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation | Privacy Violation | White-Collar Crime,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation | Psychological Harm,64.14,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation | White-Collar Crime,72.938,true,true,prompt_response,6,deepseek_v4_flash_safety_judge
+Economic Crime | Physical Harm,211.85,true,true,prompt_response,14,deepseek_v4_flash_safety_judge
+Economic Crime | Physical Harm | Privacy Violation,49.297,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Economic Crime | Physical Harm | Privacy Violation | Psychological Harm | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Physical Harm | Psychological Harm,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Physical Harm | Violence,51.312,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation,203.12900000000002,true,true,prompt_response,17,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation | Psychological Harm,85.766,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation | Violence,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation | Violence | White-Collar Crime,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation | White-Collar Crime,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation | White-Collar Crime,657.8689999999996,true,true,prompt_response,50,deepseek_v4_flash_safety_judge
+Economic Crime | Psychological Harm,23.641,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Economic Crime | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Economic Crime | Psychological Harm | White-Collar Crime,50.366,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Economic Crime | Violence,410.9839999999999,true,true,prompt_response,18,deepseek_v4_flash_safety_judge
+Economic Crime | White-Collar Crime,173.47000000000003,false,true,prompt_response,10,deepseek_v4_flash_safety_judge
+Economic Crime | White-Collar Crime,5878.693000000013,true,true,prompt_response,297,deepseek_v4_flash_safety_judge
+Endangering National Security,167.425,false,true,prompt_response,10,deepseek_v4_flash_safety_judge
+Endangering National Security,326.60199999999986,true,true,prompt_response,28,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health,38.483999999999995,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health | Environmental Damage,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health | Environmental Damage | Privacy Violation,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health | Physical Harm,101.47800000000001,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health | Physical Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health | Psychological Harm,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Environmental Damage,78.879,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Endangering National Security | Environmental Damage | Human Trafficking,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Environmental Damage | Privacy Violation,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Environmental Damage | White-Collar Crime,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Human Trafficking | Mental Manipulation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Human Trafficking | Mental Manipulation | Physical Harm,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Human Trafficking | Physical Harm | Psychological Harm | Violence,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Endangering National Security | Human Trafficking | Psychological Harm,23.764,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Endangering National Security | Human Trafficking | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Insulting Behavior | Mental Manipulation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Mental Manipulation | Privacy Violation | Psychological Harm,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Physical Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Physical Harm | Psychological Harm,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Physical Harm | Violence,5.941,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Physical Harm | Violence,86.83500000000001,true,true,prompt_response,8,deepseek_v4_flash_safety_judge
+Endangering National Security | Privacy Violation,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Privacy Violation,37.538,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Endangering National Security | Privacy Violation | Psychological Harm,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Privacy Violation | White-Collar Crime,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Endangering National Security | Violence,49.297,false,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Endangering National Security | Violence,159.07300000000004,true,true,prompt_response,19,deepseek_v4_flash_safety_judge
+Endangering National Security | White-Collar Crime,23.641,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Endangering Public Health,78.77900000000001,false,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Endangering Public Health,272.806,true,true,prompt_response,15,deepseek_v4_flash_safety_judge
+Endangering Public Health | Environmental Damage,21.626,false,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Endangering Public Health | Environmental Damage,294.7509999999999,true,true,prompt_response,29,deepseek_v4_flash_safety_judge
+Endangering Public Health | Environmental Damage | Physical Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering Public Health | Environmental Damage | Privacy Violation,60.233000000000004,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Endangering Public Health | Physical Harm,91.60300000000001,true,true,prompt_response,9,deepseek_v4_flash_safety_judge
+Endangering Public Health | Physical Harm | Privacy Violation | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering Public Health | Physical Harm | Psychological Harm,48.351,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Endangering Public Health | Physical Harm | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering Public Health | Physical Harm | Violence,24.709999999999997,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Endangering Public Health | Privacy Violation,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Endangering Public Health | Privacy Violation,60.11,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Endangering Public Health | Privacy Violation | Psychological Harm,23.641,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Endangering Public Health | Psychological Harm,47.282,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Endangering Public Health | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Environmental Damage,23.641,false,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Environmental Damage,160.63400000000001,true,true,prompt_response,17,deepseek_v4_flash_safety_judge
+Environmental Damage | Insulting Behavior | Mental Manipulation,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Environmental Damage | Mental Manipulation | Privacy Violation,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Environmental Damage | Mental Manipulation | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Environmental Damage | Physical Harm,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Environmental Damage | Physical Harm,23.641,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Environmental Damage | Physical Harm | Violence,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Environmental Damage | Privacy Violation,169.64000000000001,true,true,prompt_response,16,deepseek_v4_flash_safety_judge
+Environmental Damage | Violence,36.468999999999994,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Environmental Damage | White-Collar Crime,5.941,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Human Trafficking,150.898,false,true,prompt_response,9,deepseek_v4_flash_safety_judge
+Human Trafficking,1273.2110000000005,true,true,prompt_response,113,deepseek_v4_flash_safety_judge
+Human Trafficking | Insulting Behavior,16.754,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Insulting Behavior | Mental Manipulation,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Insulting Behavior | Physical Harm | Psychological Harm,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Insulting Behavior | Psychological Harm,17.823,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation,23.641,false,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation,218.34100000000004,true,true,prompt_response,24,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm,86.95800000000001,true,true,prompt_response,10,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm | Privacy Violation,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm | Psychological Harm,87.90400000000001,true,true,prompt_response,9,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm | Sexual Content,37.538,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Privacy Violation,104.65800000000002,true,true,prompt_response,11,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Privacy Violation | Psychological Harm,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Psychological Harm,179.734,true,true,prompt_response,19,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Psychological Harm | Sexual Content,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Sexual Content,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Violence,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Privacy Violation,24.709999999999997,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Privacy Violation | Psychological Harm,50.366,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Privacy Violation | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Psychological Harm,92.89900000000002,true,true,prompt_response,11,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Psychological Harm | Sexual Content,43.479,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Psychological Harm | Sexual Content | Violence,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Psychological Harm | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Violence,47.405,true,true,prompt_response,6,deepseek_v4_flash_safety_judge
+Human Trafficking | Privacy Violation,49.42,true,true,prompt_response,6,deepseek_v4_flash_safety_judge
+Human Trafficking | Privacy Violation | Psychological Harm,275.471,true,true,prompt_response,27,deepseek_v4_flash_safety_judge
+Human Trafficking | Privacy Violation | Sexual Content,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Psychological Harm,23.764,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Human Trafficking | Psychological Harm | Sexual Content,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Psychological Harm | Sexual Content,226.93900000000005,true,true,prompt_response,19,deepseek_v4_flash_safety_judge
+Human Trafficking | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Sexual Content,34.577,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Human Trafficking | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Human Trafficking | White-Collar Crime,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior,322.8369999999998,false,true,prompt_response,24,deepseek_v4_flash_safety_judge
+Insulting Behavior,413.9559999999997,true,true,prompt_response,28,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation,732.0749999999994,true,true,prompt_response,71,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Physical Harm | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Privacy Violation,5.941,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Privacy Violation,227.639,true,true,prompt_response,14,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Privacy Violation | Psychological Harm,44.425,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Privacy Violation | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Psychological Harm,5.941,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Psychological Harm,994.6109999999995,true,true,prompt_response,79,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Sexual Content,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Sexual Content,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Violence,53.34600000000001,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | White-Collar Crime,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm,40.394999999999996,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Privacy Violation | Psychological Harm,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Psychological Harm,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Psychological Harm,44.425,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Psychological Harm | Sexual Content,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Psychological Harm | Violence,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Sexual Content,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Violence,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Privacy Violation,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Privacy Violation,100.62800000000001,true,true,prompt_response,11,deepseek_v4_flash_safety_judge
+Insulting Behavior | Privacy Violation | Psychological Harm,268.261,true,true,prompt_response,19,deepseek_v4_flash_safety_judge
+Insulting Behavior | Privacy Violation | Psychological Harm | Sexual Content,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Privacy Violation | Psychological Harm | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm,765.5139999999996,true,true,prompt_response,63,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm | Sexual Content,57.253,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm | Sexual Content | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm | Violence,10.813,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm | Violence,49.297,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Insulting Behavior | Sexual Content,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | White-Collar Crime,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Mental Manipulation,228.72699999999998,false,true,prompt_response,18,deepseek_v4_flash_safety_judge
+Mental Manipulation,4678.771999999984,true,true,prompt_response,337,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm,42.41,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Privacy Violation,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Privacy Violation | Psychological Harm,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Privacy Violation | Psychological Harm | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Privacy Violation | Sexual Content,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Psychological Harm,156.935,true,true,prompt_response,17,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Psychological Harm | Violence,118.355,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Sexual Content,25.656,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Sexual Content | Violence,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Violence,24.709999999999997,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Mental Manipulation | Privacy Violation,16.754,false,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Mental Manipulation | Privacy Violation,353.9499999999999,true,true,prompt_response,22,deepseek_v4_flash_safety_judge
+Mental Manipulation | Privacy Violation | Psychological Harm,71.992,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Mental Manipulation | Privacy Violation | Psychological Harm | Violence,10.813,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Privacy Violation | Sexual Content,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Psychological Harm,1062.3570000000002,true,true,prompt_response,107,deepseek_v4_flash_safety_judge
+Mental Manipulation | Psychological Harm | Sexual Content,143.065,true,true,prompt_response,10,deepseek_v4_flash_safety_judge
+Mental Manipulation | Psychological Harm | Sexual Content | Violence,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Mental Manipulation | Psychological Harm | Violence,91.83000000000001,true,true,prompt_response,10,deepseek_v4_flash_safety_judge
+Mental Manipulation | Sexual Content,49.297,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Mental Manipulation | Violence,195.219,true,true,prompt_response,14,deepseek_v4_flash_safety_judge
+Mental Manipulation | White-Collar Crime,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | White-Collar Crime,44.425,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Physical Harm,61.075,false,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Physical Harm,507.6969999999995,true,true,prompt_response,39,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation,98.71700000000001,true,true,prompt_response,10,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation | Psychological Harm,69.135,true,true,prompt_response,7,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation | Psychological Harm | Sexual Content,31.596999999999998,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation | Psychological Harm | Sexual Content | Violence,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation | Sexual Content,5.941,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation | Violence,159.573,true,true,prompt_response,8,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm,69.98100000000001,false,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm,222.886,true,true,prompt_response,20,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm | Sexual Content,120.24700000000001,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm | Sexual Content | Violence,11.882,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm | Violence,11.882,false,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm | Violence,216.32600000000005,true,true,prompt_response,24,deepseek_v4_flash_safety_judge
+Physical Harm | Sexual Content,35.523,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Physical Harm | Violence,35.522999999999996,false,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Physical Harm | Violence,2987.251999999989,true,true,prompt_response,262,deepseek_v4_flash_safety_judge
+Privacy Violation,228.7,false,true,prompt_response,23,deepseek_v4_flash_safety_judge
+Privacy Violation,1830.9610000000037,true,true,prompt_response,157,deepseek_v4_flash_safety_judge
+Privacy Violation | Psychological Harm,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Privacy Violation | Psychological Harm,62.02100000000001,true,true,prompt_response,6,deepseek_v4_flash_safety_judge
+Privacy Violation | Psychological Harm | Sexual Content,36.468999999999994,true,true,prompt_response,3,deepseek_v4_flash_safety_judge
+Privacy Violation | Psychological Harm | Violence,64.14,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Privacy Violation | Sexual Content,12.828,false,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Privacy Violation | Sexual Content,48.351,true,true,prompt_response,5,deepseek_v4_flash_safety_judge
+Privacy Violation | Sexual Content | Violence,18.769,true,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Privacy Violation | Violence,70.081,true,true,prompt_response,6,deepseek_v4_flash_safety_judge
+Privacy Violation | White-Collar Crime,268.13800000000003,true,true,prompt_response,17,deepseek_v4_flash_safety_judge
+Psychological Harm,101.57400000000001,true,true,prompt_response,10,deepseek_v4_flash_safety_judge
+Psychological Harm | Sexual Content,35.522999999999996,true,true,prompt_response,4,deepseek_v4_flash_safety_judge
+Psychological Harm | Sexual Content | Violence,68.908,true,true,prompt_response,6,deepseek_v4_flash_safety_judge
+Psychological Harm | Violence,25.656,false,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Psychological Harm | Violence,84.82000000000001,true,true,prompt_response,8,deepseek_v4_flash_safety_judge
+Psychological Harm | White-Collar Crime,12.828,true,true,prompt_response,1,deepseek_v4_flash_safety_judge
+Sexual Content,18.769,false,true,prompt_response,2,deepseek_v4_flash_safety_judge
+Sexual Content,119.41600000000003,true,true,prompt_response,16,deepseek_v4_flash_safety_judge
+Violence,134.982,false,true,prompt_response,11,deepseek_v4_flash_safety_judge
+Violence,818.0139999999998,true,true,prompt_response,74,deepseek_v4_flash_safety_judge
+White-Collar Crime,57.253,false,true,prompt_response,5,deepseek_v4_flash_safety_judge
+White-Collar Crime,781.5109999999995,true,true,prompt_response,50,deepseek_v4_flash_safety_judge
+<empty>,70619.22799999829,false,false,response_only,2316,deepseek_v4_flash_safety_judge
+<empty>,1450.9220000000016,true,false,response_only,66,deepseek_v4_flash_safety_judge
+<empty>,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse,106.46900000000002,false,true,response_only,9,deepseek_v4_flash_safety_judge
+Animal Abuse,253.433,true,true,response_only,25,deepseek_v4_flash_safety_judge
+Animal Abuse | Cybercrime | Drugs,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Cybercrime | Economic Crime | Human Trafficking,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Cybercrime | Human Trafficking,88.65,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Cybercrime | Privacy Violation,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Disrupting Public Order | Environmental Damage | Physical Harm | Violence,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Disrupting Public Order | Physical Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Disrupting Public Order | Violence,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Disrupting Public Order | Violence,56.307,true,true,response_only,6,deepseek_v4_flash_safety_judge
+Animal Abuse | Drugs | Physical Harm,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Endangering National Security | Environmental Damage,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Endangering National Security | Privacy Violation,11.882,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Environmental Damage,16.754,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Environmental Damage | Physical Harm,18.769,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Environmental Damage | Physical Harm,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Environmental Damage | Physical Harm | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Environmental Damage | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Human Trafficking,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Physical Harm,56.307,false,true,response_only,6,deepseek_v4_flash_safety_judge
+Animal Abuse | Physical Harm,113.22900000000001,true,true,response_only,11,deepseek_v4_flash_safety_judge
+Animal Abuse | Physical Harm | Psychological Harm,31.596999999999998,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Animal Abuse | Physical Harm | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Physical Harm | Violence,24.709999999999997,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Animal Abuse | Privacy Violation,34.454,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Animal Abuse | Psychological Harm,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Psychological Harm | Violence,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Animal Abuse | Psychological Harm | Violence,23.641,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Violence,21.626,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Animal Abuse | Violence,401.9779999999998,true,true,response_only,19,deepseek_v4_flash_safety_judge
+Copyright Issues,624.4249999999997,false,true,response_only,44,deepseek_v4_flash_safety_judge
+Copyright Issues,714.1329999999998,true,true,response_only,36,deepseek_v4_flash_safety_judge
+Copyright Issues | Cybercrime,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Cybercrime,369.51199999999994,true,true,response_only,21,deepseek_v4_flash_safety_judge
+Copyright Issues | Cybercrime | Economic Crime,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Cybercrime | Economic Crime | Privacy Violation,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Cybercrime | Environmental Damage,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Cybercrime | Privacy Violation,50.366,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Copyright Issues | Disrupting Public Order,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Drugs,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Copyright Issues | Economic Crime,18.769,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Copyright Issues | Economic Crime,126.16100000000002,true,true,response_only,11,deepseek_v4_flash_safety_judge
+Copyright Issues | Economic Crime | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Economic Crime | Privacy Violation | White-Collar Crime,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Economic Crime | Privacy Violation | White-Collar Crime,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Economic Crime | White-Collar Crime,29.581999999999997,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Copyright Issues | Privacy Violation,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Copyright Issues | Privacy Violation,58.095,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Cybercrime,535.2759999999997,false,true,response_only,30,deepseek_v4_flash_safety_judge
+Cybercrime,1437.322,true,true,response_only,117,deepseek_v4_flash_safety_judge
+Cybercrime | Discriminatory Behavior | Disrupting Public Order | Drugs | Human Trafficking | Insulting Behavior | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Discriminatory Behavior | Insulting Behavior,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Economic Crime | Endangering National Security,101.47800000000001,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security,25.656,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security,383.51299999999986,true,true,response_only,22,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Endangering Public Health,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Mental Manipulation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Physical Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Psychological Harm,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering National Security | Violence,38.483999999999995,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering Public Health,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Endangering Public Health | Privacy Violation,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Environmental Damage,23.641,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Environmental Damage | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Human Trafficking | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Insulting Behavior,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Mental Manipulation,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Mental Manipulation,98.71700000000001,true,true,response_only,10,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Physical Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Privacy Violation | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Disrupting Public Order | Violence,62.125,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs,130.31400000000002,false,true,response_only,13,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs,1709.6020000000003,true,true,response_only,99,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Economic Crime,31.596999999999998,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Economic Crime,555.1949999999996,true,true,response_only,33,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Economic Crime | Endangering National Security,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Economic Crime | Human Trafficking,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Economic Crime | Privacy Violation,50.366,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Economic Crime | White-Collar Crime,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Endangering National Security,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Endangering National Security | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Human Trafficking,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Human Trafficking | Privacy Violation,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Human Trafficking | Psychological Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Mental Manipulation,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Physical Harm,44.425,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Privacy Violation,94.59100000000001,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Privacy Violation,993.4459999999998,true,true,response_only,71,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Privacy Violation | Sexual Content,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Drugs | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime,323.27599999999995,false,true,response_only,19,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime,1801.8820000000005,true,true,response_only,104,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security,113.56000000000002,true,true,response_only,11,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Mental Manipulation,17.823,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation | Psychological Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation | White-Collar Crime,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation | White-Collar Crime,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Endangering National Security | White-Collar Crime,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Environmental Damage,16.754,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Human Trafficking,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Human Trafficking | Privacy Violation,31.596999999999998,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Human Trafficking | Privacy Violation | Psychological Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Insulting Behavior,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Insulting Behavior | Privacy Violation,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Mental Manipulation,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Mental Manipulation,62.125,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Mental Manipulation | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Physical Harm,37.538,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Physical Harm | Privacy Violation,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Physical Harm | Psychological Harm,21.626,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Physical Harm | Violence,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Privacy Violation,101.578,false,true,response_only,6,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Privacy Violation,1417.3690000000004,true,true,response_only,104,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Privacy Violation | Psychological Harm,42.41,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Privacy Violation | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Privacy Violation | White-Collar Crime,81.96300000000001,true,true,response_only,8,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Psychological Harm,38.483999999999995,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Psychological Harm | Violence,23.641,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | Violence,109.40700000000001,true,true,response_only,9,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | White-Collar Crime,18.769,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Economic Crime | White-Collar Crime,459.8579999999997,true,true,response_only,37,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security,275.06699999999995,false,true,response_only,19,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security,1004.4699999999999,true,true,response_only,74,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Endangering Public Health,38.483999999999995,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Endangering Public Health | Physical Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Endangering Public Health | Psychological Harm,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Endangering Public Health | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Human Trafficking,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Human Trafficking | Privacy Violation | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Mental Manipulation,88.74600000000001,true,true,response_only,9,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Physical Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Physical Harm,74.953,true,true,response_only,6,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Physical Harm | Privacy Violation,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Privacy Violation,24.709999999999997,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Privacy Violation,661.9059999999996,true,true,response_only,50,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Privacy Violation | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Psychological Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Violence,50.266000000000005,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering National Security | Violence,212.17700000000002,true,true,response_only,18,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering Public Health,38.483999999999995,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering Public Health | Environmental Damage,111.34500000000001,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Cybercrime | Endangering Public Health | Psychological Harm,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Environmental Damage,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Environmental Damage,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Environmental Damage | Privacy Violation,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Environmental Damage | White-Collar Crime,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Mental Manipulation,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Mental Manipulation | Privacy Violation,88.85000000000001,true,true,response_only,8,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Mental Manipulation | Privacy Violation | Psychological Harm,31.596999999999998,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Physical Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation | Sexual Content,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Physical Harm | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Privacy Violation,23.641,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Privacy Violation,293.23600000000005,true,true,response_only,29,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Privacy Violation | Psychological Harm,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Privacy Violation | Sexual Content,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Privacy Violation | Violence,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Privacy Violation | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Psychological Harm,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | Sexual Content,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Human Trafficking | White-Collar Crime,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Mental Manipulation | Privacy Violation,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Mental Manipulation | Psychological Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Privacy Violation,36.468999999999994,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Privacy Violation | Psychological Harm,85.766,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Privacy Violation | Psychological Harm | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Insulting Behavior | Psychological Harm,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation,51.312,false,true,response_only,4,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation,241.44,true,true,response_only,9,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Physical Harm | Privacy Violation,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Privacy Violation,237.68700000000004,true,true,response_only,19,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Privacy Violation | Psychological Harm,31.596999999999998,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Privacy Violation | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Privacy Violation | Sexual Content | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | Psychological Harm,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Mental Manipulation | White-Collar Crime,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm,23.641,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm,301.6729999999999,true,true,response_only,16,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Privacy Violation,21.626,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Privacy Violation,215.25700000000003,true,true,response_only,23,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Privacy Violation | Psychological Harm,11.882,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Privacy Violation | Sexual Content,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Privacy Violation | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Psychological Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Psychological Harm | Violence,43.479,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Cybercrime | Physical Harm | Violence,238.679,true,true,response_only,16,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation,974.7729999999998,false,true,response_only,50,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation,3758.6329999999944,true,true,response_only,198,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation | Psychological Harm,36.468999999999994,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation | Psychological Harm,277.25899999999996,true,true,response_only,26,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation | Psychological Harm | Violence,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation | Violence,104.65800000000002,true,true,response_only,11,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation | White-Collar Crime,18.769,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | Privacy Violation | White-Collar Crime,100.60900000000001,true,true,response_only,8,deepseek_v4_flash_safety_judge
+Cybercrime | Violence,137.001,false,true,response_only,7,deepseek_v4_flash_safety_judge
+Cybercrime | Violence,208.15100000000004,true,true,response_only,14,deepseek_v4_flash_safety_judge
+Cybercrime | White-Collar Crime,18.769,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Cybercrime | White-Collar Crime,60.11,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Discriminatory Behavior,656.7449999999998,false,true,response_only,41,deepseek_v4_flash_safety_judge
+Discriminatory Behavior,765.8099999999998,true,true,response_only,50,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Endangering National Security | Insulting Behavior,50.266000000000005,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Endangering National Security | Insulting Behavior,57.153000000000006,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior,196.288,true,true,response_only,15,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Mental Manipulation,44.425,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Psychological Harm,22.695,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Psychological Harm | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Violence,24.709999999999997,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Economic Crime | Human Trafficking,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Economic Crime | Insulting Behavior,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Economic Crime | Insulting Behavior | Physical Harm | White-Collar Crime,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Endangering National Security | Insulting Behavior,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Endangering National Security | Insulting Behavior,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Endangering Public Health | Human Trafficking | Insulting Behavior | Physical Harm | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Endangering Public Health | Insulting Behavior,16.754,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Human Trafficking | Insulting Behavior,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Human Trafficking | Insulting Behavior | Psychological Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Human Trafficking | Insulting Behavior | Sexual Content,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Human Trafficking | Mental Manipulation | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Human Trafficking | Physical Harm | Sexual Content,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Human Trafficking | Physical Harm | Sexual Content,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior,1243.629000000001,false,true,response_only,73,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior,1199.431000000001,true,true,response_only,70,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation,11.882,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation,23.641,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation | Privacy Violation | Psychological Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation | Psychological Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Physical Harm,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Physical Harm,16.754,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Physical Harm | Psychological Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Physical Harm | Psychological Harm | Violence,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Physical Harm | Psychological Harm | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Privacy Violation,88.65,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Psychological Harm,63.09400000000001,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Psychological Harm,138.066,true,true,response_only,12,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Psychological Harm | Sexual Content | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Psychological Harm | Violence,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Sexual Content | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Insulting Behavior | Violence,24.71,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Mental Manipulation | Psychological Harm,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Mental Manipulation | Psychological Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Discriminatory Behavior | Psychological Harm,16.754,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order,385.33499999999975,false,true,response_only,31,deepseek_v4_flash_safety_judge
+Disrupting Public Order,222.782,true,true,response_only,21,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Drugs,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Drugs,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Drugs | Physical Harm,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Economic Crime | Endangering National Security,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Economic Crime | Endangering National Security,29.581999999999997,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Economic Crime | Endangering National Security | Endangering Public Health | Mental Manipulation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Economic Crime | White-Collar Crime,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security,94.68700000000001,false,true,response_only,10,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security,87.80000000000001,true,true,response_only,10,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Endangering Public Health,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Physical Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Privacy Violation,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Human Trafficking,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Human Trafficking | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Insulting Behavior,31.596999999999998,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Mental Manipulation,36.592,false,true,response_only,5,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Mental Manipulation,175.82700000000003,true,true,response_only,21,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Mental Manipulation | Psychological Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Physical Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Psychological Harm,24.709999999999997,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Violence,42.41,false,true,response_only,4,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering National Security | Violence,93.84500000000001,true,true,response_only,10,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Environmental Damage,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Mental Manipulation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Physical Harm,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Psychological Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Psychological Harm,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Endangering Public Health | Violence,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Environmental Damage,47.282,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Environmental Damage | Mental Manipulation,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Environmental Damage | Privacy Violation,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Environmental Damage | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior,44.325,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior,55.138000000000005,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Mental Manipulation,86.83500000000001,true,true,response_only,8,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Mental Manipulation | Physical Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Mental Manipulation | Psychological Harm,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Mental Manipulation | Psychological Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Violence,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Insulting Behavior | Violence,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation,163.626,false,true,response_only,7,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation,345.37499999999994,true,true,response_only,26,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | Privacy Violation | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | Psychological Harm,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | Psychological Harm,49.42,true,true,response_only,6,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | Psychological Harm | Violence,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | Violence,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Mental Manipulation | White-Collar Crime,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Physical Harm,22.695,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Physical Harm,16.754,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Physical Harm | Privacy Violation,16.754,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Physical Harm | Violence,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Physical Harm | Violence,95.73700000000001,true,true,response_only,8,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Privacy Violation,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Privacy Violation,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Privacy Violation | Violence,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Privacy Violation | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Psychological Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Psychological Harm | Violence,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Sexual Content,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Violence,22.695,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Disrupting Public Order | Violence,220.752,true,true,response_only,14,deepseek_v4_flash_safety_judge
+Drugs,582.5499999999996,false,true,response_only,42,deepseek_v4_flash_safety_judge
+Drugs,899.2929999999997,true,true,response_only,60,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime,141.873,false,true,response_only,7,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime,205.067,true,true,response_only,13,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Endangering National Security,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Endangering Public Health,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Endangering Public Health,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Human Trafficking | Mental Manipulation | Physical Harm | Privacy Violation | Sexual Content,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Mental Manipulation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Physical Harm | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Privacy Violation,64.14,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | Psychological Harm,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | White-Collar Crime,44.425,false,true,response_only,4,deepseek_v4_flash_safety_judge
+Drugs | Economic Crime | White-Collar Crime,352.1619999999997,true,true,response_only,23,deepseek_v4_flash_safety_judge
+Drugs | Endangering National Security,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Endangering Public Health,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Endangering Public Health,16.754,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Drugs | Endangering Public Health | Physical Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Environmental Damage,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Human Trafficking,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Human Trafficking | Mental Manipulation,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Human Trafficking | Mental Manipulation | Physical Harm | Sexual Content,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Human Trafficking | Mental Manipulation | Sexual Content,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Human Trafficking | Physical Harm | Psychological Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Mental Manipulation,112.29100000000001,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Drugs | Mental Manipulation | Physical Harm | Psychological Harm,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Physical Harm,18.769,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Drugs | Physical Harm,226.79700000000003,true,true,response_only,14,deepseek_v4_flash_safety_judge
+Drugs | Physical Harm | Privacy Violation,23.641,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Drugs | Physical Harm | Psychological Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Physical Harm | Psychological Harm,43.479,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Drugs | Privacy Violation,48.351,false,true,response_only,5,deepseek_v4_flash_safety_judge
+Drugs | Privacy Violation,208.02800000000002,true,true,response_only,12,deepseek_v4_flash_safety_judge
+Drugs | Privacy Violation | Sexual Content,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Psychological Harm,29.581999999999997,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Drugs | Psychological Harm,36.469,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Drugs | Sexual Content,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Drugs | Violence,11.882,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime,640.5179999999997,false,true,response_only,49,deepseek_v4_flash_safety_judge
+Economic Crime,1110.8389999999997,true,true,response_only,84,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security,55.238,false,true,response_only,5,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Endangering Public Health | Environmental Damage,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Environmental Damage | Privacy Violation,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Human Trafficking,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Human Trafficking | Mental Manipulation | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Mental Manipulation,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Privacy Violation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Psychological Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | Psychological Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | White-Collar Crime,53.223,false,true,response_only,5,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering National Security | White-Collar Crime,268.1839999999999,true,true,response_only,15,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health,23.641,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | Environmental Damage,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | Environmental Damage | Privacy Violation,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | Physical Harm | Psychological Harm,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | Psychological Harm,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | Psychological Harm,62.125,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | White-Collar Crime,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Endangering Public Health | White-Collar Crime,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Environmental Damage,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Environmental Damage,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Environmental Damage | Privacy Violation,37.538,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Economic Crime | Environmental Damage | Psychological Harm,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Environmental Damage | White-Collar Crime,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Mental Manipulation | Physical Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Mental Manipulation | Psychological Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Privacy Violation,11.882,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Privacy Violation | Psychological Harm,29.582,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Privacy Violation | White-Collar Crime,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | Psychological Harm,16.754,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime | Human Trafficking | White-Collar Crime,24.71,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Economic Crime | Insulting Behavior,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime | Insulting Behavior | Mental Manipulation,85.766,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Economic Crime | Insulting Behavior | Privacy Violation | Psychological Harm,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Insulting Behavior | Psychological Harm,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime | Insulting Behavior | White-Collar Crime,72.938,true,true,response_only,6,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation,42.41,false,true,response_only,4,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation,123.20000000000002,true,true,response_only,12,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation | Privacy Violation,57.253,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation | Privacy Violation | White-Collar Crime,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation | Psychological Harm,64.14,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Economic Crime | Mental Manipulation | White-Collar Crime,72.938,true,true,response_only,6,deepseek_v4_flash_safety_judge
+Economic Crime | Physical Harm,21.626,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime | Physical Harm,190.224,true,true,response_only,12,deepseek_v4_flash_safety_judge
+Economic Crime | Physical Harm | Privacy Violation,49.297,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Economic Crime | Physical Harm | Privacy Violation | Psychological Harm | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Physical Harm | Psychological Harm,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Physical Harm | Violence,51.312,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation,25.656,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation,177.473,true,true,response_only,15,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation | Psychological Harm,21.626,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation | Psychological Harm,64.14,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation | Violence,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation | Violence | White-Collar Crime,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation | White-Collar Crime,18.769,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime | Privacy Violation | White-Collar Crime,651.9279999999995,true,true,response_only,49,deepseek_v4_flash_safety_judge
+Economic Crime | Psychological Harm,23.641,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Economic Crime | Psychological Harm | Violence,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Psychological Harm | White-Collar Crime,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Psychological Harm | White-Collar Crime,37.538,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Economic Crime | Violence,44.325,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Economic Crime | Violence,366.659,true,true,response_only,17,deepseek_v4_flash_safety_judge
+Economic Crime | White-Collar Crime,915.5819999999998,false,true,response_only,49,deepseek_v4_flash_safety_judge
+Economic Crime | White-Collar Crime,5136.581000000003,true,true,response_only,258,deepseek_v4_flash_safety_judge
+Endangering National Security,340.07199999999995,false,true,response_only,23,deepseek_v4_flash_safety_judge
+Endangering National Security,153.955,true,true,response_only,15,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health,38.483999999999995,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health | Environmental Damage,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health | Environmental Damage | Privacy Violation,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health | Physical Harm,101.47800000000001,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health | Physical Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Endangering Public Health | Psychological Harm,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Environmental Damage,78.879,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Endangering National Security | Environmental Damage | Human Trafficking,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Environmental Damage | Privacy Violation,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Environmental Damage | White-Collar Crime,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Human Trafficking | Mental Manipulation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Human Trafficking | Mental Manipulation | Physical Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Human Trafficking | Physical Harm | Psychological Harm | Violence,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Endangering National Security | Human Trafficking | Psychological Harm,23.764,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Endangering National Security | Human Trafficking | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Insulting Behavior | Mental Manipulation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Mental Manipulation | Privacy Violation | Psychological Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Physical Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Physical Harm | Psychological Harm,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Physical Harm | Violence,11.882,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Endangering National Security | Physical Harm | Violence,80.894,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Endangering National Security | Privacy Violation,29.582,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Endangering National Security | Privacy Violation,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Endangering National Security | Privacy Violation | Psychological Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering National Security | Privacy Violation | White-Collar Crime,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Endangering National Security | Violence,60.11,false,true,response_only,5,deepseek_v4_flash_safety_judge
+Endangering National Security | Violence,148.26000000000002,true,true,response_only,18,deepseek_v4_flash_safety_judge
+Endangering National Security | White-Collar Crime,23.641,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Endangering Public Health,234.32199999999995,false,true,response_only,12,deepseek_v4_flash_safety_judge
+Endangering Public Health,117.26300000000002,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Endangering Public Health | Environmental Damage,96.47500000000001,false,true,response_only,9,deepseek_v4_flash_safety_judge
+Endangering Public Health | Environmental Damage,219.90200000000002,true,true,response_only,22,deepseek_v4_flash_safety_judge
+Endangering Public Health | Environmental Damage | Physical Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering Public Health | Environmental Damage | Privacy Violation,60.233000000000004,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Endangering Public Health | Physical Harm,91.60300000000001,true,true,response_only,9,deepseek_v4_flash_safety_judge
+Endangering Public Health | Physical Harm | Privacy Violation | Psychological Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering Public Health | Physical Harm | Psychological Harm,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering Public Health | Physical Harm | Psychological Harm,37.538,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Endangering Public Health | Physical Harm | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering Public Health | Physical Harm | Violence,24.709999999999997,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Endangering Public Health | Privacy Violation,34.454,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Endangering Public Health | Privacy Violation,36.469,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Endangering Public Health | Privacy Violation | Psychological Harm,23.641,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Endangering Public Health | Psychological Harm,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Endangering Public Health | Psychological Harm,36.468999999999994,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Endangering Public Health | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Environmental Damage,101.47000000000001,false,true,response_only,11,deepseek_v4_flash_safety_judge
+Environmental Damage,82.805,true,true,response_only,8,deepseek_v4_flash_safety_judge
+Environmental Damage | Insulting Behavior | Mental Manipulation,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Environmental Damage | Mental Manipulation | Privacy Violation,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Environmental Damage | Mental Manipulation | Psychological Harm,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Environmental Damage | Physical Harm,25.656,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Environmental Damage | Physical Harm,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Environmental Damage | Physical Harm | Violence,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Environmental Damage | Privacy Violation,23.641,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Environmental Damage | Privacy Violation,145.99900000000002,true,true,response_only,14,deepseek_v4_flash_safety_judge
+Environmental Damage | Violence,23.641,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Environmental Damage | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Environmental Damage | White-Collar Crime,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking,776.8420000000002,false,true,response_only,71,deepseek_v4_flash_safety_judge
+Human Trafficking,647.2669999999999,true,true,response_only,51,deepseek_v4_flash_safety_judge
+Human Trafficking | Insulting Behavior,16.754,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Insulting Behavior | Mental Manipulation,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Insulting Behavior | Physical Harm | Psychological Harm,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Insulting Behavior | Physical Harm | Psychological Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Insulting Behavior | Psychological Harm,17.823,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation,91.83000000000001,false,true,response_only,10,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation,150.15200000000002,true,true,response_only,16,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm,24.709999999999997,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm,62.248000000000005,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm | Privacy Violation,11.882,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm | Psychological Harm,17.823,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm | Psychological Harm,70.081,true,true,response_only,6,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Physical Harm | Sexual Content,37.538,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Privacy Violation,17.823,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Privacy Violation,86.83500000000001,true,true,response_only,8,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Privacy Violation | Psychological Harm,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Psychological Harm,36.592,false,true,response_only,5,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Psychological Harm,143.14200000000002,true,true,response_only,14,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Psychological Harm | Sexual Content,18.769,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Psychological Harm | Sexual Content,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Sexual Content,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Sexual Content,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Mental Manipulation | Violence,11.882,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Privacy Violation,24.709999999999997,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Privacy Violation | Psychological Harm,50.366,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Privacy Violation | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Psychological Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Psychological Harm,80.07100000000001,true,true,response_only,10,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Psychological Harm | Sexual Content,43.479,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Psychological Harm | Sexual Content | Violence,31.596999999999998,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Psychological Harm | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Violence,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Physical Harm | Violence,41.464,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Human Trafficking | Privacy Violation,11.882,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Privacy Violation,37.538,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Human Trafficking | Privacy Violation | Psychological Harm,44.425,false,true,response_only,4,deepseek_v4_flash_safety_judge
+Human Trafficking | Privacy Violation | Psychological Harm,231.04600000000005,true,true,response_only,23,deepseek_v4_flash_safety_judge
+Human Trafficking | Privacy Violation | Sexual Content,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Psychological Harm,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Psychological Harm,17.823,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Psychological Harm | Sexual Content,33.508,false,true,response_only,4,deepseek_v4_flash_safety_judge
+Human Trafficking | Psychological Harm | Sexual Content,204.24400000000003,true,true,response_only,16,deepseek_v4_flash_safety_judge
+Human Trafficking | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | Sexual Content,16.754,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Human Trafficking | Sexual Content,17.823,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Human Trafficking | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Human Trafficking | White-Collar Crime,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior,551.5449999999995,false,true,response_only,39,deepseek_v4_flash_safety_judge
+Insulting Behavior,185.248,true,true,response_only,13,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation,248.56100000000004,false,true,response_only,25,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation,494.32699999999954,true,true,response_only,47,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Physical Harm | Psychological Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Privacy Violation,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Privacy Violation,227.639,true,true,response_only,14,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Privacy Violation | Psychological Harm,44.425,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Privacy Violation | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Psychological Harm,161.81100000000004,false,true,response_only,13,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Psychological Harm,838.7409999999996,true,true,response_only,67,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Sexual Content,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Sexual Content,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | Violence,53.34600000000001,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Insulting Behavior | Mental Manipulation | White-Collar Crime,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm,45.266999999999996,false,true,response_only,4,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Privacy Violation | Psychological Harm,31.596999999999998,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Psychological Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Psychological Harm,44.425,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Psychological Harm | Sexual Content,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Psychological Harm | Violence,31.596999999999998,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Sexual Content,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Violence,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Physical Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Privacy Violation,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Privacy Violation,100.62800000000001,true,true,response_only,11,deepseek_v4_flash_safety_judge
+Insulting Behavior | Privacy Violation | Psychological Harm,29.582,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Insulting Behavior | Privacy Violation | Psychological Harm,238.67900000000003,true,true,response_only,16,deepseek_v4_flash_safety_judge
+Insulting Behavior | Privacy Violation | Psychological Harm | Sexual Content,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Privacy Violation | Psychological Harm | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm,296.07399999999996,false,true,response_only,26,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm,482.2679999999997,true,true,response_only,38,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm | Sexual Content,25.656,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm | Sexual Content,31.596999999999998,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm | Sexual Content | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm | Violence,23.641,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Insulting Behavior | Psychological Harm | Violence,36.468999999999994,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Insulting Behavior | Sexual Content,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | Violence,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Insulting Behavior | White-Collar Crime,25.656,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Mental Manipulation,2389.6980000000012,false,true,response_only,163,deepseek_v4_flash_safety_judge
+Mental Manipulation,2517.8010000000004,true,true,response_only,192,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm,29.581999999999997,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Privacy Violation,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Privacy Violation | Psychological Harm,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Privacy Violation | Psychological Harm | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Privacy Violation | Sexual Content,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Psychological Harm,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Psychological Harm,146.122,true,true,response_only,16,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Psychological Harm | Violence,118.355,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Sexual Content,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Sexual Content,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Sexual Content | Violence,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Physical Harm | Violence,24.709999999999997,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Mental Manipulation | Privacy Violation,35.522999999999996,false,true,response_only,4,deepseek_v4_flash_safety_judge
+Mental Manipulation | Privacy Violation,335.1809999999999,true,true,response_only,20,deepseek_v4_flash_safety_judge
+Mental Manipulation | Privacy Violation | Psychological Harm,18.769,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Mental Manipulation | Privacy Violation | Psychological Harm,53.223,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Mental Manipulation | Privacy Violation | Psychological Harm | Violence,10.813,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Privacy Violation | Sexual Content,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Psychological Harm,135.43200000000002,false,true,response_only,17,deepseek_v4_flash_safety_judge
+Mental Manipulation | Psychological Harm,926.9250000000002,true,true,response_only,90,deepseek_v4_flash_safety_judge
+Mental Manipulation | Psychological Harm | Sexual Content,17.823,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Mental Manipulation | Psychological Harm | Sexual Content,125.242,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Mental Manipulation | Psychological Harm | Sexual Content | Violence,11.882,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Mental Manipulation | Psychological Harm | Violence,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Mental Manipulation | Psychological Harm | Violence,85.88900000000001,true,true,response_only,9,deepseek_v4_flash_safety_judge
+Mental Manipulation | Sexual Content,49.297,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Mental Manipulation | Violence,23.641,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Mental Manipulation | Violence,171.578,true,true,response_only,12,deepseek_v4_flash_safety_judge
+Mental Manipulation | White-Collar Crime,18.769,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Mental Manipulation | White-Collar Crime,38.483999999999995,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Physical Harm,148.875,false,true,response_only,17,deepseek_v4_flash_safety_judge
+Physical Harm,419.89699999999965,true,true,response_only,29,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation,18.769,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation,79.94800000000001,true,true,response_only,8,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation | Psychological Harm,69.135,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation | Psychological Harm | Sexual Content,31.596999999999998,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation | Psychological Harm | Sexual Content | Violence,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation | Sexual Content,5.941,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation | Violence,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Physical Harm | Privacy Violation | Violence,148.76000000000002,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm,160.642,false,true,response_only,9,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm,132.22500000000002,true,true,response_only,14,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm | Sexual Content,120.24700000000001,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm | Sexual Content | Violence,11.882,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm | Violence,17.823,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Physical Harm | Psychological Harm | Violence,210.38500000000005,true,true,response_only,23,deepseek_v4_flash_safety_judge
+Physical Harm | Sexual Content,5.941,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Physical Harm | Sexual Content,29.582,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Physical Harm | Violence,389.49599999999987,false,true,response_only,25,deepseek_v4_flash_safety_judge
+Physical Harm | Violence,2633.278999999994,true,true,response_only,241,deepseek_v4_flash_safety_judge
+Privacy Violation,1354.919000000002,false,true,response_only,122,deepseek_v4_flash_safety_judge
+Privacy Violation,704.7419999999997,true,true,response_only,58,deepseek_v4_flash_safety_judge
+Privacy Violation | Psychological Harm,25.656,false,true,response_only,2,deepseek_v4_flash_safety_judge
+Privacy Violation | Psychological Harm,49.193000000000005,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Privacy Violation | Psychological Harm | Sexual Content,36.468999999999994,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Privacy Violation | Psychological Harm | Violence,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Privacy Violation | Psychological Harm | Violence,51.312,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Privacy Violation | Sexual Content,12.828,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Privacy Violation | Sexual Content,48.351,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Privacy Violation | Sexual Content | Violence,18.769,true,true,response_only,2,deepseek_v4_flash_safety_judge
+Privacy Violation | Violence,31.596999999999998,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Privacy Violation | Violence,38.483999999999995,true,true,response_only,3,deepseek_v4_flash_safety_judge
+Privacy Violation | White-Collar Crime,69.98100000000001,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Privacy Violation | White-Collar Crime,198.157,true,true,response_only,14,deepseek_v4_flash_safety_judge
+Psychological Harm,55.238,false,true,response_only,5,deepseek_v4_flash_safety_judge
+Psychological Harm,46.336,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Psychological Harm | Sexual Content,35.522999999999996,true,true,response_only,4,deepseek_v4_flash_safety_judge
+Psychological Harm | Sexual Content | Violence,10.813,false,true,response_only,1,deepseek_v4_flash_safety_judge
+Psychological Harm | Sexual Content | Violence,58.095,true,true,response_only,5,deepseek_v4_flash_safety_judge
+Psychological Harm | Violence,36.469,false,true,response_only,3,deepseek_v4_flash_safety_judge
+Psychological Harm | Violence,74.007,true,true,response_only,7,deepseek_v4_flash_safety_judge
+Psychological Harm | White-Collar Crime,12.828,true,true,response_only,1,deepseek_v4_flash_safety_judge
+Sexual Content,69.031,false,true,response_only,8,deepseek_v4_flash_safety_judge
+Sexual Content,69.15400000000001,true,true,response_only,10,deepseek_v4_flash_safety_judge
+Violence,436.8739999999996,false,true,response_only,36,deepseek_v4_flash_safety_judge
+Violence,516.1219999999995,true,true,response_only,49,deepseek_v4_flash_safety_judge
+White-Collar Crime,290.70599999999996,false,true,response_only,22,deepseek_v4_flash_safety_judge
+White-Collar Crime,548.0579999999997,true,true,response_only,33,deepseek_v4_flash_safety_judge

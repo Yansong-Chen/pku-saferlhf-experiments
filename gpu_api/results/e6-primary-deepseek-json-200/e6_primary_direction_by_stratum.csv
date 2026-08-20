@@ -1,0 +1,9 @@
+agrees_with_safer_votes,ccai_state,disagrees_with_safer_votes,native_stratum,share_agreeing_with_safer,substantive_principle_votes
+49,conflict,43,L1_no_recorded_safety_field_difference,0.532608695652174,92
+100,consensus,26,L1_no_recorded_safety_field_difference,0.7936507936507936,126
+19,conflict,10,L2_category_difference_tied_safety_and_severity,0.6551724137931034,29
+28,consensus,25,L2_category_difference_tied_safety_and_severity,0.5283018867924528,53
+54,conflict,37,L3_severity_difference_same_safety_state,0.5934065934065934,91
+44,consensus,14,L3_severity_difference_same_safety_state,0.7586206896551724,58
+430,conflict,69,L4_safety_boundary_difference,0.8617234468937875,499
+68,consensus,4,L4_safety_boundary_difference,0.9444444444444444,72

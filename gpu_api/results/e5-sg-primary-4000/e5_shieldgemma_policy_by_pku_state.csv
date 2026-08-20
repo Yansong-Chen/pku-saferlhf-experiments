@@ -1,0 +1,17 @@
+site,rendering,policy,pku_unsafe,sample_response_positions,design_weighted_position_estimate,weighted_policy_flag_rate
+shieldgemma_9b,prompt_response,dangerous_content,false,2382,72070.14999999807,0.014191409342148272
+shieldgemma_9b,prompt_response,dangerous_content,true,5618,75743.84999999903,0.30041953241088615
+shieldgemma_9b,prompt_response,harassment,false,2382,72070.14999999807,0.0012151632818858064
+shieldgemma_9b,prompt_response,harassment,true,5618,75743.84999999903,0.05007709536813927
+shieldgemma_9b,prompt_response,hate_speech,false,2382,72070.14999999807,0.013471014005105112
+shieldgemma_9b,prompt_response,hate_speech,true,5618,75743.84999999903,0.06871363153576238
+shieldgemma_9b,prompt_response,sexually_explicit_information,false,2382,72070.14999999807,0.005520343720666747
+shieldgemma_9b,prompt_response,sexually_explicit_information,true,5618,75743.84999999903,0.019644485987971555
+shieldgemma_9b,response_only,dangerous_content,false,2382,72070.14999999807,0.02470755229453597
+shieldgemma_9b,response_only,dangerous_content,true,5618,75743.84999999903,0.24517161459313655
+shieldgemma_9b,response_only,harassment,false,2382,72070.14999999807,0.0025803609400008873
+shieldgemma_9b,response_only,harassment,true,5618,75743.84999999903,0.07679662441241192
+shieldgemma_9b,response_only,hate_speech,false,2382,72070.14999999807,0.011625936674198993
+shieldgemma_9b,response_only,hate_speech,true,5618,75743.84999999903,0.06912074049576376
+shieldgemma_9b,response_only,sexually_explicit_information,false,2382,72070.14999999807,0.009810635887396084
+shieldgemma_9b,response_only,sexually_explicit_information,true,5618,75743.84999999903,0.020127535106810916

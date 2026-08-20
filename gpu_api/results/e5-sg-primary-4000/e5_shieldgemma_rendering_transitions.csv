@@ -1,0 +1,9 @@
+site,pku_unsafe,prompt_response_external_unsafe,response_only_external_unsafe,sample_response_positions,design_weighted_position_estimate
+shieldgemma_9b,false,false,false,2209,67820.14899999868
+shieldgemma_9b,false,false,true,78,1815.2620000000031
+shieldgemma_9b,false,true,false,29,782.745
+shieldgemma_9b,false,true,true,66,1651.9940000000029
+shieldgemma_9b,true,false,false,2922,41079.835000000065
+shieldgemma_9b,true,false,true,181,2426.4909999999995
+shieldgemma_9b,true,true,false,391,5048.016999999995
+shieldgemma_9b,true,true,true,2124,27189.50699999992

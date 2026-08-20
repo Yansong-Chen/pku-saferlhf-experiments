@@ -91,21 +91,24 @@ allocation is 50 pairs in each L1--L4 stratum; every selected E6 pair is also
 in the shared E5/E7 sample.
 
 The primary job has 200 pairs times 21 principles times two response orders:
-8,400 judgements. The independent 10% repeat has 840 further judgements.
-Run the pilot before authorising this volume: it has 50 pairs and 2,100
-judgements, so it gives a real estimate of malformed outputs, token use,
-latency, and cost without altering the prompt or classification rule.
+8,400 judgements. The independent 10% repeat has 840 further judgements. The
+completed operational pilot used a separate pre-primary manifest with 48 pairs
+and 2,016 judgements. It gives an execution diagnostic without contributing
+observations to the primary prevalence estimate.
 
 1. Confirm the exact sample and pilot plan:
 
-       python3 gpu_api/scripts/e6_run.py --phase pilot --run-id e6-pilot --dry-run
+       python3 gpu_api/scripts/e6_run.py --phase pilot \
+           --run-id e6-pilot-deepseek-json-2016 --limit 2016 --dry-run
 
 2. Run and aggregate the pilot:
 
-       python3 gpu_api/scripts/e6_run.py --phase pilot --run-id e6-pilot
+       python3 gpu_api/scripts/e6_run.py --phase pilot \
+           --run-id e6-pilot-deepseek-json-2016 --limit 2016
        python3 gpu_api/scripts/e6_aggregate.py \
-           --private-run gpu_api/private_runs/e6/e6-pilot \
-           --aggregate-dir gpu_api/results/e6-pilot --phase pilot
+           --private-run gpu_api/private_runs/e6/e6-pilot-deepseek-json-2016 \
+           --aggregate-dir gpu_api/results/e6-pilot-deepseek-json-2016 \
+           --phase pilot
 
 3. Freeze the returned model identifier, API date, worker count, retry rule,
 malformed-output rate, token-use total, and any run deviation. Do not edit
@@ -127,17 +130,21 @@ separately documented run if it is to be attempted again.
 
 4. Execute the primary and repeat jobs, resuming safely after interruption:
 
-       python3 gpu_api/scripts/e6_run.py --phase primary --run-id e6-primary
-       python3 gpu_api/scripts/e6_run.py --phase repeat --run-id e6-primary
+       python3 gpu_api/scripts/e6_run.py --phase primary \
+           --run-id e6-primary-deepseek-json-200
+       python3 gpu_api/scripts/e6_run.py --phase repeat \
+           --run-id e6-primary-deepseek-json-200
        python3 gpu_api/scripts/e6_aggregate.py \
-           --private-run gpu_api/private_runs/e6/e6-primary \
-           --aggregate-dir gpu_api/results/e6-primary --phase primary \
+           --private-run gpu_api/private_runs/e6/e6-primary-deepseek-json-200 \
+           --aggregate-dir gpu_api/results/e6-primary-deepseek-json-200 \
+           --phase primary \
            --bootstrap-replicates 10000 \
            --bootstrap-seed 20260811 \
            --sample-manifest gpu_api/config/e6_sample_manifest.csv
        python3 gpu_api/scripts/e6_aggregate.py \
-           --private-run gpu_api/private_runs/e6/e6-primary \
-           --aggregate-dir gpu_api/results/e6-primary --phase repeat \
+           --private-run gpu_api/private_runs/e6/e6-primary-deepseek-json-200 \
+           --aggregate-dir gpu_api/results/e6-primary-deepseek-json-200 \
+           --phase repeat \
            --sample-manifest gpu_api/config/e6_sample_manifest.csv
 
 The executor maps both orderings back to response identifiers. A reversed

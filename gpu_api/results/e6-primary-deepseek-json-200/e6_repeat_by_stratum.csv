@@ -1,0 +1,13 @@
+bootstrap_lower_95,bootstrap_upper_95,ccai_state,design_weighted_pair_estimate,native_stratum,unweighted_pair_share,unweighted_pairs
+,,conflict,3546.0,L1_no_recorded_safety_field_difference,0.4444444444444444,4
+,,consensus,4432.5,L1_no_recorded_safety_field_difference,0.5555555555555556,5
+,,indifference,0,L1_no_recorded_safety_field_difference,0.0,0
+,,conflict,0,L2_category_difference_tied_safety_and_severity,0.0,0
+,,consensus,256.56,L2_category_difference_tied_safety_and_severity,0.3333333333333333,1
+,,indifference,513.12,L2_category_difference_tied_safety_and_severity,0.6666666666666666,2
+,,conflict,0,L3_severity_difference_same_safety_state,0.0,0
+,,consensus,594.0999999999999,L3_severity_difference_same_safety_state,1.0,5
+,,indifference,0,L3_severity_difference_same_safety_state,0.0,0
+,,conflict,432.52,L4_safety_boundary_difference,0.6666666666666666,2
+,,consensus,216.26,L4_safety_boundary_difference,0.3333333333333333,1
+,,indifference,0,L4_safety_boundary_difference,0.0,0

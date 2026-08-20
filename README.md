@@ -38,6 +38,27 @@ The dissertation's headline claims have direct evidence anchors:
 See cpu/README.md for immediately runnable analyses and gpu_api/RUNBOOK.md for
 the credentialed execution package.
 
+## Promoted credentialed-run outputs
+
+The reviewed, text-free outputs for the completed credentialed audits are
+retained under `gpu_api/results/`:
+
+- `e5a-primary-deepseek-json-4000/` contains the Audit III DeepSeek primary
+  aggregate for both prompt--response and response-only renderings;
+- `e5-sg-primary-4000/` contains the Audit III ShieldGemma primary aggregate
+  and policy/category diagnostics for the same two renderings;
+- `e6-pilot-deepseek-json-2016/` contains the separate Audit IV operational
+  pilot diagnostics;
+- `e6-primary-deepseek-json-200/` contains the Audit IV primary and independent
+  10% repeat aggregates; and
+- `e7-primary-beaver-cost-4000/` contains the Audit II Beaver cost-model
+  transfer aggregate.
+
+Each directory has its own README naming the authoritative summary, coverage,
+inferential boundary, and private-run aggregation command. The promoted files
+contain no prompts, response text, credentials, or vendor payloads. Raw/API
+records remain excluded from version control.
+
 ## Promoted E7 primary output
 
 `gpu_api/results/e7-primary-beaver-cost-4000/` contains the reviewed,

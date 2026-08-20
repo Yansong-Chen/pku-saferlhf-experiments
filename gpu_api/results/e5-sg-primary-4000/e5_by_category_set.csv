@@ -1,0 +1,1324 @@
+category_set,design_weighted_position_estimate,external_unsafe,pku_unsafe,rendering,sample_response_positions,site
+<empty>,69635.4109999984,false,false,prompt_response,2287,shieldgemma_9b
+<empty>,2434.739000000003,true,false,prompt_response,95,shieldgemma_9b
+<empty>,10.813,true,true,prompt_response,1,shieldgemma_9b
+Animal Abuse,193.319,false,true,prompt_response,24,shieldgemma_9b
+Animal Abuse,166.58300000000003,true,true,prompt_response,10,shieldgemma_9b
+Animal Abuse | Cybercrime | Drugs,5.941,true,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Cybercrime | Economic Crime | Human Trafficking,5.941,true,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Cybercrime | Human Trafficking,88.65,true,true,prompt_response,2,shieldgemma_9b
+Animal Abuse | Cybercrime | Privacy Violation,10.813,true,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Disrupting Public Order | Environmental Damage | Physical Harm | Violence,25.656,true,true,prompt_response,2,shieldgemma_9b
+Animal Abuse | Disrupting Public Order | Physical Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Disrupting Public Order | Violence,11.882,false,true,prompt_response,2,shieldgemma_9b
+Animal Abuse | Disrupting Public Order | Violence,50.366,true,true,prompt_response,5,shieldgemma_9b
+Animal Abuse | Drugs | Physical Harm,10.813,true,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Endangering National Security | Environmental Damage,5.941,true,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Endangering National Security | Privacy Violation,11.882,true,true,prompt_response,2,shieldgemma_9b
+Animal Abuse | Environmental Damage,5.941,false,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Environmental Damage,10.813,true,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Environmental Damage | Physical Harm,37.538,true,true,prompt_response,4,shieldgemma_9b
+Animal Abuse | Environmental Damage | Physical Harm | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Environmental Damage | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Human Trafficking,5.941,true,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Physical Harm,60.233000000000004,false,true,prompt_response,7,shieldgemma_9b
+Animal Abuse | Physical Harm,109.30300000000001,true,true,prompt_response,10,shieldgemma_9b
+Animal Abuse | Physical Harm | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Physical Harm | Psychological Harm,18.769,true,true,prompt_response,2,shieldgemma_9b
+Animal Abuse | Physical Harm | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Physical Harm | Violence,24.709999999999997,true,true,prompt_response,3,shieldgemma_9b
+Animal Abuse | Privacy Violation,34.454,false,true,prompt_response,3,shieldgemma_9b
+Animal Abuse | Psychological Harm,10.813,false,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Psychological Harm | Violence,10.813,false,true,prompt_response,1,shieldgemma_9b
+Animal Abuse | Psychological Harm | Violence,23.641,true,true,prompt_response,2,shieldgemma_9b
+Animal Abuse | Violence,21.626,false,true,prompt_response,2,shieldgemma_9b
+Animal Abuse | Violence,401.9779999999998,true,true,prompt_response,19,shieldgemma_9b
+Copyright Issues,1338.5580000000014,false,true,prompt_response,80,shieldgemma_9b
+Copyright Issues | Cybercrime,380.3249999999999,false,true,prompt_response,22,shieldgemma_9b
+Copyright Issues | Cybercrime | Economic Crime,12.828,false,true,prompt_response,1,shieldgemma_9b
+Copyright Issues | Cybercrime | Economic Crime | Privacy Violation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Copyright Issues | Cybercrime | Environmental Damage,12.828,true,true,prompt_response,1,shieldgemma_9b
+Copyright Issues | Cybercrime | Privacy Violation,50.366,false,true,prompt_response,5,shieldgemma_9b
+Copyright Issues | Disrupting Public Order,10.813,false,true,prompt_response,1,shieldgemma_9b
+Copyright Issues | Drugs,25.656,false,true,prompt_response,2,shieldgemma_9b
+Copyright Issues | Economic Crime,144.93,false,true,prompt_response,13,shieldgemma_9b
+Copyright Issues | Economic Crime | Privacy Violation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Copyright Issues | Economic Crime | Privacy Violation | White-Collar Crime,25.656,false,true,prompt_response,2,shieldgemma_9b
+Copyright Issues | Economic Crime | White-Collar Crime,29.581999999999997,false,true,prompt_response,3,shieldgemma_9b
+Copyright Issues | Privacy Violation,64.036,false,true,prompt_response,6,shieldgemma_9b
+Cybercrime,1019.4939999999992,false,true,prompt_response,67,shieldgemma_9b
+Cybercrime,953.1040000000002,true,true,prompt_response,80,shieldgemma_9b
+Cybercrime | Discriminatory Behavior | Disrupting Public Order | Drugs | Human Trafficking | Insulting Behavior | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Discriminatory Behavior | Insulting Behavior,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order,5.941,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Economic Crime | Endangering National Security,101.47800000000001,false,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security,295.7319999999999,false,true,prompt_response,15,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security,113.43700000000001,true,true,prompt_response,9,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Endangering Public Health,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Mental Manipulation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Physical Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Privacy Violation,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Psychological Harm,25.656,false,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Violence,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Violence,25.656,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering Public Health,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering Public Health | Privacy Violation,10.813,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Environmental Damage,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Environmental Damage,10.813,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Environmental Damage | Privacy Violation,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Human Trafficking | Privacy Violation,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Insulting Behavior,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Mental Manipulation,98.71700000000001,false,true,prompt_response,10,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Mental Manipulation,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Physical Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Privacy Violation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Privacy Violation | Violence,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Violence,25.656,false,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Violence,36.469,true,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Drugs,54.065000000000005,false,true,prompt_response,5,shieldgemma_9b
+Cybercrime | Drugs,1785.851,true,true,prompt_response,107,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime,94.691,false,true,prompt_response,6,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime,492.1009999999996,true,true,prompt_response,30,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime | Endangering National Security,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime | Human Trafficking,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime | Privacy Violation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime | Privacy Violation,37.538,true,true,prompt_response,4,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime | White-Collar Crime,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Drugs | Endangering National Security,18.769,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Drugs | Endangering National Security | Privacy Violation,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Drugs | Human Trafficking,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Drugs | Human Trafficking | Privacy Violation,10.813,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Drugs | Human Trafficking | Psychological Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Drugs | Mental Manipulation,25.656,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Drugs | Physical Harm,44.425,true,true,prompt_response,4,shieldgemma_9b
+Cybercrime | Drugs | Privacy Violation,101.47800000000001,false,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Drugs | Privacy Violation,986.559,true,true,prompt_response,71,shieldgemma_9b
+Cybercrime | Drugs | Privacy Violation | Sexual Content,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Drugs | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime,1403.6069999999997,false,true,prompt_response,81,shieldgemma_9b
+Cybercrime | Economic Crime,721.5509999999997,true,true,prompt_response,42,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security,81.01700000000001,false,true,prompt_response,9,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security,38.483999999999995,true,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | Mental Manipulation,17.823,false,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation,25.656,false,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation | Psychological Harm,5.941,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation | White-Collar Crime,25.656,false,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | White-Collar Crime,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Environmental Damage,16.754,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Economic Crime | Human Trafficking,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Human Trafficking,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Human Trafficking | Privacy Violation,5.941,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Human Trafficking | Privacy Violation,25.656,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Economic Crime | Human Trafficking | Privacy Violation | Psychological Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Insulting Behavior,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Insulting Behavior | Privacy Violation,5.941,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Mental Manipulation,68.066,false,true,prompt_response,6,shieldgemma_9b
+Cybercrime | Economic Crime | Mental Manipulation | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Physical Harm,37.538,true,true,prompt_response,4,shieldgemma_9b
+Cybercrime | Economic Crime | Physical Harm | Privacy Violation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Physical Harm | Privacy Violation,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Physical Harm | Psychological Harm,21.626,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Economic Crime | Physical Harm | Violence,25.656,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Economic Crime | Privacy Violation,1173.5529999999999,false,true,prompt_response,81,shieldgemma_9b
+Cybercrime | Economic Crime | Privacy Violation,345.39399999999983,true,true,prompt_response,29,shieldgemma_9b
+Cybercrime | Economic Crime | Privacy Violation | Psychological Harm,36.468999999999994,false,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Economic Crime | Privacy Violation | Psychological Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Privacy Violation | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Privacy Violation | White-Collar Crime,81.96300000000001,false,true,prompt_response,8,shieldgemma_9b
+Cybercrime | Economic Crime | Psychological Harm,25.656,false,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Economic Crime | Psychological Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Psychological Harm | Violence,23.641,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Economic Crime | Violence,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Economic Crime | Violence,96.57900000000001,true,true,prompt_response,8,shieldgemma_9b
+Cybercrime | Economic Crime | White-Collar Crime,447.02999999999975,false,true,prompt_response,36,shieldgemma_9b
+Cybercrime | Economic Crime | White-Collar Crime,31.596999999999998,true,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Endangering National Security,678.929,false,true,prompt_response,55,shieldgemma_9b
+Cybercrime | Endangering National Security,600.6079999999995,true,true,prompt_response,38,shieldgemma_9b
+Cybercrime | Endangering National Security | Endangering Public Health,38.483999999999995,true,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Endangering National Security | Endangering Public Health | Physical Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Endangering Public Health | Psychological Harm,10.813,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Endangering Public Health | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Human Trafficking,5.941,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Human Trafficking | Privacy Violation | Psychological Harm | Violence,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Mental Manipulation,88.74600000000001,false,true,prompt_response,9,shieldgemma_9b
+Cybercrime | Endangering National Security | Physical Harm,87.781,true,true,prompt_response,7,shieldgemma_9b
+Cybercrime | Endangering National Security | Physical Harm | Privacy Violation,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Privacy Violation,554.3869999999995,false,true,prompt_response,43,shieldgemma_9b
+Cybercrime | Endangering National Security | Privacy Violation,132.229,true,true,prompt_response,10,shieldgemma_9b
+Cybercrime | Endangering National Security | Privacy Violation | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Psychological Harm,5.941,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Violence,18.769,false,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Endangering National Security | Violence,243.674,true,true,prompt_response,18,shieldgemma_9b
+Cybercrime | Endangering Public Health,38.483999999999995,true,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Endangering Public Health | Environmental Damage,111.34500000000001,true,true,prompt_response,5,shieldgemma_9b
+Cybercrime | Endangering Public Health | Psychological Harm,25.656,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Environmental Damage,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Environmental Damage,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Environmental Damage | Privacy Violation,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Environmental Damage | White-Collar Crime,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Mental Manipulation,18.769,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Human Trafficking | Mental Manipulation | Privacy Violation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Mental Manipulation | Privacy Violation,76.022,true,true,prompt_response,7,shieldgemma_9b
+Cybercrime | Human Trafficking | Mental Manipulation | Privacy Violation | Psychological Harm,31.596999999999998,true,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Human Trafficking | Physical Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation | Sexual Content,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Physical Harm | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Privacy Violation,136.055,false,true,prompt_response,8,shieldgemma_9b
+Cybercrime | Human Trafficking | Privacy Violation,180.82200000000003,true,true,prompt_response,23,shieldgemma_9b
+Cybercrime | Human Trafficking | Privacy Violation | Psychological Harm,25.656,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Human Trafficking | Privacy Violation | Sexual Content,18.769,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Human Trafficking | Privacy Violation | Violence,25.656,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Human Trafficking | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Psychological Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Sexual Content,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Human Trafficking | White-Collar Crime,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Insulting Behavior,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Insulting Behavior | Mental Manipulation | Privacy Violation,18.769,false,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Insulting Behavior | Mental Manipulation | Psychological Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Insulting Behavior | Privacy Violation,36.468999999999994,false,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Insulting Behavior | Privacy Violation | Psychological Harm,36.468999999999994,false,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Insulting Behavior | Privacy Violation | Psychological Harm,49.297,true,true,prompt_response,4,shieldgemma_9b
+Cybercrime | Insulting Behavior | Privacy Violation | Psychological Harm | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Insulting Behavior | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Insulting Behavior | Psychological Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Mental Manipulation,292.75199999999995,false,true,prompt_response,13,shieldgemma_9b
+Cybercrime | Mental Manipulation | Physical Harm | Privacy Violation,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Mental Manipulation | Privacy Violation,224.85900000000004,false,true,prompt_response,18,shieldgemma_9b
+Cybercrime | Mental Manipulation | Privacy Violation,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Mental Manipulation | Privacy Violation | Psychological Harm,31.596999999999998,false,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Mental Manipulation | Privacy Violation | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Mental Manipulation | Privacy Violation | Sexual Content | Violence,12.828,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Mental Manipulation | Psychological Harm,18.769,false,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Mental Manipulation | White-Collar Crime,10.813,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Physical Harm,36.468999999999994,false,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Physical Harm,288.8449999999999,true,true,prompt_response,15,shieldgemma_9b
+Cybercrime | Physical Harm | Privacy Violation,57.253,false,true,prompt_response,5,shieldgemma_9b
+Cybercrime | Physical Harm | Privacy Violation,179.63000000000002,true,true,prompt_response,20,shieldgemma_9b
+Cybercrime | Physical Harm | Privacy Violation | Psychological Harm,5.941,false,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Physical Harm | Privacy Violation | Psychological Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Physical Harm | Privacy Violation | Sexual Content,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Physical Harm | Privacy Violation | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Physical Harm | Psychological Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Cybercrime | Physical Harm | Psychological Harm | Violence,43.479,true,true,prompt_response,5,shieldgemma_9b
+Cybercrime | Physical Harm | Violence,238.679,true,true,prompt_response,16,shieldgemma_9b
+Cybercrime | Privacy Violation,4517.079999999998,false,true,prompt_response,224,shieldgemma_9b
+Cybercrime | Privacy Violation,216.32600000000005,true,true,prompt_response,24,shieldgemma_9b
+Cybercrime | Privacy Violation | Psychological Harm,260.505,false,true,prompt_response,24,shieldgemma_9b
+Cybercrime | Privacy Violation | Psychological Harm,53.223,true,true,prompt_response,5,shieldgemma_9b
+Cybercrime | Privacy Violation | Psychological Harm | Violence,25.656,true,true,prompt_response,2,shieldgemma_9b
+Cybercrime | Privacy Violation | Violence,36.468999999999994,false,true,prompt_response,3,shieldgemma_9b
+Cybercrime | Privacy Violation | Violence,68.18900000000001,true,true,prompt_response,8,shieldgemma_9b
+Cybercrime | Privacy Violation | White-Collar Crime,119.37800000000001,false,true,prompt_response,10,shieldgemma_9b
+Cybercrime | Violence,345.1519999999999,true,true,prompt_response,21,shieldgemma_9b
+Cybercrime | White-Collar Crime,78.879,false,true,prompt_response,7,shieldgemma_9b
+Discriminatory Behavior,116.08600000000001,false,true,prompt_response,11,shieldgemma_9b
+Discriminatory Behavior,1306.4690000000007,true,true,prompt_response,80,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order,10.813,true,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Endangering National Security | Insulting Behavior,5.941,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Endangering National Security | Insulting Behavior,101.47800000000001,true,true,prompt_response,3,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior,202.229,true,true,prompt_response,16,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Mental Manipulation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Mental Manipulation,31.596999999999998,true,true,prompt_response,3,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Psychological Harm,22.695,true,true,prompt_response,3,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Psychological Harm | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Violence,24.709999999999997,true,true,prompt_response,3,shieldgemma_9b
+Discriminatory Behavior | Economic Crime | Human Trafficking,12.828,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Economic Crime | Insulting Behavior,10.813,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Economic Crime | Insulting Behavior | Physical Harm | White-Collar Crime,12.828,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Endangering National Security | Insulting Behavior,16.754,true,true,prompt_response,2,shieldgemma_9b
+Discriminatory Behavior | Endangering Public Health | Human Trafficking | Insulting Behavior | Physical Harm | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Endangering Public Health | Insulting Behavior,16.754,true,true,prompt_response,2,shieldgemma_9b
+Discriminatory Behavior | Human Trafficking | Insulting Behavior,5.941,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Human Trafficking | Insulting Behavior | Psychological Harm,5.941,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Human Trafficking | Insulting Behavior | Sexual Content,12.828,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Human Trafficking | Mental Manipulation | Privacy Violation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Human Trafficking | Physical Harm | Sexual Content,11.882,true,true,prompt_response,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior,150.667,false,true,prompt_response,12,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior,2292.3930000000005,true,true,prompt_response,131,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation,11.882,false,true,prompt_response,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation,23.641,true,true,prompt_response,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation | Privacy Violation | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation | Psychological Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Physical Harm,5.941,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Physical Harm,21.626,true,true,prompt_response,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Physical Harm | Psychological Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Physical Harm | Psychological Harm | Violence,11.882,true,true,prompt_response,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Privacy Violation,88.65,true,true,prompt_response,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Psychological Harm,5.941,false,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Psychological Harm,195.219,true,true,prompt_response,14,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Psychological Harm | Sexual Content | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Psychological Harm | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Sexual Content | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Violence,24.71,true,true,prompt_response,3,shieldgemma_9b
+Discriminatory Behavior | Mental Manipulation | Psychological Harm,18.769,true,true,prompt_response,2,shieldgemma_9b
+Discriminatory Behavior | Psychological Harm,16.754,true,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order,591.3629999999997,false,true,prompt_response,50,shieldgemma_9b
+Disrupting Public Order,16.754,true,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Drugs,12.828,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Drugs,5.941,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Drugs | Physical Harm,10.813,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Economic Crime | Endangering National Security,35.522999999999996,false,true,prompt_response,4,shieldgemma_9b
+Disrupting Public Order | Economic Crime | Endangering National Security | Endangering Public Health | Mental Manipulation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Economic Crime | White-Collar Crime,18.769,false,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Endangering National Security,158.84600000000003,false,true,prompt_response,18,shieldgemma_9b
+Disrupting Public Order | Endangering National Security,23.641,true,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Endangering Public Health,25.656,true,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Physical Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Privacy Violation,10.813,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Human Trafficking,5.941,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Human Trafficking | Violence,5.941,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Insulting Behavior,18.769,false,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Insulting Behavior,12.828,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Mental Manipulation,200.53700000000003,false,true,prompt_response,24,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Mental Manipulation,11.882,true,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Mental Manipulation | Psychological Harm,5.941,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Physical Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Psychological Harm,24.709999999999997,false,true,prompt_response,3,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Violence,31.596999999999998,false,true,prompt_response,3,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Violence,104.65800000000002,true,true,prompt_response,11,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health,12.828,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Environmental Damage,10.813,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Mental Manipulation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Physical Harm,5.941,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Privacy Violation,12.828,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Psychological Harm,18.769,true,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Violence,10.813,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Environmental Damage,23.641,false,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Environmental Damage,23.641,true,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Environmental Damage | Mental Manipulation,5.941,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Environmental Damage | Privacy Violation,10.813,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Environmental Damage | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior,99.46300000000001,false,true,prompt_response,3,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Mental Manipulation,86.83500000000001,false,true,prompt_response,8,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Mental Manipulation | Physical Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Mental Manipulation | Psychological Harm,5.941,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Mental Manipulation | Psychological Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Violence,16.754,false,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation,509.0009999999995,false,true,prompt_response,33,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | Privacy Violation | Violence,12.828,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | Psychological Harm,55.361000000000004,false,true,prompt_response,7,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | Psychological Harm | Violence,5.941,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | Violence,11.882,true,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | White-Collar Crime,12.828,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Physical Harm,27.567,false,true,prompt_response,3,shieldgemma_9b
+Disrupting Public Order | Physical Harm,11.882,true,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Physical Harm | Privacy Violation,5.941,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Physical Harm | Privacy Violation,10.813,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Physical Harm | Violence,38.483999999999995,false,true,prompt_response,3,shieldgemma_9b
+Disrupting Public Order | Physical Harm | Violence,68.066,true,true,prompt_response,6,shieldgemma_9b
+Disrupting Public Order | Privacy Violation,31.596999999999998,false,true,prompt_response,3,shieldgemma_9b
+Disrupting Public Order | Privacy Violation | Violence,11.882,false,true,prompt_response,2,shieldgemma_9b
+Disrupting Public Order | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Psychological Harm | Violence,12.828,false,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Sexual Content,10.813,true,true,prompt_response,1,shieldgemma_9b
+Disrupting Public Order | Violence,127.13000000000001,false,true,prompt_response,9,shieldgemma_9b
+Disrupting Public Order | Violence,116.31700000000001,true,true,prompt_response,8,shieldgemma_9b
+Drugs,130.11,false,true,prompt_response,11,shieldgemma_9b
+Drugs,1351.7330000000002,true,true,prompt_response,91,shieldgemma_9b
+Drugs | Economic Crime,161.58800000000002,false,true,prompt_response,8,shieldgemma_9b
+Drugs | Economic Crime,185.352,true,true,prompt_response,12,shieldgemma_9b
+Drugs | Economic Crime | Endangering National Security,18.769,true,true,prompt_response,2,shieldgemma_9b
+Drugs | Economic Crime | Endangering Public Health,23.641,true,true,prompt_response,2,shieldgemma_9b
+Drugs | Economic Crime | Human Trafficking | Mental Manipulation | Physical Harm | Privacy Violation | Sexual Content,5.941,false,true,prompt_response,1,shieldgemma_9b
+Drugs | Economic Crime | Mental Manipulation,12.828,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Economic Crime | Physical Harm | Privacy Violation,12.828,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Economic Crime | Privacy Violation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Drugs | Economic Crime | Privacy Violation,51.312,true,true,prompt_response,4,shieldgemma_9b
+Drugs | Economic Crime | Psychological Harm,10.813,false,true,prompt_response,1,shieldgemma_9b
+Drugs | Economic Crime | White-Collar Crime,56.307,false,true,prompt_response,6,shieldgemma_9b
+Drugs | Economic Crime | White-Collar Crime,340.2799999999998,true,true,prompt_response,21,shieldgemma_9b
+Drugs | Endangering National Security,5.941,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Endangering Public Health,27.567,true,true,prompt_response,3,shieldgemma_9b
+Drugs | Endangering Public Health | Physical Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Environmental Damage,10.813,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Human Trafficking,5.941,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Human Trafficking | Mental Manipulation,5.941,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Human Trafficking | Mental Manipulation | Physical Harm | Sexual Content,5.941,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Human Trafficking | Mental Manipulation | Sexual Content,5.941,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Human Trafficking | Physical Harm | Psychological Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Mental Manipulation,112.29100000000001,true,true,prompt_response,4,shieldgemma_9b
+Drugs | Mental Manipulation | Physical Harm | Psychological Harm,10.813,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Physical Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Drugs | Physical Harm,232.738,true,true,prompt_response,15,shieldgemma_9b
+Drugs | Physical Harm | Privacy Violation,23.641,true,true,prompt_response,2,shieldgemma_9b
+Drugs | Physical Harm | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Drugs | Physical Harm | Psychological Harm,43.479,true,true,prompt_response,5,shieldgemma_9b
+Drugs | Privacy Violation,256.37899999999996,true,true,prompt_response,17,shieldgemma_9b
+Drugs | Privacy Violation | Sexual Content,5.941,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Psychological Harm,66.051,true,true,prompt_response,6,shieldgemma_9b
+Drugs | Sexual Content,10.813,true,true,prompt_response,1,shieldgemma_9b
+Drugs | Violence,11.882,true,true,prompt_response,2,shieldgemma_9b
+Economic Crime,1714.8880000000015,false,true,prompt_response,130,shieldgemma_9b
+Economic Crime,36.468999999999994,true,true,prompt_response,3,shieldgemma_9b
+Economic Crime | Endangering National Security,57.253,false,true,prompt_response,5,shieldgemma_9b
+Economic Crime | Endangering National Security,10.813,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Endangering Public Health | Environmental Damage,12.828,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Environmental Damage | Privacy Violation,10.813,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Human Trafficking,10.813,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Human Trafficking | Mental Manipulation | Privacy Violation,12.828,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Mental Manipulation,5.941,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Privacy Violation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Psychological Harm,18.769,false,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Endangering National Security | White-Collar Crime,321.40699999999987,false,true,prompt_response,20,shieldgemma_9b
+Economic Crime | Endangering Public Health,23.641,false,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Endangering Public Health,12.828,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering Public Health | Environmental Damage,12.828,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering Public Health | Environmental Damage | Privacy Violation,10.813,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering Public Health | Physical Harm | Psychological Harm,10.813,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering Public Health | Psychological Harm,36.468999999999994,false,true,prompt_response,3,shieldgemma_9b
+Economic Crime | Endangering Public Health | Psychological Harm,36.469,true,true,prompt_response,3,shieldgemma_9b
+Economic Crime | Endangering Public Health | White-Collar Crime,12.828,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Endangering Public Health | White-Collar Crime,12.828,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Environmental Damage,18.769,true,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Environmental Damage | Privacy Violation,37.538,true,true,prompt_response,4,shieldgemma_9b
+Economic Crime | Environmental Damage | Psychological Harm,10.813,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Environmental Damage | White-Collar Crime,5.941,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Human Trafficking | Mental Manipulation | Physical Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Human Trafficking | Mental Manipulation | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Human Trafficking | Privacy Violation,11.882,false,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Human Trafficking | Privacy Violation | Psychological Harm,29.582,false,true,prompt_response,3,shieldgemma_9b
+Economic Crime | Human Trafficking | Privacy Violation | White-Collar Crime,5.941,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Human Trafficking | Psychological Harm,16.754,false,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Human Trafficking | White-Collar Crime,12.828,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Human Trafficking | White-Collar Crime,11.882,true,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Insulting Behavior,25.656,false,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Insulting Behavior | Mental Manipulation,85.766,false,true,prompt_response,7,shieldgemma_9b
+Economic Crime | Insulting Behavior | Privacy Violation | Psychological Harm,10.813,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Insulting Behavior | Psychological Harm,25.656,false,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Insulting Behavior | White-Collar Crime,72.938,false,true,prompt_response,6,shieldgemma_9b
+Economic Crime | Mental Manipulation,165.61,false,true,prompt_response,16,shieldgemma_9b
+Economic Crime | Mental Manipulation | Privacy Violation,57.253,false,true,prompt_response,5,shieldgemma_9b
+Economic Crime | Mental Manipulation | Privacy Violation | White-Collar Crime,12.828,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Mental Manipulation | Psychological Harm,51.312,false,true,prompt_response,4,shieldgemma_9b
+Economic Crime | Mental Manipulation | Psychological Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Mental Manipulation | White-Collar Crime,72.938,false,true,prompt_response,6,shieldgemma_9b
+Economic Crime | Physical Harm,188.209,false,true,prompt_response,12,shieldgemma_9b
+Economic Crime | Physical Harm,23.641,true,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Physical Harm | Privacy Violation,23.641,false,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Physical Harm | Privacy Violation,25.656,true,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Physical Harm | Privacy Violation | Psychological Harm | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Physical Harm | Psychological Harm,10.813,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Physical Harm | Violence,51.312,true,true,prompt_response,4,shieldgemma_9b
+Economic Crime | Privacy Violation,179.488,false,true,prompt_response,15,shieldgemma_9b
+Economic Crime | Privacy Violation,23.641,true,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Privacy Violation | Psychological Harm,85.766,false,true,prompt_response,7,shieldgemma_9b
+Economic Crime | Privacy Violation | Violence,5.941,false,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Privacy Violation | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Privacy Violation | Violence | White-Collar Crime,12.828,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Privacy Violation | White-Collar Crime,670.6969999999995,false,true,prompt_response,51,shieldgemma_9b
+Economic Crime | Psychological Harm,23.641,false,true,prompt_response,2,shieldgemma_9b
+Economic Crime | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Economic Crime | Psychological Harm | White-Collar Crime,50.366,false,true,prompt_response,5,shieldgemma_9b
+Economic Crime | Violence,133.075,false,true,prompt_response,6,shieldgemma_9b
+Economic Crime | Violence,277.909,true,true,prompt_response,12,shieldgemma_9b
+Economic Crime | White-Collar Crime,5939.872000000014,false,true,prompt_response,303,shieldgemma_9b
+Economic Crime | White-Collar Crime,112.29100000000001,true,true,prompt_response,4,shieldgemma_9b
+Endangering National Security,414.0789999999998,false,true,prompt_response,30,shieldgemma_9b
+Endangering National Security,79.94800000000001,true,true,prompt_response,8,shieldgemma_9b
+Endangering National Security | Endangering Public Health,38.483999999999995,true,true,prompt_response,3,shieldgemma_9b
+Endangering National Security | Endangering Public Health | Environmental Damage,18.769,true,true,prompt_response,2,shieldgemma_9b
+Endangering National Security | Endangering Public Health | Environmental Damage | Privacy Violation,5.941,true,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Endangering Public Health | Physical Harm,101.47800000000001,true,true,prompt_response,3,shieldgemma_9b
+Endangering National Security | Endangering Public Health | Physical Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Endangering Public Health | Psychological Harm,10.813,false,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Environmental Damage,23.641,false,true,prompt_response,2,shieldgemma_9b
+Endangering National Security | Environmental Damage,55.238,true,true,prompt_response,5,shieldgemma_9b
+Endangering National Security | Environmental Damage | Human Trafficking,10.813,false,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Environmental Damage | Privacy Violation,5.941,true,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Environmental Damage | White-Collar Crime,10.813,false,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Human Trafficking | Mental Manipulation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Human Trafficking | Mental Manipulation | Physical Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Human Trafficking | Physical Harm | Psychological Harm | Violence,25.656,true,true,prompt_response,2,shieldgemma_9b
+Endangering National Security | Human Trafficking | Psychological Harm,11.882,false,true,prompt_response,2,shieldgemma_9b
+Endangering National Security | Human Trafficking | Psychological Harm,11.882,true,true,prompt_response,2,shieldgemma_9b
+Endangering National Security | Human Trafficking | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Insulting Behavior | Mental Manipulation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Mental Manipulation | Privacy Violation | Psychological Harm,5.941,false,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,false,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Physical Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Physical Harm | Psychological Harm,10.813,true,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Physical Harm | Violence,92.77600000000001,true,true,prompt_response,9,shieldgemma_9b
+Endangering National Security | Privacy Violation,48.351,false,true,prompt_response,5,shieldgemma_9b
+Endangering National Security | Privacy Violation | Psychological Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Privacy Violation | White-Collar Crime,25.656,false,true,prompt_response,2,shieldgemma_9b
+Endangering National Security | Violence,12.828,false,true,prompt_response,1,shieldgemma_9b
+Endangering National Security | Violence,195.54200000000003,true,true,prompt_response,22,shieldgemma_9b
+Endangering National Security | White-Collar Crime,23.641,false,true,prompt_response,2,shieldgemma_9b
+Endangering Public Health,304.30299999999994,false,true,prompt_response,15,shieldgemma_9b
+Endangering Public Health,47.282,true,true,prompt_response,4,shieldgemma_9b
+Endangering Public Health | Environmental Damage,65.105,false,true,prompt_response,7,shieldgemma_9b
+Endangering Public Health | Environmental Damage,251.27199999999996,true,true,prompt_response,24,shieldgemma_9b
+Endangering Public Health | Environmental Damage | Physical Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Endangering Public Health | Environmental Damage | Privacy Violation,60.233000000000004,true,true,prompt_response,7,shieldgemma_9b
+Endangering Public Health | Physical Harm,91.60300000000001,true,true,prompt_response,9,shieldgemma_9b
+Endangering Public Health | Physical Harm | Privacy Violation | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Endangering Public Health | Physical Harm | Psychological Harm,5.941,false,true,prompt_response,1,shieldgemma_9b
+Endangering Public Health | Physical Harm | Psychological Harm,42.41,true,true,prompt_response,4,shieldgemma_9b
+Endangering Public Health | Physical Harm | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Endangering Public Health | Physical Harm | Violence,24.709999999999997,true,true,prompt_response,3,shieldgemma_9b
+Endangering Public Health | Privacy Violation,23.641,false,true,prompt_response,2,shieldgemma_9b
+Endangering Public Health | Privacy Violation,47.282,true,true,prompt_response,4,shieldgemma_9b
+Endangering Public Health | Privacy Violation | Psychological Harm,23.641,true,true,prompt_response,2,shieldgemma_9b
+Endangering Public Health | Psychological Harm,34.454,false,true,prompt_response,3,shieldgemma_9b
+Endangering Public Health | Psychological Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Endangering Public Health | Psychological Harm | Violence,12.828,false,true,prompt_response,1,shieldgemma_9b
+Environmental Damage,146.737,false,true,prompt_response,15,shieldgemma_9b
+Environmental Damage,37.538,true,true,prompt_response,4,shieldgemma_9b
+Environmental Damage | Insulting Behavior | Mental Manipulation,12.828,false,true,prompt_response,1,shieldgemma_9b
+Environmental Damage | Mental Manipulation | Privacy Violation,5.941,false,true,prompt_response,1,shieldgemma_9b
+Environmental Damage | Mental Manipulation | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Environmental Damage | Physical Harm,36.468999999999994,true,true,prompt_response,3,shieldgemma_9b
+Environmental Damage | Physical Harm | Violence,25.656,true,true,prompt_response,2,shieldgemma_9b
+Environmental Damage | Privacy Violation,53.223,false,true,prompt_response,5,shieldgemma_9b
+Environmental Damage | Privacy Violation,116.41700000000002,true,true,prompt_response,11,shieldgemma_9b
+Environmental Damage | Violence,36.468999999999994,true,true,prompt_response,3,shieldgemma_9b
+Environmental Damage | White-Collar Crime,5.941,false,true,prompt_response,1,shieldgemma_9b
+Human Trafficking,552.8409999999997,false,true,prompt_response,52,shieldgemma_9b
+Human Trafficking,871.268,true,true,prompt_response,70,shieldgemma_9b
+Human Trafficking | Insulting Behavior,16.754,false,true,prompt_response,2,shieldgemma_9b
+Human Trafficking | Insulting Behavior | Mental Manipulation,18.769,false,true,prompt_response,2,shieldgemma_9b
+Human Trafficking | Insulting Behavior | Physical Harm | Psychological Harm,11.882,true,true,prompt_response,2,shieldgemma_9b
+Human Trafficking | Insulting Behavior | Psychological Harm,11.882,false,true,prompt_response,2,shieldgemma_9b
+Human Trafficking | Insulting Behavior | Psychological Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation,155.02400000000003,false,true,prompt_response,16,shieldgemma_9b
+Human Trafficking | Mental Manipulation,86.95800000000001,true,true,prompt_response,10,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm,55.361000000000004,false,true,prompt_response,7,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm,31.596999999999998,true,true,prompt_response,3,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Privacy Violation,5.941,false,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Privacy Violation,5.941,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Psychological Harm,11.882,false,true,prompt_response,2,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Psychological Harm,76.022,true,true,prompt_response,7,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Sexual Content,37.538,true,true,prompt_response,4,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Privacy Violation,35.522999999999996,false,true,prompt_response,4,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Privacy Violation,69.135,true,true,prompt_response,7,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Privacy Violation | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Privacy Violation | Psychological Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Psychological Harm,110.59900000000002,false,true,prompt_response,12,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Psychological Harm,69.135,true,true,prompt_response,7,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Psychological Harm | Sexual Content,31.596999999999998,true,true,prompt_response,3,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Sexual Content,5.941,false,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Sexual Content,5.941,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Violence,11.882,true,true,prompt_response,2,shieldgemma_9b
+Human Trafficking | Physical Harm,25.656,false,true,prompt_response,2,shieldgemma_9b
+Human Trafficking | Physical Harm | Privacy Violation,5.941,false,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Physical Harm | Privacy Violation,18.769,true,true,prompt_response,2,shieldgemma_9b
+Human Trafficking | Physical Harm | Privacy Violation | Psychological Harm,18.769,false,true,prompt_response,2,shieldgemma_9b
+Human Trafficking | Physical Harm | Privacy Violation | Psychological Harm,31.596999999999998,true,true,prompt_response,3,shieldgemma_9b
+Human Trafficking | Physical Harm | Privacy Violation | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Physical Harm | Psychological Harm,81.01700000000001,false,true,prompt_response,9,shieldgemma_9b
+Human Trafficking | Physical Harm | Psychological Harm,11.882,true,true,prompt_response,2,shieldgemma_9b
+Human Trafficking | Physical Harm | Psychological Harm | Sexual Content,43.479,true,true,prompt_response,5,shieldgemma_9b
+Human Trafficking | Physical Harm | Psychological Harm | Sexual Content | Violence,31.596999999999998,true,true,prompt_response,3,shieldgemma_9b
+Human Trafficking | Physical Harm | Psychological Harm | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Physical Harm | Violence,47.405,true,true,prompt_response,6,shieldgemma_9b
+Human Trafficking | Privacy Violation,24.709999999999997,false,true,prompt_response,3,shieldgemma_9b
+Human Trafficking | Privacy Violation,24.709999999999997,true,true,prompt_response,3,shieldgemma_9b
+Human Trafficking | Privacy Violation | Psychological Harm,167.85200000000003,false,true,prompt_response,17,shieldgemma_9b
+Human Trafficking | Privacy Violation | Psychological Harm,107.61900000000001,true,true,prompt_response,10,shieldgemma_9b
+Human Trafficking | Privacy Violation | Sexual Content,12.828,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Psychological Harm,17.823,false,true,prompt_response,3,shieldgemma_9b
+Human Trafficking | Psychological Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Psychological Harm | Sexual Content,34.577000000000005,false,true,prompt_response,5,shieldgemma_9b
+Human Trafficking | Psychological Harm | Sexual Content,203.175,true,true,prompt_response,15,shieldgemma_9b
+Human Trafficking | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Sexual Content,5.941,false,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | Sexual Content,28.636,true,true,prompt_response,4,shieldgemma_9b
+Human Trafficking | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Human Trafficking | White-Collar Crime,10.813,false,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior,290.40199999999993,false,true,prompt_response,17,shieldgemma_9b
+Insulting Behavior,446.3909999999996,true,true,prompt_response,35,shieldgemma_9b
+Insulting Behavior | Mental Manipulation,521.5479999999998,false,true,prompt_response,43,shieldgemma_9b
+Insulting Behavior | Mental Manipulation,221.34000000000003,true,true,prompt_response,29,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Physical Harm | Psychological Harm,12.828,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Privacy Violation,199.12600000000003,false,true,prompt_response,12,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Privacy Violation,34.454,true,true,prompt_response,3,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Privacy Violation | Psychological Harm,38.483999999999995,false,true,prompt_response,3,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Privacy Violation | Psychological Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Privacy Violation | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Psychological Harm,277.15899999999993,false,true,prompt_response,23,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Psychological Harm,723.3929999999995,true,true,prompt_response,57,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Sexual Content,10.813,false,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Sexual Content,12.828,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Violence,53.34600000000001,true,true,prompt_response,7,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | White-Collar Crime,10.813,false,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Physical Harm,45.266999999999996,false,true,prompt_response,4,shieldgemma_9b
+Insulting Behavior | Physical Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Physical Harm | Privacy Violation | Psychological Harm,25.656,false,true,prompt_response,2,shieldgemma_9b
+Insulting Behavior | Physical Harm | Privacy Violation | Psychological Harm,5.941,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Physical Harm | Psychological Harm,25.656,false,true,prompt_response,2,shieldgemma_9b
+Insulting Behavior | Physical Harm | Psychological Harm,31.596999999999998,true,true,prompt_response,3,shieldgemma_9b
+Insulting Behavior | Physical Harm | Psychological Harm | Sexual Content,12.828,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Physical Harm | Psychological Harm | Violence,12.828,false,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Physical Harm | Psychological Harm | Violence,18.769,true,true,prompt_response,2,shieldgemma_9b
+Insulting Behavior | Physical Harm | Sexual Content,5.941,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Physical Harm | Violence,10.813,false,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Physical Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Privacy Violation,75.918,false,true,prompt_response,8,shieldgemma_9b
+Insulting Behavior | Privacy Violation,35.523,true,true,prompt_response,4,shieldgemma_9b
+Insulting Behavior | Privacy Violation | Psychological Harm,194.25400000000002,false,true,prompt_response,12,shieldgemma_9b
+Insulting Behavior | Privacy Violation | Psychological Harm,74.007,true,true,prompt_response,7,shieldgemma_9b
+Insulting Behavior | Privacy Violation | Psychological Harm | Sexual Content,5.941,false,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Privacy Violation | Psychological Harm | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Psychological Harm,135.086,false,true,prompt_response,10,shieldgemma_9b
+Insulting Behavior | Psychological Harm,643.2559999999995,true,true,prompt_response,54,shieldgemma_9b
+Insulting Behavior | Psychological Harm | Sexual Content,57.253,true,true,prompt_response,5,shieldgemma_9b
+Insulting Behavior | Psychological Harm | Sexual Content | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Psychological Harm | Violence,10.813,false,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Psychological Harm | Violence,49.297,true,true,prompt_response,4,shieldgemma_9b
+Insulting Behavior | Sexual Content,10.813,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Insulting Behavior | White-Collar Crime,25.656,false,true,prompt_response,2,shieldgemma_9b
+Mental Manipulation,4655.003999999984,false,true,prompt_response,337,shieldgemma_9b
+Mental Manipulation,252.49499999999998,true,true,prompt_response,18,shieldgemma_9b
+Mental Manipulation | Physical Harm,42.41,false,true,prompt_response,4,shieldgemma_9b
+Mental Manipulation | Physical Harm | Privacy Violation,18.769,true,true,prompt_response,2,shieldgemma_9b
+Mental Manipulation | Physical Harm | Privacy Violation | Psychological Harm,12.828,false,true,prompt_response,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Privacy Violation | Psychological Harm | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Privacy Violation | Sexual Content,5.941,true,true,prompt_response,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm,132.22500000000002,false,true,prompt_response,14,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm,24.71,true,true,prompt_response,3,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content,18.769,true,true,prompt_response,2,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm | Violence,5.941,false,true,prompt_response,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm | Violence,112.414,true,true,prompt_response,6,shieldgemma_9b
+Mental Manipulation | Physical Harm | Sexual Content,25.656,true,true,prompt_response,2,shieldgemma_9b
+Mental Manipulation | Physical Harm | Sexual Content | Violence,5.941,true,true,prompt_response,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Violence,24.709999999999997,true,true,prompt_response,3,shieldgemma_9b
+Mental Manipulation | Privacy Violation,357.8759999999999,false,true,prompt_response,23,shieldgemma_9b
+Mental Manipulation | Privacy Violation,12.828,true,true,prompt_response,1,shieldgemma_9b
+Mental Manipulation | Privacy Violation | Psychological Harm,71.992,false,true,prompt_response,7,shieldgemma_9b
+Mental Manipulation | Privacy Violation | Psychological Harm | Violence,10.813,true,true,prompt_response,1,shieldgemma_9b
+Mental Manipulation | Privacy Violation | Sexual Content,12.828,true,true,prompt_response,1,shieldgemma_9b
+Mental Manipulation | Psychological Harm,635.8459999999993,false,true,prompt_response,66,shieldgemma_9b
+Mental Manipulation | Psychological Harm,426.5109999999995,true,true,prompt_response,41,shieldgemma_9b
+Mental Manipulation | Psychological Harm | Sexual Content,5.941,false,true,prompt_response,1,shieldgemma_9b
+Mental Manipulation | Psychological Harm | Sexual Content,137.124,true,true,prompt_response,9,shieldgemma_9b
+Mental Manipulation | Psychological Harm | Sexual Content | Violence,11.882,true,true,prompt_response,2,shieldgemma_9b
+Mental Manipulation | Psychological Harm | Violence,37.538,false,true,prompt_response,4,shieldgemma_9b
+Mental Manipulation | Psychological Harm | Violence,54.292,true,true,prompt_response,6,shieldgemma_9b
+Mental Manipulation | Sexual Content,49.297,true,true,prompt_response,4,shieldgemma_9b
+Mental Manipulation | Violence,139.85799999999998,false,true,prompt_response,7,shieldgemma_9b
+Mental Manipulation | Violence,55.361000000000004,true,true,prompt_response,7,shieldgemma_9b
+Mental Manipulation | White-Collar Crime,57.253,false,true,prompt_response,5,shieldgemma_9b
+Physical Harm,103.48500000000001,false,true,prompt_response,11,shieldgemma_9b
+Physical Harm,465.2869999999996,true,true,prompt_response,35,shieldgemma_9b
+Physical Harm | Privacy Violation,87.90400000000001,false,true,prompt_response,9,shieldgemma_9b
+Physical Harm | Privacy Violation,10.813,true,true,prompt_response,1,shieldgemma_9b
+Physical Harm | Privacy Violation | Psychological Harm,43.479,false,true,prompt_response,5,shieldgemma_9b
+Physical Harm | Privacy Violation | Psychological Harm,25.656,true,true,prompt_response,2,shieldgemma_9b
+Physical Harm | Privacy Violation | Psychological Harm | Sexual Content,12.828,false,true,prompt_response,1,shieldgemma_9b
+Physical Harm | Privacy Violation | Psychological Harm | Sexual Content,18.769,true,true,prompt_response,2,shieldgemma_9b
+Physical Harm | Privacy Violation | Psychological Harm | Sexual Content | Violence,12.828,true,true,prompt_response,1,shieldgemma_9b
+Physical Harm | Privacy Violation | Sexual Content,5.941,false,true,prompt_response,1,shieldgemma_9b
+Physical Harm | Privacy Violation | Violence,10.813,false,true,prompt_response,1,shieldgemma_9b
+Physical Harm | Privacy Violation | Violence,148.76000000000002,true,true,prompt_response,7,shieldgemma_9b
+Physical Harm | Psychological Harm,173.47,false,true,prompt_response,10,shieldgemma_9b
+Physical Harm | Psychological Harm,119.39700000000002,true,true,prompt_response,13,shieldgemma_9b
+Physical Harm | Psychological Harm | Sexual Content,5.941,false,true,prompt_response,1,shieldgemma_9b
+Physical Harm | Psychological Harm | Sexual Content,114.30600000000001,true,true,prompt_response,4,shieldgemma_9b
+Physical Harm | Psychological Harm | Sexual Content | Violence,11.882,true,true,prompt_response,2,shieldgemma_9b
+Physical Harm | Psychological Harm | Violence,18.769,false,true,prompt_response,2,shieldgemma_9b
+Physical Harm | Psychological Harm | Violence,209.43900000000005,true,true,prompt_response,24,shieldgemma_9b
+Physical Harm | Sexual Content,5.941,false,true,prompt_response,1,shieldgemma_9b
+Physical Harm | Sexual Content,29.582,true,true,prompt_response,3,shieldgemma_9b
+Physical Harm | Violence,89.81500000000001,false,true,prompt_response,10,shieldgemma_9b
+Physical Harm | Violence,2932.9599999999905,true,true,prompt_response,256,shieldgemma_9b
+Privacy Violation,2059.661000000004,false,true,prompt_response,180,shieldgemma_9b
+Privacy Violation | Psychological Harm,64.036,false,true,prompt_response,6,shieldgemma_9b
+Privacy Violation | Psychological Harm,10.813,true,true,prompt_response,1,shieldgemma_9b
+Privacy Violation | Psychological Harm | Sexual Content,36.468999999999994,true,true,prompt_response,3,shieldgemma_9b
+Privacy Violation | Psychological Harm | Violence,25.656,false,true,prompt_response,2,shieldgemma_9b
+Privacy Violation | Psychological Harm | Violence,38.483999999999995,true,true,prompt_response,3,shieldgemma_9b
+Privacy Violation | Sexual Content,37.538,false,true,prompt_response,4,shieldgemma_9b
+Privacy Violation | Sexual Content,23.641,true,true,prompt_response,2,shieldgemma_9b
+Privacy Violation | Sexual Content | Violence,18.769,true,true,prompt_response,2,shieldgemma_9b
+Privacy Violation | Violence,31.596999999999998,false,true,prompt_response,3,shieldgemma_9b
+Privacy Violation | Violence,38.483999999999995,true,true,prompt_response,3,shieldgemma_9b
+Privacy Violation | White-Collar Crime,268.13800000000003,false,true,prompt_response,17,shieldgemma_9b
+Psychological Harm,89.69200000000001,false,true,prompt_response,8,shieldgemma_9b
+Psychological Harm,11.882,true,true,prompt_response,2,shieldgemma_9b
+Psychological Harm | Sexual Content,35.522999999999996,true,true,prompt_response,4,shieldgemma_9b
+Psychological Harm | Sexual Content | Violence,10.813,false,true,prompt_response,1,shieldgemma_9b
+Psychological Harm | Sexual Content | Violence,58.095,true,true,prompt_response,5,shieldgemma_9b
+Psychological Harm | Violence,49.297,false,true,prompt_response,4,shieldgemma_9b
+Psychological Harm | Violence,61.179,true,true,prompt_response,6,shieldgemma_9b
+Psychological Harm | White-Collar Crime,12.828,false,true,prompt_response,1,shieldgemma_9b
+Sexual Content,138.18500000000003,true,true,prompt_response,18,shieldgemma_9b
+Violence,143.038,false,true,prompt_response,15,shieldgemma_9b
+Violence,809.9579999999996,true,true,prompt_response,70,shieldgemma_9b
+White-Collar Crime,838.7639999999996,false,true,prompt_response,55,shieldgemma_9b
+<empty>,68602.89399999857,false,false,response_only,2238,shieldgemma_9b
+<empty>,3467.256000000004,true,false,response_only,144,shieldgemma_9b
+<empty>,10.813,false,true,response_only,1,shieldgemma_9b
+Animal Abuse,193.319,false,true,response_only,24,shieldgemma_9b
+Animal Abuse,166.583,true,true,response_only,10,shieldgemma_9b
+Animal Abuse | Cybercrime | Drugs,5.941,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Cybercrime | Economic Crime | Human Trafficking,5.941,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Cybercrime | Human Trafficking,44.325,false,true,response_only,1,shieldgemma_9b
+Animal Abuse | Cybercrime | Human Trafficking,44.325,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Cybercrime | Privacy Violation,10.813,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Disrupting Public Order | Environmental Damage | Physical Harm | Violence,25.656,true,true,response_only,2,shieldgemma_9b
+Animal Abuse | Disrupting Public Order | Physical Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Disrupting Public Order | Violence,11.882,false,true,response_only,2,shieldgemma_9b
+Animal Abuse | Disrupting Public Order | Violence,50.366,true,true,response_only,5,shieldgemma_9b
+Animal Abuse | Drugs | Physical Harm,10.813,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Endangering National Security | Environmental Damage,5.941,false,true,response_only,1,shieldgemma_9b
+Animal Abuse | Endangering National Security | Privacy Violation,5.941,false,true,response_only,1,shieldgemma_9b
+Animal Abuse | Endangering National Security | Privacy Violation,5.941,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Environmental Damage,16.754,false,true,response_only,2,shieldgemma_9b
+Animal Abuse | Environmental Damage | Physical Harm,18.769,false,true,response_only,2,shieldgemma_9b
+Animal Abuse | Environmental Damage | Physical Harm,18.769,true,true,response_only,2,shieldgemma_9b
+Animal Abuse | Environmental Damage | Physical Harm | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Environmental Damage | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Human Trafficking,5.941,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Physical Harm,73.903,false,true,response_only,8,shieldgemma_9b
+Animal Abuse | Physical Harm,95.63300000000001,true,true,response_only,9,shieldgemma_9b
+Animal Abuse | Physical Harm | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Animal Abuse | Physical Harm | Psychological Harm,18.769,true,true,response_only,2,shieldgemma_9b
+Animal Abuse | Physical Harm | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Physical Harm | Violence,24.709999999999997,true,true,response_only,3,shieldgemma_9b
+Animal Abuse | Privacy Violation,34.454,false,true,response_only,3,shieldgemma_9b
+Animal Abuse | Psychological Harm,10.813,false,true,response_only,1,shieldgemma_9b
+Animal Abuse | Psychological Harm | Violence,23.641,false,true,response_only,2,shieldgemma_9b
+Animal Abuse | Psychological Harm | Violence,10.813,true,true,response_only,1,shieldgemma_9b
+Animal Abuse | Violence,21.626,false,true,response_only,2,shieldgemma_9b
+Animal Abuse | Violence,401.9779999999998,true,true,response_only,19,shieldgemma_9b
+Copyright Issues,1338.5580000000014,false,true,response_only,80,shieldgemma_9b
+Copyright Issues | Cybercrime,380.3249999999999,false,true,response_only,22,shieldgemma_9b
+Copyright Issues | Cybercrime | Economic Crime,12.828,false,true,response_only,1,shieldgemma_9b
+Copyright Issues | Cybercrime | Economic Crime | Privacy Violation,12.828,false,true,response_only,1,shieldgemma_9b
+Copyright Issues | Cybercrime | Environmental Damage,12.828,true,true,response_only,1,shieldgemma_9b
+Copyright Issues | Cybercrime | Privacy Violation,50.366,false,true,response_only,5,shieldgemma_9b
+Copyright Issues | Disrupting Public Order,10.813,false,true,response_only,1,shieldgemma_9b
+Copyright Issues | Drugs,25.656,false,true,response_only,2,shieldgemma_9b
+Copyright Issues | Economic Crime,144.93,false,true,response_only,13,shieldgemma_9b
+Copyright Issues | Economic Crime | Privacy Violation,12.828,false,true,response_only,1,shieldgemma_9b
+Copyright Issues | Economic Crime | Privacy Violation | White-Collar Crime,25.656,false,true,response_only,2,shieldgemma_9b
+Copyright Issues | Economic Crime | White-Collar Crime,29.581999999999997,false,true,response_only,3,shieldgemma_9b
+Copyright Issues | Privacy Violation,64.036,false,true,response_only,6,shieldgemma_9b
+Cybercrime,1454.5839999999998,false,true,response_only,100,shieldgemma_9b
+Cybercrime,518.0139999999996,true,true,response_only,47,shieldgemma_9b
+Cybercrime | Discriminatory Behavior | Disrupting Public Order | Drugs | Human Trafficking | Insulting Behavior | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Discriminatory Behavior | Insulting Behavior,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order,18.769,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Economic Crime | Endangering National Security,101.47800000000001,false,true,response_only,3,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security,321.38799999999986,false,true,response_only,17,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security,87.781,true,true,response_only,7,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Endangering Public Health,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Mental Manipulation,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Physical Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Psychological Harm,25.656,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Violence,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering National Security | Violence,25.656,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering Public Health,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Endangering Public Health | Privacy Violation,10.813,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Environmental Damage,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Environmental Damage,10.813,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Environmental Damage | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Human Trafficking | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Insulting Behavior,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Mental Manipulation,98.71700000000001,false,true,response_only,10,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Mental Manipulation,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Physical Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Privacy Violation,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Privacy Violation | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Violence,25.656,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Disrupting Public Order | Violence,36.469,true,true,response_only,3,shieldgemma_9b
+Cybercrime | Drugs,130.08700000000002,false,true,response_only,12,shieldgemma_9b
+Cybercrime | Drugs,1709.8290000000002,true,true,response_only,100,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime,203.15600000000003,false,true,response_only,12,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime,383.63599999999985,true,true,response_only,24,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime | Endangering National Security,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime | Human Trafficking,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime | Privacy Violation,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime | Privacy Violation,37.538,true,true,response_only,4,shieldgemma_9b
+Cybercrime | Drugs | Economic Crime | White-Collar Crime,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Drugs | Endangering National Security,18.769,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Drugs | Endangering National Security | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Drugs | Human Trafficking,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Drugs | Human Trafficking | Privacy Violation,10.813,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Drugs | Human Trafficking | Psychological Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Drugs | Mental Manipulation,25.656,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Drugs | Physical Harm,44.425,true,true,response_only,4,shieldgemma_9b
+Cybercrime | Drugs | Privacy Violation,151.74400000000003,false,true,response_only,5,shieldgemma_9b
+Cybercrime | Drugs | Privacy Violation,936.2929999999999,true,true,response_only,69,shieldgemma_9b
+Cybercrime | Drugs | Privacy Violation | Sexual Content,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Drugs | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime,1864.8530000000007,false,true,response_only,105,shieldgemma_9b
+Cybercrime | Economic Crime,260.305,true,true,response_only,18,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security,68.18900000000001,false,true,response_only,8,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security,51.312,true,true,response_only,4,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | Mental Manipulation,17.823,false,true,response_only,3,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation,25.656,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation | Psychological Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | Privacy Violation | White-Collar Crime,25.656,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Economic Crime | Endangering National Security | White-Collar Crime,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Environmental Damage,16.754,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Economic Crime | Human Trafficking,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Human Trafficking,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Human Trafficking | Privacy Violation,18.769,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Economic Crime | Human Trafficking | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Human Trafficking | Privacy Violation | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Insulting Behavior,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Insulting Behavior | Privacy Violation,5.941,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Mental Manipulation,68.066,false,true,response_only,6,shieldgemma_9b
+Cybercrime | Economic Crime | Mental Manipulation | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Physical Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Physical Harm,24.71,true,true,response_only,3,shieldgemma_9b
+Cybercrime | Economic Crime | Physical Harm | Privacy Violation,18.769,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Economic Crime | Physical Harm | Psychological Harm,21.626,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Economic Crime | Physical Harm | Violence,25.656,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Economic Crime | Privacy Violation,1432.0890000000002,false,true,response_only,103,shieldgemma_9b
+Cybercrime | Economic Crime | Privacy Violation,86.858,true,true,response_only,7,shieldgemma_9b
+Cybercrime | Economic Crime | Privacy Violation | Psychological Harm,42.41,false,true,response_only,4,shieldgemma_9b
+Cybercrime | Economic Crime | Privacy Violation | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Privacy Violation | White-Collar Crime,81.96300000000001,false,true,response_only,8,shieldgemma_9b
+Cybercrime | Economic Crime | Psychological Harm,25.656,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Economic Crime | Psychological Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Psychological Harm | Violence,10.813,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Violence,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Economic Crime | Violence,96.57900000000001,true,true,response_only,8,shieldgemma_9b
+Cybercrime | Economic Crime | White-Collar Crime,478.62699999999967,false,true,response_only,39,shieldgemma_9b
+Cybercrime | Endangering National Security,1032.056,false,true,response_only,80,shieldgemma_9b
+Cybercrime | Endangering National Security,247.481,true,true,response_only,13,shieldgemma_9b
+Cybercrime | Endangering National Security | Endangering Public Health,38.483999999999995,true,true,response_only,3,shieldgemma_9b
+Cybercrime | Endangering National Security | Endangering Public Health | Physical Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Endangering Public Health | Psychological Harm,10.813,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Endangering Public Health | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Human Trafficking,5.941,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Human Trafficking | Privacy Violation | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Mental Manipulation,88.74600000000001,false,true,response_only,9,shieldgemma_9b
+Cybercrime | Endangering National Security | Physical Harm,87.781,true,true,response_only,7,shieldgemma_9b
+Cybercrime | Endangering National Security | Physical Harm | Privacy Violation,5.941,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Privacy Violation,579.0969999999995,false,true,response_only,46,shieldgemma_9b
+Cybercrime | Endangering National Security | Privacy Violation,107.519,true,true,response_only,7,shieldgemma_9b
+Cybercrime | Endangering National Security | Privacy Violation | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Psychological Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Endangering National Security | Violence,25.656,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Endangering National Security | Violence,236.787,true,true,response_only,18,shieldgemma_9b
+Cybercrime | Endangering Public Health,38.483999999999995,true,true,response_only,3,shieldgemma_9b
+Cybercrime | Endangering Public Health | Environmental Damage,111.34500000000001,true,true,response_only,5,shieldgemma_9b
+Cybercrime | Endangering Public Health | Psychological Harm,25.656,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Environmental Damage,25.656,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Environmental Damage | Privacy Violation,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Environmental Damage | White-Collar Crime,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Mental Manipulation,5.941,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Mental Manipulation,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Mental Manipulation | Privacy Violation,38.483999999999995,false,true,response_only,3,shieldgemma_9b
+Cybercrime | Human Trafficking | Mental Manipulation | Privacy Violation,50.366,true,true,response_only,5,shieldgemma_9b
+Cybercrime | Human Trafficking | Mental Manipulation | Privacy Violation | Psychological Harm,31.596999999999998,true,true,response_only,3,shieldgemma_9b
+Cybercrime | Human Trafficking | Physical Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation | Psychological Harm | Violence,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Physical Harm | Privacy Violation | Sexual Content,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Physical Harm | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Privacy Violation,182.39100000000002,false,true,response_only,13,shieldgemma_9b
+Cybercrime | Human Trafficking | Privacy Violation,134.48600000000002,true,true,response_only,18,shieldgemma_9b
+Cybercrime | Human Trafficking | Privacy Violation | Psychological Harm,25.656,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Human Trafficking | Privacy Violation | Sexual Content,18.769,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Human Trafficking | Privacy Violation | Violence,25.656,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Human Trafficking | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Psychological Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Human Trafficking | Sexual Content,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Human Trafficking | White-Collar Crime,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Insulting Behavior,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Insulting Behavior | Mental Manipulation | Privacy Violation,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Insulting Behavior | Mental Manipulation | Privacy Violation,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Insulting Behavior | Mental Manipulation | Psychological Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Insulting Behavior | Privacy Violation,23.641,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Insulting Behavior | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Insulting Behavior | Privacy Violation | Psychological Harm,36.468999999999994,false,true,response_only,3,shieldgemma_9b
+Cybercrime | Insulting Behavior | Privacy Violation | Psychological Harm,49.297,true,true,response_only,4,shieldgemma_9b
+Cybercrime | Insulting Behavior | Privacy Violation | Psychological Harm | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Insulting Behavior | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Insulting Behavior | Psychological Harm,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Mental Manipulation,292.75199999999995,false,true,response_only,13,shieldgemma_9b
+Cybercrime | Mental Manipulation | Physical Harm | Privacy Violation,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Mental Manipulation | Privacy Violation,212.03100000000003,false,true,response_only,17,shieldgemma_9b
+Cybercrime | Mental Manipulation | Privacy Violation,25.656,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Mental Manipulation | Privacy Violation | Psychological Harm,31.596999999999998,false,true,response_only,3,shieldgemma_9b
+Cybercrime | Mental Manipulation | Privacy Violation | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Mental Manipulation | Privacy Violation | Sexual Content | Violence,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Mental Manipulation | Psychological Harm,18.769,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Mental Manipulation | White-Collar Crime,10.813,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Physical Harm,42.41,false,true,response_only,4,shieldgemma_9b
+Cybercrime | Physical Harm,282.90399999999994,true,true,response_only,14,shieldgemma_9b
+Cybercrime | Physical Harm | Privacy Violation,154.078,false,true,response_only,17,shieldgemma_9b
+Cybercrime | Physical Harm | Privacy Violation,82.805,true,true,response_only,8,shieldgemma_9b
+Cybercrime | Physical Harm | Privacy Violation | Psychological Harm,11.882,false,true,response_only,2,shieldgemma_9b
+Cybercrime | Physical Harm | Privacy Violation | Sexual Content,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Physical Harm | Privacy Violation | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Physical Harm | Psychological Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Cybercrime | Physical Harm | Psychological Harm | Violence,43.479,true,true,response_only,5,shieldgemma_9b
+Cybercrime | Physical Harm | Violence,12.828,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Physical Harm | Violence,225.851,true,true,response_only,15,shieldgemma_9b
+Cybercrime | Privacy Violation,4633.742999999998,false,true,response_only,239,shieldgemma_9b
+Cybercrime | Privacy Violation,99.66300000000001,true,true,response_only,9,shieldgemma_9b
+Cybercrime | Privacy Violation | Psychological Harm,260.505,false,true,response_only,24,shieldgemma_9b
+Cybercrime | Privacy Violation | Psychological Harm,53.223,true,true,response_only,5,shieldgemma_9b
+Cybercrime | Privacy Violation | Psychological Harm | Violence,25.656,true,true,response_only,2,shieldgemma_9b
+Cybercrime | Privacy Violation | Violence,49.297,false,true,response_only,4,shieldgemma_9b
+Cybercrime | Privacy Violation | Violence,55.361000000000004,true,true,response_only,7,shieldgemma_9b
+Cybercrime | Privacy Violation | White-Collar Crime,119.37800000000001,false,true,response_only,10,shieldgemma_9b
+Cybercrime | Violence,44.325,false,true,response_only,1,shieldgemma_9b
+Cybercrime | Violence,300.82699999999994,true,true,response_only,20,shieldgemma_9b
+Cybercrime | White-Collar Crime,78.879,false,true,response_only,7,shieldgemma_9b
+Discriminatory Behavior,278.6389999999999,false,true,response_only,21,shieldgemma_9b
+Discriminatory Behavior,1143.9160000000006,true,true,response_only,70,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order,10.813,true,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Endangering National Security | Insulting Behavior,5.941,false,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Endangering National Security | Insulting Behavior,101.47800000000001,true,true,response_only,3,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior,202.229,true,true,response_only,16,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Mental Manipulation,44.425,true,true,response_only,4,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Psychological Harm,22.695,true,true,response_only,3,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Psychological Harm | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Disrupting Public Order | Insulting Behavior | Violence,24.709999999999997,true,true,response_only,3,shieldgemma_9b
+Discriminatory Behavior | Economic Crime | Human Trafficking,12.828,false,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Economic Crime | Insulting Behavior,10.813,false,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Economic Crime | Insulting Behavior | Physical Harm | White-Collar Crime,12.828,false,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Endangering National Security | Insulting Behavior,16.754,true,true,response_only,2,shieldgemma_9b
+Discriminatory Behavior | Endangering Public Health | Human Trafficking | Insulting Behavior | Physical Harm | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Endangering Public Health | Insulting Behavior,16.754,true,true,response_only,2,shieldgemma_9b
+Discriminatory Behavior | Human Trafficking | Insulting Behavior,5.941,false,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Human Trafficking | Insulting Behavior | Psychological Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Human Trafficking | Insulting Behavior | Sexual Content,12.828,false,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Human Trafficking | Mental Manipulation | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Human Trafficking | Physical Harm | Sexual Content,11.882,true,true,response_only,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior,208.88499999999996,false,true,response_only,19,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior,2234.175000000001,true,true,response_only,124,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation,11.882,false,true,response_only,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation,23.641,true,true,response_only,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation | Privacy Violation | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Mental Manipulation | Psychological Harm,5.941,true,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Physical Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Physical Harm,21.626,true,true,response_only,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Physical Harm | Psychological Harm,5.941,true,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Physical Harm | Psychological Harm | Violence,11.882,true,true,response_only,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Privacy Violation,88.65,true,true,response_only,2,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Psychological Harm,201.16,true,true,response_only,15,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Psychological Harm | Sexual Content | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Psychological Harm | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Sexual Content | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Insulting Behavior | Violence,24.71,true,true,response_only,3,shieldgemma_9b
+Discriminatory Behavior | Mental Manipulation | Psychological Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Mental Manipulation | Psychological Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Psychological Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Discriminatory Behavior | Psychological Harm,10.813,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order,591.3629999999997,false,true,response_only,50,shieldgemma_9b
+Disrupting Public Order,16.754,true,true,response_only,2,shieldgemma_9b
+Disrupting Public Order | Drugs,12.828,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Drugs,5.941,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Drugs | Physical Harm,10.813,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Economic Crime | Endangering National Security,35.522999999999996,false,true,response_only,4,shieldgemma_9b
+Disrupting Public Order | Economic Crime | Endangering National Security | Endangering Public Health | Mental Manipulation,12.828,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Economic Crime | White-Collar Crime,18.769,false,true,response_only,2,shieldgemma_9b
+Disrupting Public Order | Endangering National Security,171.674,false,true,response_only,19,shieldgemma_9b
+Disrupting Public Order | Endangering National Security,10.813,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Endangering Public Health,25.656,true,true,response_only,2,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Physical Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Privacy Violation,10.813,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Endangering Public Health | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Human Trafficking,5.941,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Human Trafficking | Violence,5.941,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Insulting Behavior,18.769,false,true,response_only,2,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Insulting Behavior,12.828,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Mental Manipulation,206.47800000000004,false,true,response_only,25,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Mental Manipulation,5.941,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Mental Manipulation | Psychological Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Physical Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Psychological Harm,24.709999999999997,false,true,response_only,3,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Violence,57.253,false,true,response_only,5,shieldgemma_9b
+Disrupting Public Order | Endangering National Security | Violence,79.00200000000001,true,true,response_only,9,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health,12.828,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Environmental Damage,10.813,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Mental Manipulation,12.828,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Physical Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Psychological Harm,18.769,true,true,response_only,2,shieldgemma_9b
+Disrupting Public Order | Endangering Public Health | Violence,10.813,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Environmental Damage,23.641,false,true,response_only,2,shieldgemma_9b
+Disrupting Public Order | Environmental Damage,23.641,true,true,response_only,2,shieldgemma_9b
+Disrupting Public Order | Environmental Damage | Mental Manipulation,5.941,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Environmental Damage | Privacy Violation,10.813,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Environmental Damage | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior,99.46300000000001,false,true,response_only,3,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Mental Manipulation,86.83500000000001,false,true,response_only,8,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Mental Manipulation | Physical Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Mental Manipulation | Psychological Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Mental Manipulation | Psychological Harm,5.941,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Violence,5.941,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Insulting Behavior | Violence,10.813,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation,509.0009999999995,false,true,response_only,33,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | Privacy Violation | Violence,12.828,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | Psychological Harm,55.361000000000004,false,true,response_only,7,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | Psychological Harm | Violence,5.941,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | Violence,11.882,true,true,response_only,2,shieldgemma_9b
+Disrupting Public Order | Mental Manipulation | White-Collar Crime,12.828,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Physical Harm,27.567,false,true,response_only,3,shieldgemma_9b
+Disrupting Public Order | Physical Harm,11.882,true,true,response_only,2,shieldgemma_9b
+Disrupting Public Order | Physical Harm | Privacy Violation,5.941,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Physical Harm | Privacy Violation,10.813,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Physical Harm | Violence,38.483999999999995,false,true,response_only,3,shieldgemma_9b
+Disrupting Public Order | Physical Harm | Violence,68.066,true,true,response_only,6,shieldgemma_9b
+Disrupting Public Order | Privacy Violation,31.596999999999998,false,true,response_only,3,shieldgemma_9b
+Disrupting Public Order | Privacy Violation | Violence,11.882,false,true,response_only,2,shieldgemma_9b
+Disrupting Public Order | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Psychological Harm | Violence,25.656,true,true,response_only,2,shieldgemma_9b
+Disrupting Public Order | Sexual Content,10.813,true,true,response_only,1,shieldgemma_9b
+Disrupting Public Order | Violence,168.598,false,true,response_only,10,shieldgemma_9b
+Disrupting Public Order | Violence,74.849,true,true,response_only,7,shieldgemma_9b
+Drugs,223.732,false,true,response_only,16,shieldgemma_9b
+Drugs,1258.111,true,true,response_only,86,shieldgemma_9b
+Drugs | Economic Crime,145.90300000000002,false,true,response_only,7,shieldgemma_9b
+Drugs | Economic Crime,201.03699999999998,true,true,response_only,13,shieldgemma_9b
+Drugs | Economic Crime | Endangering National Security,12.828,false,true,response_only,1,shieldgemma_9b
+Drugs | Economic Crime | Endangering National Security,5.941,true,true,response_only,1,shieldgemma_9b
+Drugs | Economic Crime | Endangering Public Health,23.641,true,true,response_only,2,shieldgemma_9b
+Drugs | Economic Crime | Human Trafficking | Mental Manipulation | Physical Harm | Privacy Violation | Sexual Content,5.941,false,true,response_only,1,shieldgemma_9b
+Drugs | Economic Crime | Mental Manipulation,12.828,true,true,response_only,1,shieldgemma_9b
+Drugs | Economic Crime | Physical Harm | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Drugs | Economic Crime | Privacy Violation,12.828,false,true,response_only,1,shieldgemma_9b
+Drugs | Economic Crime | Privacy Violation,51.312,true,true,response_only,4,shieldgemma_9b
+Drugs | Economic Crime | Psychological Harm,10.813,false,true,response_only,1,shieldgemma_9b
+Drugs | Economic Crime | White-Collar Crime,152.044,false,true,response_only,14,shieldgemma_9b
+Drugs | Economic Crime | White-Collar Crime,244.543,true,true,response_only,13,shieldgemma_9b
+Drugs | Endangering National Security,5.941,true,true,response_only,1,shieldgemma_9b
+Drugs | Endangering Public Health,27.567,true,true,response_only,3,shieldgemma_9b
+Drugs | Endangering Public Health | Physical Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Drugs | Environmental Damage,10.813,true,true,response_only,1,shieldgemma_9b
+Drugs | Human Trafficking,5.941,false,true,response_only,1,shieldgemma_9b
+Drugs | Human Trafficking | Mental Manipulation,5.941,true,true,response_only,1,shieldgemma_9b
+Drugs | Human Trafficking | Mental Manipulation | Physical Harm | Sexual Content,5.941,false,true,response_only,1,shieldgemma_9b
+Drugs | Human Trafficking | Mental Manipulation | Sexual Content,5.941,true,true,response_only,1,shieldgemma_9b
+Drugs | Human Trafficking | Physical Harm | Psychological Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Drugs | Mental Manipulation,112.29100000000001,true,true,response_only,4,shieldgemma_9b
+Drugs | Mental Manipulation | Physical Harm | Psychological Harm,10.813,false,true,response_only,1,shieldgemma_9b
+Drugs | Physical Harm,18.769,false,true,response_only,2,shieldgemma_9b
+Drugs | Physical Harm,226.79700000000003,true,true,response_only,14,shieldgemma_9b
+Drugs | Physical Harm | Privacy Violation,23.641,true,true,response_only,2,shieldgemma_9b
+Drugs | Physical Harm | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Drugs | Physical Harm | Psychological Harm,43.479,true,true,response_only,5,shieldgemma_9b
+Drugs | Privacy Violation,256.37899999999996,true,true,response_only,17,shieldgemma_9b
+Drugs | Privacy Violation | Sexual Content,5.941,true,true,response_only,1,shieldgemma_9b
+Drugs | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Drugs | Psychological Harm,53.223,true,true,response_only,5,shieldgemma_9b
+Drugs | Sexual Content,10.813,true,true,response_only,1,shieldgemma_9b
+Drugs | Violence,11.882,true,true,response_only,2,shieldgemma_9b
+Economic Crime,1714.8880000000015,false,true,response_only,130,shieldgemma_9b
+Economic Crime,36.469,true,true,response_only,3,shieldgemma_9b
+Economic Crime | Endangering National Security,68.066,false,true,response_only,6,shieldgemma_9b
+Economic Crime | Endangering National Security | Endangering Public Health | Environmental Damage,12.828,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Environmental Damage | Privacy Violation,10.813,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Human Trafficking,10.813,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Human Trafficking | Mental Manipulation | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Mental Manipulation,5.941,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Privacy Violation,12.828,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Endangering National Security | Psychological Harm,18.769,false,true,response_only,2,shieldgemma_9b
+Economic Crime | Endangering National Security | White-Collar Crime,321.40699999999987,false,true,response_only,20,shieldgemma_9b
+Economic Crime | Endangering Public Health,23.641,false,true,response_only,2,shieldgemma_9b
+Economic Crime | Endangering Public Health,12.828,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Endangering Public Health | Environmental Damage,12.828,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Endangering Public Health | Environmental Damage | Privacy Violation,10.813,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Endangering Public Health | Physical Harm | Psychological Harm,10.813,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Endangering Public Health | Psychological Harm,36.468999999999994,false,true,response_only,3,shieldgemma_9b
+Economic Crime | Endangering Public Health | Psychological Harm,36.469,true,true,response_only,3,shieldgemma_9b
+Economic Crime | Endangering Public Health | White-Collar Crime,12.828,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Endangering Public Health | White-Collar Crime,12.828,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Environmental Damage,5.941,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Environmental Damage,12.828,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Environmental Damage | Privacy Violation,37.538,true,true,response_only,4,shieldgemma_9b
+Economic Crime | Environmental Damage | Psychological Harm,10.813,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Environmental Damage | White-Collar Crime,5.941,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Human Trafficking | Mental Manipulation | Physical Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Human Trafficking | Mental Manipulation | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Human Trafficking | Privacy Violation,11.882,false,true,response_only,2,shieldgemma_9b
+Economic Crime | Human Trafficking | Privacy Violation | Psychological Harm,29.582,false,true,response_only,3,shieldgemma_9b
+Economic Crime | Human Trafficking | Privacy Violation | White-Collar Crime,5.941,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Human Trafficking | Psychological Harm,16.754,false,true,response_only,2,shieldgemma_9b
+Economic Crime | Human Trafficking | White-Collar Crime,18.769,false,true,response_only,2,shieldgemma_9b
+Economic Crime | Human Trafficking | White-Collar Crime,5.941,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Insulting Behavior,25.656,false,true,response_only,2,shieldgemma_9b
+Economic Crime | Insulting Behavior | Mental Manipulation,85.766,false,true,response_only,7,shieldgemma_9b
+Economic Crime | Insulting Behavior | Privacy Violation | Psychological Harm,10.813,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Insulting Behavior | Psychological Harm,25.656,false,true,response_only,2,shieldgemma_9b
+Economic Crime | Insulting Behavior | White-Collar Crime,72.938,false,true,response_only,6,shieldgemma_9b
+Economic Crime | Mental Manipulation,165.61,false,true,response_only,16,shieldgemma_9b
+Economic Crime | Mental Manipulation | Privacy Violation,57.253,false,true,response_only,5,shieldgemma_9b
+Economic Crime | Mental Manipulation | Privacy Violation | White-Collar Crime,12.828,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Mental Manipulation | Psychological Harm,51.312,false,true,response_only,4,shieldgemma_9b
+Economic Crime | Mental Manipulation | Psychological Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Mental Manipulation | White-Collar Crime,72.938,false,true,response_only,6,shieldgemma_9b
+Economic Crime | Physical Harm,175.381,false,true,response_only,11,shieldgemma_9b
+Economic Crime | Physical Harm,36.469,true,true,response_only,3,shieldgemma_9b
+Economic Crime | Physical Harm | Privacy Violation,36.468999999999994,false,true,response_only,3,shieldgemma_9b
+Economic Crime | Physical Harm | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Physical Harm | Privacy Violation | Psychological Harm | Violence,5.941,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Physical Harm | Psychological Harm,10.813,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Physical Harm | Violence,51.312,true,true,response_only,4,shieldgemma_9b
+Economic Crime | Privacy Violation,203.12900000000002,false,true,response_only,17,shieldgemma_9b
+Economic Crime | Privacy Violation | Psychological Harm,85.766,false,true,response_only,7,shieldgemma_9b
+Economic Crime | Privacy Violation | Violence,5.941,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Privacy Violation | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Privacy Violation | Violence | White-Collar Crime,12.828,true,true,response_only,1,shieldgemma_9b
+Economic Crime | Privacy Violation | White-Collar Crime,670.6969999999995,false,true,response_only,51,shieldgemma_9b
+Economic Crime | Psychological Harm,23.641,false,true,response_only,2,shieldgemma_9b
+Economic Crime | Psychological Harm | Violence,12.828,false,true,response_only,1,shieldgemma_9b
+Economic Crime | Psychological Harm | White-Collar Crime,50.366,false,true,response_only,5,shieldgemma_9b
+Economic Crime | Violence,221.72499999999997,false,true,response_only,8,shieldgemma_9b
+Economic Crime | Violence,189.25900000000001,true,true,response_only,10,shieldgemma_9b
+Economic Crime | White-Collar Crime,6007.838000000013,false,true,response_only,306,shieldgemma_9b
+Economic Crime | White-Collar Crime,44.325,true,true,response_only,1,shieldgemma_9b
+Endangering National Security,426.90699999999975,false,true,response_only,31,shieldgemma_9b
+Endangering National Security,67.12,true,true,response_only,7,shieldgemma_9b
+Endangering National Security | Endangering Public Health,38.483999999999995,true,true,response_only,3,shieldgemma_9b
+Endangering National Security | Endangering Public Health | Environmental Damage,18.769,true,true,response_only,2,shieldgemma_9b
+Endangering National Security | Endangering Public Health | Environmental Damage | Privacy Violation,5.941,false,true,response_only,1,shieldgemma_9b
+Endangering National Security | Endangering Public Health | Physical Harm,101.47800000000001,true,true,response_only,3,shieldgemma_9b
+Endangering National Security | Endangering Public Health | Physical Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Endangering National Security | Endangering Public Health | Psychological Harm,10.813,false,true,response_only,1,shieldgemma_9b
+Endangering National Security | Environmental Damage,16.754,false,true,response_only,2,shieldgemma_9b
+Endangering National Security | Environmental Damage,62.125,true,true,response_only,5,shieldgemma_9b
+Endangering National Security | Environmental Damage | Human Trafficking,10.813,false,true,response_only,1,shieldgemma_9b
+Endangering National Security | Environmental Damage | Privacy Violation,5.941,true,true,response_only,1,shieldgemma_9b
+Endangering National Security | Environmental Damage | White-Collar Crime,10.813,false,true,response_only,1,shieldgemma_9b
+Endangering National Security | Human Trafficking | Mental Manipulation,12.828,false,true,response_only,1,shieldgemma_9b
+Endangering National Security | Human Trafficking | Mental Manipulation | Physical Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Endangering National Security | Human Trafficking | Physical Harm | Psychological Harm | Violence,25.656,true,true,response_only,2,shieldgemma_9b
+Endangering National Security | Human Trafficking | Psychological Harm,17.823,false,true,response_only,3,shieldgemma_9b
+Endangering National Security | Human Trafficking | Psychological Harm,5.941,true,true,response_only,1,shieldgemma_9b
+Endangering National Security | Human Trafficking | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Endangering National Security | Insulting Behavior | Mental Manipulation,12.828,false,true,response_only,1,shieldgemma_9b
+Endangering National Security | Mental Manipulation | Privacy Violation | Psychological Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Endangering National Security | Mental Manipulation | White-Collar Crime,5.941,false,true,response_only,1,shieldgemma_9b
+Endangering National Security | Physical Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Endangering National Security | Physical Harm | Psychological Harm,10.813,false,true,response_only,1,shieldgemma_9b
+Endangering National Security | Physical Harm | Violence,92.77600000000001,true,true,response_only,9,shieldgemma_9b
+Endangering National Security | Privacy Violation,48.351,false,true,response_only,5,shieldgemma_9b
+Endangering National Security | Privacy Violation | Psychological Harm,5.941,true,true,response_only,1,shieldgemma_9b
+Endangering National Security | Privacy Violation | White-Collar Crime,25.656,false,true,response_only,2,shieldgemma_9b
+Endangering National Security | Violence,44.425,false,true,response_only,4,shieldgemma_9b
+Endangering National Security | Violence,163.94500000000002,true,true,response_only,19,shieldgemma_9b
+Endangering National Security | White-Collar Crime,23.641,false,true,response_only,2,shieldgemma_9b
+Endangering Public Health,302.28799999999995,false,true,response_only,15,shieldgemma_9b
+Endangering Public Health,49.297,true,true,response_only,4,shieldgemma_9b
+Endangering Public Health | Environmental Damage,139.954,false,true,response_only,14,shieldgemma_9b
+Endangering Public Health | Environmental Damage,176.42299999999997,true,true,response_only,17,shieldgemma_9b
+Endangering Public Health | Environmental Damage | Physical Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Endangering Public Health | Environmental Damage | Privacy Violation,60.233000000000004,true,true,response_only,7,shieldgemma_9b
+Endangering Public Health | Physical Harm,91.60300000000001,true,true,response_only,9,shieldgemma_9b
+Endangering Public Health | Physical Harm | Privacy Violation | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Endangering Public Health | Physical Harm | Psychological Harm,5.941,false,true,response_only,1,shieldgemma_9b
+Endangering Public Health | Physical Harm | Psychological Harm,42.41,true,true,response_only,4,shieldgemma_9b
+Endangering Public Health | Physical Harm | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Endangering Public Health | Physical Harm | Violence,24.709999999999997,true,true,response_only,3,shieldgemma_9b
+Endangering Public Health | Privacy Violation,34.454,false,true,response_only,3,shieldgemma_9b
+Endangering Public Health | Privacy Violation,36.468999999999994,true,true,response_only,3,shieldgemma_9b
+Endangering Public Health | Privacy Violation | Psychological Harm,23.641,true,true,response_only,2,shieldgemma_9b
+Endangering Public Health | Psychological Harm,47.282,false,true,response_only,4,shieldgemma_9b
+Endangering Public Health | Psychological Harm | Violence,12.828,false,true,response_only,1,shieldgemma_9b
+Environmental Damage,159.565,false,true,response_only,16,shieldgemma_9b
+Environmental Damage,24.709999999999997,true,true,response_only,3,shieldgemma_9b
+Environmental Damage | Insulting Behavior | Mental Manipulation,12.828,true,true,response_only,1,shieldgemma_9b
+Environmental Damage | Mental Manipulation | Privacy Violation,5.941,false,true,response_only,1,shieldgemma_9b
+Environmental Damage | Mental Manipulation | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Environmental Damage | Physical Harm,36.468999999999994,true,true,response_only,3,shieldgemma_9b
+Environmental Damage | Physical Harm | Violence,25.656,true,true,response_only,2,shieldgemma_9b
+Environmental Damage | Privacy Violation,66.051,false,true,response_only,6,shieldgemma_9b
+Environmental Damage | Privacy Violation,103.58900000000001,true,true,response_only,10,shieldgemma_9b
+Environmental Damage | Violence,36.468999999999994,true,true,response_only,3,shieldgemma_9b
+Environmental Damage | White-Collar Crime,5.941,false,true,response_only,1,shieldgemma_9b
+Human Trafficking,894.3280000000004,false,true,response_only,83,shieldgemma_9b
+Human Trafficking,529.7809999999996,true,true,response_only,39,shieldgemma_9b
+Human Trafficking | Insulting Behavior,16.754,false,true,response_only,2,shieldgemma_9b
+Human Trafficking | Insulting Behavior | Mental Manipulation,18.769,false,true,response_only,2,shieldgemma_9b
+Human Trafficking | Insulting Behavior | Physical Harm | Psychological Harm,11.882,true,true,response_only,2,shieldgemma_9b
+Human Trafficking | Insulting Behavior | Psychological Harm,11.882,false,true,response_only,2,shieldgemma_9b
+Human Trafficking | Insulting Behavior | Psychological Harm,5.941,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation,179.73400000000004,false,true,response_only,19,shieldgemma_9b
+Human Trafficking | Mental Manipulation,62.248000000000005,true,true,response_only,7,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm,68.18900000000001,false,true,response_only,8,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm,18.769,true,true,response_only,2,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Privacy Violation,5.941,false,true,response_only,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Privacy Violation,5.941,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Psychological Harm,24.71,false,true,response_only,3,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Psychological Harm,63.194,true,true,response_only,6,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Sexual Content,12.828,false,true,response_only,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Physical Harm | Sexual Content,24.709999999999997,true,true,response_only,3,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Privacy Violation,60.233000000000004,false,true,response_only,7,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Privacy Violation,44.425,true,true,response_only,4,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Privacy Violation | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Privacy Violation | Psychological Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Psychological Harm,116.54000000000002,false,true,response_only,13,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Psychological Harm,63.194,true,true,response_only,6,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Psychological Harm | Sexual Content,31.596999999999998,true,true,response_only,3,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Sexual Content,5.941,false,true,response_only,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Sexual Content,5.941,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Mental Manipulation | Violence,11.882,true,true,response_only,2,shieldgemma_9b
+Human Trafficking | Physical Harm,25.656,false,true,response_only,2,shieldgemma_9b
+Human Trafficking | Physical Harm | Privacy Violation,18.769,false,true,response_only,2,shieldgemma_9b
+Human Trafficking | Physical Harm | Privacy Violation,5.941,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Physical Harm | Privacy Violation | Psychological Harm,37.538,false,true,response_only,4,shieldgemma_9b
+Human Trafficking | Physical Harm | Privacy Violation | Psychological Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Physical Harm | Privacy Violation | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Physical Harm | Psychological Harm,69.135,false,true,response_only,7,shieldgemma_9b
+Human Trafficking | Physical Harm | Psychological Harm,23.764,true,true,response_only,4,shieldgemma_9b
+Human Trafficking | Physical Harm | Psychological Harm | Sexual Content,43.479,true,true,response_only,5,shieldgemma_9b
+Human Trafficking | Physical Harm | Psychological Harm | Sexual Content | Violence,31.596999999999998,true,true,response_only,3,shieldgemma_9b
+Human Trafficking | Physical Harm | Psychological Harm | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Physical Harm | Violence,47.405,true,true,response_only,6,shieldgemma_9b
+Human Trafficking | Privacy Violation,43.479,false,true,response_only,5,shieldgemma_9b
+Human Trafficking | Privacy Violation,5.941,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Privacy Violation | Psychological Harm,206.33600000000004,false,true,response_only,20,shieldgemma_9b
+Human Trafficking | Privacy Violation | Psychological Harm,69.135,true,true,response_only,7,shieldgemma_9b
+Human Trafficking | Privacy Violation | Sexual Content,12.828,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Psychological Harm,17.823,false,true,response_only,3,shieldgemma_9b
+Human Trafficking | Psychological Harm,5.941,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Psychological Harm | Sexual Content,28.636,false,true,response_only,4,shieldgemma_9b
+Human Trafficking | Psychological Harm | Sexual Content,209.11600000000004,true,true,response_only,16,shieldgemma_9b
+Human Trafficking | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | Sexual Content,5.941,false,true,response_only,1,shieldgemma_9b
+Human Trafficking | Sexual Content,28.636,true,true,response_only,4,shieldgemma_9b
+Human Trafficking | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Human Trafficking | White-Collar Crime,10.813,false,true,response_only,1,shieldgemma_9b
+Insulting Behavior,290.40199999999993,false,true,response_only,17,shieldgemma_9b
+Insulting Behavior,446.3909999999996,true,true,response_only,35,shieldgemma_9b
+Insulting Behavior | Mental Manipulation,405.1309999999997,false,true,response_only,32,shieldgemma_9b
+Insulting Behavior | Mental Manipulation,337.7569999999997,true,true,response_only,40,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Physical Harm | Psychological Harm,12.828,true,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Privacy Violation,84.82000000000001,false,true,response_only,8,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Privacy Violation,148.76000000000002,true,true,response_only,7,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Privacy Violation | Psychological Harm,38.483999999999995,false,true,response_only,3,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Privacy Violation | Psychological Harm,5.941,true,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Privacy Violation | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Psychological Harm,102.64300000000001,false,true,response_only,11,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Psychological Harm,897.9089999999997,true,true,response_only,69,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Sexual Content,10.813,false,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Sexual Content,12.828,true,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | Violence,53.34600000000001,true,true,response_only,7,shieldgemma_9b
+Insulting Behavior | Mental Manipulation | White-Collar Crime,10.813,false,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Physical Harm,34.454,false,true,response_only,3,shieldgemma_9b
+Insulting Behavior | Physical Harm,16.754,true,true,response_only,2,shieldgemma_9b
+Insulting Behavior | Physical Harm | Privacy Violation | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Physical Harm | Privacy Violation | Psychological Harm,18.769,true,true,response_only,2,shieldgemma_9b
+Insulting Behavior | Physical Harm | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Physical Harm | Psychological Harm,44.425,true,true,response_only,4,shieldgemma_9b
+Insulting Behavior | Physical Harm | Psychological Harm | Sexual Content,12.828,true,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Physical Harm | Psychological Harm | Violence,31.596999999999998,true,true,response_only,3,shieldgemma_9b
+Insulting Behavior | Physical Harm | Sexual Content,5.941,true,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Physical Harm | Violence,23.641,true,true,response_only,2,shieldgemma_9b
+Insulting Behavior | Privacy Violation,65.105,false,true,response_only,7,shieldgemma_9b
+Insulting Behavior | Privacy Violation,46.336000000000006,true,true,response_only,5,shieldgemma_9b
+Insulting Behavior | Privacy Violation | Psychological Harm,188.31300000000002,false,true,response_only,11,shieldgemma_9b
+Insulting Behavior | Privacy Violation | Psychological Harm,79.94800000000001,true,true,response_only,8,shieldgemma_9b
+Insulting Behavior | Privacy Violation | Psychological Harm | Sexual Content,5.941,false,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Privacy Violation | Psychological Harm | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Psychological Harm,124.27300000000002,false,true,response_only,9,shieldgemma_9b
+Insulting Behavior | Psychological Harm,654.0689999999995,true,true,response_only,55,shieldgemma_9b
+Insulting Behavior | Psychological Harm | Sexual Content,12.828,false,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Psychological Harm | Sexual Content,44.425,true,true,response_only,4,shieldgemma_9b
+Insulting Behavior | Psychological Harm | Sexual Content | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Psychological Harm | Violence,60.11,true,true,response_only,5,shieldgemma_9b
+Insulting Behavior | Sexual Content,10.813,true,true,response_only,1,shieldgemma_9b
+Insulting Behavior | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Insulting Behavior | White-Collar Crime,25.656,false,true,response_only,2,shieldgemma_9b
+Mental Manipulation,4000.6349999999875,false,true,response_only,299,shieldgemma_9b
+Mental Manipulation,906.864,true,true,response_only,56,shieldgemma_9b
+Mental Manipulation | Physical Harm,31.596999999999998,false,true,response_only,3,shieldgemma_9b
+Mental Manipulation | Physical Harm,10.813,true,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Privacy Violation,5.941,false,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Privacy Violation,12.828,true,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Privacy Violation | Psychological Harm,12.828,false,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Privacy Violation | Psychological Harm | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Privacy Violation | Sexual Content,5.941,true,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm,108.58400000000002,false,true,response_only,12,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm,48.351,true,true,response_only,5,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content,18.769,true,true,response_only,2,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm | Sexual Content | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm | Violence,5.941,false,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Psychological Harm | Violence,112.414,true,true,response_only,6,shieldgemma_9b
+Mental Manipulation | Physical Harm | Sexual Content,25.656,true,true,response_only,2,shieldgemma_9b
+Mental Manipulation | Physical Harm | Sexual Content | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Physical Harm | Violence,24.709999999999997,true,true,response_only,3,shieldgemma_9b
+Mental Manipulation | Privacy Violation,313.55099999999993,false,true,response_only,22,shieldgemma_9b
+Mental Manipulation | Privacy Violation,57.153000000000006,true,true,response_only,2,shieldgemma_9b
+Mental Manipulation | Privacy Violation | Psychological Harm,71.992,false,true,response_only,7,shieldgemma_9b
+Mental Manipulation | Privacy Violation | Psychological Harm | Violence,10.813,true,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Privacy Violation | Sexual Content,12.828,true,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Psychological Harm,459.17299999999955,false,true,response_only,49,shieldgemma_9b
+Mental Manipulation | Psychological Harm,603.1839999999995,true,true,response_only,58,shieldgemma_9b
+Mental Manipulation | Psychological Harm | Sexual Content,5.941,false,true,response_only,1,shieldgemma_9b
+Mental Manipulation | Psychological Harm | Sexual Content,137.124,true,true,response_only,9,shieldgemma_9b
+Mental Manipulation | Psychological Harm | Sexual Content | Violence,11.882,true,true,response_only,2,shieldgemma_9b
+Mental Manipulation | Psychological Harm | Violence,29.582,false,true,response_only,3,shieldgemma_9b
+Mental Manipulation | Psychological Harm | Violence,62.248000000000005,true,true,response_only,7,shieldgemma_9b
+Mental Manipulation | Sexual Content,49.297,true,true,response_only,4,shieldgemma_9b
+Mental Manipulation | Violence,139.85799999999998,false,true,response_only,7,shieldgemma_9b
+Mental Manipulation | Violence,55.361000000000004,true,true,response_only,7,shieldgemma_9b
+Mental Manipulation | White-Collar Crime,57.253,false,true,response_only,5,shieldgemma_9b
+Physical Harm,139.008,false,true,response_only,15,shieldgemma_9b
+Physical Harm,429.76399999999967,true,true,response_only,31,shieldgemma_9b
+Physical Harm | Privacy Violation,75.07600000000001,false,true,response_only,8,shieldgemma_9b
+Physical Harm | Privacy Violation,23.641,true,true,response_only,2,shieldgemma_9b
+Physical Harm | Privacy Violation | Psychological Harm,30.650999999999996,false,true,response_only,4,shieldgemma_9b
+Physical Harm | Privacy Violation | Psychological Harm,38.483999999999995,true,true,response_only,3,shieldgemma_9b
+Physical Harm | Privacy Violation | Psychological Harm | Sexual Content,12.828,false,true,response_only,1,shieldgemma_9b
+Physical Harm | Privacy Violation | Psychological Harm | Sexual Content,18.769,true,true,response_only,2,shieldgemma_9b
+Physical Harm | Privacy Violation | Psychological Harm | Sexual Content | Violence,12.828,true,true,response_only,1,shieldgemma_9b
+Physical Harm | Privacy Violation | Sexual Content,5.941,false,true,response_only,1,shieldgemma_9b
+Physical Harm | Privacy Violation | Violence,10.813,false,true,response_only,1,shieldgemma_9b
+Physical Harm | Privacy Violation | Violence,148.76000000000002,true,true,response_only,7,shieldgemma_9b
+Physical Harm | Psychological Harm,179.411,false,true,response_only,11,shieldgemma_9b
+Physical Harm | Psychological Harm,113.45600000000002,true,true,response_only,12,shieldgemma_9b
+Physical Harm | Psychological Harm | Sexual Content,120.24700000000001,true,true,response_only,5,shieldgemma_9b
+Physical Harm | Psychological Harm | Sexual Content | Violence,11.882,true,true,response_only,2,shieldgemma_9b
+Physical Harm | Psychological Harm | Violence,18.769,false,true,response_only,2,shieldgemma_9b
+Physical Harm | Psychological Harm | Violence,209.43900000000005,true,true,response_only,24,shieldgemma_9b
+Physical Harm | Sexual Content,35.523,true,true,response_only,4,shieldgemma_9b
+Physical Harm | Violence,196.165,false,true,response_only,13,shieldgemma_9b
+Physical Harm | Violence,2826.609999999992,true,true,response_only,253,shieldgemma_9b
+Privacy Violation,2059.661000000004,false,true,response_only,180,shieldgemma_9b
+Privacy Violation | Psychological Harm,64.036,false,true,response_only,6,shieldgemma_9b
+Privacy Violation | Psychological Harm,10.813,true,true,response_only,1,shieldgemma_9b
+Privacy Violation | Psychological Harm | Sexual Content,36.468999999999994,true,true,response_only,3,shieldgemma_9b
+Privacy Violation | Psychological Harm | Violence,12.828,false,true,response_only,1,shieldgemma_9b
+Privacy Violation | Psychological Harm | Violence,51.312,true,true,response_only,4,shieldgemma_9b
+Privacy Violation | Sexual Content,24.71,false,true,response_only,3,shieldgemma_9b
+Privacy Violation | Sexual Content,36.469,true,true,response_only,3,shieldgemma_9b
+Privacy Violation | Sexual Content | Violence,12.828,false,true,response_only,1,shieldgemma_9b
+Privacy Violation | Sexual Content | Violence,5.941,true,true,response_only,1,shieldgemma_9b
+Privacy Violation | Violence,44.425,false,true,response_only,4,shieldgemma_9b
+Privacy Violation | Violence,25.656,true,true,response_only,2,shieldgemma_9b
+Privacy Violation | White-Collar Crime,268.13800000000003,false,true,response_only,17,shieldgemma_9b
+Psychological Harm,76.864,false,true,response_only,7,shieldgemma_9b
+Psychological Harm,24.709999999999997,true,true,response_only,3,shieldgemma_9b
+Psychological Harm | Sexual Content,35.522999999999996,true,true,response_only,4,shieldgemma_9b
+Psychological Harm | Sexual Content | Violence,23.641,false,true,response_only,2,shieldgemma_9b
+Psychological Harm | Sexual Content | Violence,45.266999999999996,true,true,response_only,4,shieldgemma_9b
+Psychological Harm | Violence,62.125,false,true,response_only,5,shieldgemma_9b
+Psychological Harm | Violence,48.351,true,true,response_only,5,shieldgemma_9b
+Psychological Harm | White-Collar Crime,12.828,false,true,response_only,1,shieldgemma_9b
+Sexual Content,138.18500000000003,true,true,response_only,18,shieldgemma_9b
+Violence,230.61900000000003,false,true,response_only,16,shieldgemma_9b
+Violence,722.3769999999996,true,true,response_only,69,shieldgemma_9b
+White-Collar Crime,838.7639999999996,false,true,response_only,55,shieldgemma_9b

@@ -1,0 +1,20 @@
+{
+  "category_analysis_boundary": "Each category row conditions on membership in a multi-label PKU category. Category rows overlap, so their weighted counts and disagreement rates are descriptive associations and do not partition the ShieldGemma disagreement.",
+  "policy_ids": [
+    "dangerous_content",
+    "harassment",
+    "hate_speech",
+    "sexually_explicit_information"
+  ],
+  "policy_scope_boundary": "The four ShieldGemma guideline fields are retained separately. Their relation to PKU categories does not validate or invalidate either taxonomy.",
+  "private_run": "gpu_api/private_runs/e5/e5-sg-primary-4000",
+  "records_per_rendering": {
+    "prompt_response": 8000,
+    "response_only": 8000
+  },
+  "renderings": [
+    "prompt_response",
+    "response_only"
+  ],
+  "result_schema": "pku-saferlhf.e5-shieldgemma-detail.v1"
+}

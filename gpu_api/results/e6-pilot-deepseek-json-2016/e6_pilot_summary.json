@@ -1,0 +1,26 @@
+{
+  "boundary": "This table relates a fixed CCAI reference system to PKU native strata. It is neither a safety truth table nor a direct reproduction of Buyl et al. Failed or unparseable requests remain a separate missing-measurement state.",
+  "created_at_utc": "2026-08-09T21:42:03.011336+00:00",
+  "direction_counts_within_retained_principles": {
+    "conflict|agrees_with_safer": 150,
+    "conflict|disagrees_with_safer": 37,
+    "consensus|agrees_with_safer": 45,
+    "consensus|disagrees_with_safer": 15
+  },
+  "failed_order_judgements": 0,
+  "failed_order_judgements_by_error_type": {},
+  "pair_principle_orientation_counts": {
+    "orientation_inconclusive": 102,
+    "position_unstable": 236,
+    "stable_indifference": 423,
+    "stable_substantive": 247
+  },
+  "pairs_with_one_or_more_failed_order_judgements": 0,
+  "pairs_with_retained_principles": 48,
+  "phase": "pilot",
+  "repeat_vs_primary_exact_label_agreement": null,
+  "result_schema": "pku-saferlhf.e6-aggregate.v1",
+  "successful_order_judgements": 2016,
+  "unclassifiable_pairs": 0,
+  "unparseable_output_finish_reasons": {}
+}
